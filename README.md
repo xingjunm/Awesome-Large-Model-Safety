@@ -539,15 +539,188 @@ Content:
 
 ##### Adversarial Attacks
 
+
+- On the adversarial robustness of multi-modal foundation models.  
+  - Schlarmann, Christian, **and** Hein, Matthias  
+  - *ICCV*, 2023.
+
+- Flamingo: a visual language model for few-shot learning.  
+  - Alayrac, Jean-Baptiste, Donahue, Jeff, Luc, Pauline, Miech, Antoine, Barr, Iain, Hasson, Yana, Lenc, Karel, Mensch, Arthur, Millican, Katherine, Reynolds, Malcolm, **and others**  
+  - *NeurIPS*, 2022.
+
+- GPT-4 Technical Report.  
+  - Achiam, Josh, Adler, Steven, Agarwal, Sandhini, Ahmad, Lama, Akkaya, Ilge, Aleman, Florencia Leoni, Almeida, Diogo, Altenschmidt, Janko, Altman, Sam, Anadkat, Shyamal, **and others**  
+  - *arXiv preprint arXiv:2303.08774*, 2023.
+
+- Adversarial Robustness for Visual Grounding of Multimodal Large Language Models.  
+  - Gao, Kuofeng, Bai, Yang, Bai, Jiawang, Yang, Yong, **and** Xia, Shu-Tao  
+  - *ICLR Workshop*, 2024.
+
+- On the robustness of large multimodal models against image adversarial attacks.  
+  - Cui, Xuanming, Aparcedo, Alejandro, Jang, Young Kyun, **and** Lim, Ser-Nam  
+  - *CVPR*, 2024.
+
+- An Image Is Worth 1000 Lies: Transferability of Adversarial Images across Prompts on Vision-Language Models.  
+  - Luo, Haochen, Gu, Jindong, Liu, Fengyuan, **and** Torr, Philip  
+  - *ICLR*, 2024.
+
+- Stop Reasoning! When Multimodal LLM with Chain-of-Thought Reasoning Meets Adversarial Image.  
+  - Wang, Zefeng, Han, Zhen, Chen, Shuo, Xue, Fan, Ding, Zifeng, Xiao, Xun, Tresp, Volker, **and** Gu, Jindong  
+  - *COLM*, 2024.
+
+- InstructTA: Instruction-Tuned Targeted Attack for Large Vision-Language Models.  
+  - Wang, Xunguang, Ji, Zhenlan, Ma, Pingchuan, Li, Zongjie, **and** Wang, Shuai  
+  - *arXiv preprint arXiv:2312.01886*, 2023.
+
+- How Robust is Google's Bard to Adversarial Image Attacks?.  
+  - Dong, Yinpeng, Chen, Huanran, Chen, Jiawei, Fang, Zhengwei, Yang, Xiao, Zhang, Yichi, Tian, Yu, Su, Hang, **and** Zhu, Jun  
+  - *NeurIPS Workshop*, 2023.
+
+- On evaluating adversarial robustness of large vision-language models.  
+  - Zhao, Yunqing, Pang, Tianyu, Du, Chao, Yang, Xiao, Li, Chongxuan, Cheung, Ngai-Man Man, **and** Lin, Min  
+  - *NeurIPS*, 2024.
+
+- Learning transferable visual models from natural language supervision.  
+  - Radford, Alec, Kim, Jong Wook, Hallacy, Chris, Ramesh, Aditya, Goh, Gabriel, Agarwal, Sandhini, Sastry, Girish, Askell, Amanda, Mishkin, Pamela, Clark, Jack, **and others**  
+  - *ICML*, 2021.
+
+- Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models.  
+  - Li, Junnan, Li, Dongxu, Savarese, Silvio, **and** Hoi, Steven  
+  - *ICML*, 2023.
+
+- Efficiently Adversarial Examples Generation for Visual-Language Models under Targeted Transfer Scenarios using Diffusion Models.  
+  - Guo, Qi, Pang, Shanmin, Jia, Xiaojun, **and** Guo, Qing  
+  - *arXiv preprint arXiv:2404.10335*, 2024.
+
+- AnyAttack: Towards Large-scale Self-supervised Generation of Targeted Adversarial Examples for Vision-Language Models.  
+  - Zhang, Jiaming, Ye, Junhong, Ma, Xingjun, Li, Yige, Yang, Yunfan, Sang, Jitao, **and** Yeung, Dit-Yan  
+  - *arXiv preprint arXiv:2410.05346*, 2024.
+
+
 ##### Jailbreak Attacks
+
+
+- Image hijacks: Adversarial images can control generative models at runtime.  
+  - Bailey, Luke, Ong, Euan, Russell, Stuart, **and** Emmons, Scott  
+  - *arXiv preprint arXiv:2309.00236*, 2023.
+
+- Are aligned neural networks adversarially aligned?.  
+  - Carlini, Nicholas, Nasr, Milad, Choquette-Choo, Christopher A, Jagielski, Matthew, Gao, Irena, Koh, Pang Wei W, Ippolito, Daphne, Tramer, Florian, **and** Schmidt, Ludwig  
+  - *NeurIPS*, 2024.
+
+- Visual adversarial examples jailbreak aligned large language models.  
+  - Qi, Xiangyu, Huang, Kaixuan, Panda, Ashwinee, Henderson, Peter, Wang, Mengdi, **and** Mittal, Prateek  
+  - *AAAI*, 2024.
+
+- Jailbreaking attack against multimodal large language model.  
+  - Niu, Zhenxing, Ren, Haodong, Gao, Xinbo, Hua, Gang, **and** Jin, Rong  
+  - *arXiv preprint arXiv:2402.02309*, 2024.
+
+- White-box Multimodal Jailbreaks Against Large Vision-Language Models.  
+  - Wang, Ruofan, Ma, Xingjun, Zhou, Hanxu, Ji, Chuanjun, Ye, Guangnan, **and** Jiang, Yu-Gang  
+  - *ACM MM*, 2024.
+
+- Images are Achilles' Heel of Alignment: Exploiting Visual Vulnerabilities for Jailbreaking Multimodal Large Language Models.  
+  - Li, Yifan, Guo, Hangyu, Zhou, Kun, Zhao, Wayne Xin, **and** Wen, Ji-Rong  
+  - *ECCV*, 2024.
+
+- Jailbreak in pieces: Compositional adversarial attacks on multi-modal language models.  
+  - Shayegani, Erfan, Dong, Yue, **and** Abu-Ghazaleh, Nael  
+  - *ICLR*, 2023.
+
+- Figstep: Jailbreaking large vision-language models via typographic visual prompts.  
+  - Gong, Yichen, Ran, Delong, Liu, Jinyuan, Wang, Conglei, Cong, Tianshuo, Wang, Anyu, Duan, Sisi, **and** Wang, Xiaoyun  
+  - *AAAI*, 2025.
+
+- Visual-RolePlay: Universal Jailbreak Attack on MultiModal Large Language Models via Role-playing Image Character.  
+  - Ma, Siyuan, Luo, Weidi, Wang, Yu, Liu, Xiaogeng, Chen, Muhao, Li, Bo, **and** Xiao, Chaowei  
+  - *arXiv preprint arXiv:2405.20773*, 2024.
+
+- Jailbreaking GPT-4V via self-adversarial attacks with system prompts.  
+  - Wu, Yuanwei, Li, Xiang, Liu, Yixin, Zhou, Pan, **and** Sun, Lichao  
+  - *arXiv preprint arXiv:2311.09127*, 2023.
+
+- IDEATOR: Jailbreaking VLMs Using VLMs.  
+  - Wang, Ruofan, Wang, Bo, Ma, Xingjun, **and** Jiang, Yu-Gang  
+  - *arXiv preprint arXiv:2411.00827*, 2024.
+
 
 ##### Jailbreak Defenses
 
+
+- Adashield: Safeguarding multimodal large language models from structure-based attack via adaptive shield prompting.  
+  - Wang, Yu, Liu, Xiaogeng, Li, Yu, Chen, Muhao, **and** Xiao, Chaowei  
+  - *ECCV*, 2024.
+
+- A mutation-based method for multi-modal jailbreaking attack detection.  
+  - Zhang, Xiaoyu, Zhang, Cen, Li, Tianlin, Huang, Yihao, Jia, Xiaojun, Xie, Xiaofei, Liu, Yang, **and** Shen, Chao  
+  - *arXiv preprint arXiv:2312.10766*, 2023.
+
+- Defending Language Models Against Image-Based Prompt Attacks via User-Provided Specifications.  
+  - Sharma, Reshabh K, Gupta, Vinayak, **and** Grossman, Dan  
+  - *IEEE SPW*, 2024.
+
+- MLLM-Protector: Ensuring MLLM's Safety without Hurting Performance.  
+  - Pi, Renjie, Han, Tianyang, Xie, Yueqi, Pan, Rui, Lian, Qing, Dong, Hanze, Zhang, Jipeng, **and** Zhang, Tong  
+  - *EMNLP*, 2024.
+
+- Eyes closed, safety on: Protecting multimodal LLMs via image-to-text transformation.  
+  - Gou, Yunhao, Chen, Kai, Liu, Zhili, Hong, Lanqing, Xu, Hang, Li, Zhenguo, Yeung, Dit-Yan, Kwok, James T, **and** Zhang, Yu  
+  - *ECCV*, 2024.
+
+- Inferaligner: Inference-time alignment for harmlessness through cross-model guidance.  
+  - Wang, Pengyu, Zhang, Dong, Li, Linyang, Tan, Chenkun, Wang, Xinghao, Ren, Ke, Jiang, Botian, **and** Qiu, Xipeng  
+  - *EMNLP*, 2024.
+
+- BlueSuffix: Reinforced Blue Teaming for Vision-Language Models Against Jailbreak Attacks.  
+  - Zhao, Yunhan, Zheng, Xiang, Luo, Lin, Li, Yige, Ma, Xingjun, **and** Jiang, Yu-Gang  
+  - *ICLR*, 2025.
+
+
 ##### Energy Latency Attacks
+
+- Inducing High Energy-Latency of Large Vision-Language Models with Verbose Images.  
+  - Gao, Kuofeng, Bai, Yang, Gu, Jindong, Xia, Shu-Tao, Torr, Philip, Li, Zhifeng, **and** Liu, Wei  
+  - *ICLR*, 2024.
 
 ##### Prompt Injection Attack
 
+- (Ab) using Images and Sounds for Indirect Instruction Injection in Multi-Modal LLMs.  
+  - Bagdasaryan, Eugene, Hsieh, Tsung-Yin, Nassi, Ben, **and** Shmatikov, Vitaly  
+  - *arXiv preprint arXiv:2307.10490*, 2023.
+
+- Vision-llms can fool themselves with self-generated typographic attacks.  
+  - Qraitem, Maan, Tasnim, Nazia, Saenko, Kate, **and** Plummer, Bryan A  
+  - *arXiv preprint arXiv:2402.00626*, 2024.
+
+- Can language models be instructed to protect personal information?.  
+  - Chen, Yang, Mendes, Ethan, Das, Sauvik, Xu, Wei, **and** Ritter, Alan  
+  - *arXiv preprint arXiv:2310.02224*, 2023.
+
+
 ##### Backdoor & Poisoning Attacks
+
+- Revisiting backdoor attacks against large vision-language models.  
+  - Liang, Siyuan, Liang, Jiawei, Pang, Tianyu, Du, Chao, Liu, Aishan, Chang, Ee-Chien, **and** Cao, Xiaochun  
+  - *arXiv preprint arXiv:2406.18844*, 2024.
+
+- Physical Backdoor Attack can Jeopardize Driving with Vision-Large-Language Models.  
+  - Ni, Zhenyang, Ye, Rui, Wei, Yuxi, Xiang, Zhen, Wang, Yanfeng, **and** Chen, Siheng  
+  - *ICML Workshop*, 2024.
+
+- ImgTrojan: Jailbreaking Vision-Language Models with ONE Image.  
+  - Tao, Xijia, Zhong, Shuai, Li, Lei, Liu, Qi, **and** Kong, Lingpeng  
+  - *arXiv preprint arXiv:2403.02910*, 2024.
+
+- Test-time backdoor attacks on multimodal large language models.  
+  - Lu, Dong, Pang, Tianyu, Du, Chao, Liu, Qian, Yang, Xianjun, **and** Lin, Min  
+  - *arXiv preprint arXiv:2402.08577*, 2024.
+
+- Shadowcast: Stealthy data poisoning attacks against vision-language models.  
+  - Xu, Yuancheng, Yao, Jiarui, Shu, Manli, Sun, Yanchao, Wu, Zichu, Yu, Ning, Goldstein, Tom, **and** Huang, Furong  
+  - *NeurIPS*, 2024.
+
+
 
 </details>
 
