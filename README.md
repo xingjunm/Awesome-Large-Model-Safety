@@ -12,6 +12,7 @@ Our work can serve as a useful reference for researchers and practitioners, fost
 <div align="center">
   <img src="/assets/New_Fig.png" alt="Safety survey" />
 </div>
+
 --- 
 
 Content:
