@@ -7,11 +7,33 @@ Our contributions are summarized as follows: (1) We present a comprehensive taxo
 (3) Building on this, we identify and discuss the open challenges in large model safety, emphasizing the need for comprehensive safety evaluations, scalable and effective defense mechanisms, and sustainable data practices. More importantly, we highlight the necessity of collective efforts from the research community and international collaboration.
 Our work can serve as a useful reference for researchers and practitioners, fostering the ongoing development of comprehensive defense systems and platforms to safeguard AI models.
 
+
 ---
+Given the broad scope of our survey, we have structured it with the following considerations to enhance clarity and organization:
+
+- **Models**. We focus on six widely studied model categories, including **VFMs**, **LLMs**, **VLPs**, **VLMs**, **DMs**, and **Agents**, and review the attack and defense methods for each separately. These models represent the most popular large models across various domains.
+
+- **Organization**. For each model category, we classify the reviewed works into attacks and defenses, and identify **10** attack types: **adversarial**, **backdoor**, **poisoning**, **jailbreak**, **prompt injection**, **energy-latency**, **membership inference**, **model extraction**, **data extraction**, and **agent** attacks. When both backdoor and poisoning attacks are present for a model category, we combine them into a single **backdoor & poisoning** category due to their similarities. We review the corresponding defense strategies for each attack type immediately after the attacks.
+
+- **Taxonomy**. For each type of attack or defense, we use a two-level taxonomy: **Category → Subcategory**. The **Category** differentiates attacks and defenses based on the threat model (e.g., white-box, gray-box, black-box) or specific subtasks (e.g., detection, purification, robust training/tuning, and robust inference). The **Subcategory** offers a more detailed classification based on their techniques.
+
+- **Granularity**. To ensure clarity, we simplify the introduction of each reviewed paper, highlighting only its key ideas, objectives, and approaches, while omitting technical details and experimental analyses.
+
 
 <div align="center">
   <img src="/assets/New_Fig.png" alt="Safety survey" />
 </div>
+
+---
+
+In total, we collected \textbf{390} technical papers, with their distribution across years, model types, and attack/defense strategies illustrated in Figure \ref{fig:total_num}. As shown, safety research on large models has surged significantly since 2023, following the release of ChatGPT. Among the model types, LLMs and DMs have garnered the most attention, accounting for over \textbf{60\%} of the surveyed papers. Regarding attack types, \textbf{jailbreak}, \textbf{adversarial}, and \textbf{backdoor attacks} were the most extensively studied. On the defense side, \textbf{jailbreak defenses} received the highest focus, followed by \textbf{adversarial defenses}.
+Figure \ref{fig:crossview} presents a cross-view of temporal trends across model types and attack/defense categories, offering a detailed breakdown of the reviewed works. Notably, research on attacks constitutes \textbf{60\%} of the studied. In terms of defense, while defense research accounts for only \textbf{40\%}, underscoring a significant gap that warrants increased attention toward defense strategies. The overall structure of this survey is outlined in Figure \ref{fig:organization}.
+
+<div align="center">
+  <img src="/assets/Organization.png" alt="Safety survey" />
+</div>
+
+
 
 --- 
 
