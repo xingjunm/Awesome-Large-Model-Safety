@@ -42,12 +42,6 @@ Figure \ref{fig:crossview} presents a cross-view of temporal trends across model
 
 ## Content
 
-- [Vision Foundation Model Safety](#ch2)
-- [Large Language Model Safety](#ch3)
-- [Vision-Language Pre-training Model Safety](#ch4)
-- [Vison Language Model Safety](#ch5)
-- [Diffusion Models Safety](#ch6)
-- [Agent Safety](#ch7)
 
 ---
 <!-- Chapter 2-->
