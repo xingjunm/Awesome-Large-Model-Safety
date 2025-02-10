@@ -19,11 +19,236 @@ Content:
 <summary><span id="ch2">Vision Foundation Model Safety </span></summary>
 
 ##### Attacks and Defense for ViT
-- Patch-fool: Are vision transformers always robust against adversarial perturbations?
-    - Yonggan Fu, Shunyao Zhang, Shang Wu, Cheng Wan, Yingyan Celine Lin
-    - [ICLR 2022](https://arxiv.org/pdf/2203.08392)
+- Patch-Fool: Are Vision Transformers Always Robust Against Adversarial Perturbations?  
+  - Fu, Yonggan, Zhang, Shunyao, Wu, Shang, Wan, Cheng, **and** Lin, Yingyan  
+  - *ICLR*, 2022.
+
+- SlowFormer: Adversarial Attack on Compute and Energy Consumption of Efficient Vision Transformers.  
+  - Navaneet, KL, Koohpayegani, Soroush Abbasi, Sleiman, Essam, **and** Pirsiavash, Hamed  
+  - *CVPR*, 2024.
+
+- PE-Attack: On the Universal Positional Embedding Vulnerability in Transformer-based Models.  
+  - Gao, Shiqi, Chen, Tianyu, He, Mingrui, Xu, Runhua, Zhou, Haoyi, **and** Li, Jianxin  
+  - *IEEE Transactions on Information Forensics and Security*, 19, 9359-9373, 2024.
+
+- Give me your attention: Dot-product attention considered harmful for adversarial patch robustness.  
+  - Lovisotto, Giulio, Finnie, Nicole, Munoz, Mauricio, Mummadi, Chaithanya Kumar, **and** Metzen, Jan Hendrik  
+  - *CVPR*, 2022.
+
+- Towards Understanding and Improving Adversarial Robustness of Vision Transformers.  
+  - Jain, Samyak, **and** Dutta, Tanima  
+  - *CVPR*, 2024.
+
+- On improving adversarial transferability of vision transformers.  
+  - Naseer, Muzammal, Ranasinghe, Kanchana, Khan, Salman, Khan, Fahad Shahbaz, **and** Porikli, Fatih  
+  - *arXiv preprint arXiv:2106.04169*, 2021.
+
+- Generating transferable adversarial examples against vision transformers.  
+  - Wang, Yuxuan, Wang, Jiakai, Yin, Zixin, Gong, Ruihao, Wang, Jingyi, Liu, Aishan, **and** Liu, Xianglong  
+  - *ACM MM*, 2022.
+
+- Towards transferable adversarial attacks on vision transformers.  
+  - Wei, Zhipeng, Chen, Jingjing, Goldblum, Micah, Wu, Zuxuan, Goldstein, Tom, **and** Jiang, Yu-Gang  
+  - *AAAI*, 2022.
+
+- Boosting adversarial transferability with learnable patch-wise masks.  
+  - Wei, Xingxing, **and** Zhao, Shiji  
+  - *IEEE Transactions on Multimedia*, 26, 3778-3787, 2023.
+
+- Transferable adversarial attack for both vision transformers and convolutional networks via momentum integrated gradients.  
+  - Ma, Wenshuo, Li, Yidong, Jia, Xiaofeng, **and** Xu, Wei  
+  - *ICCV*, 2023.
+
+- Transferable adversarial attacks on vision transformers with token gradient regularization.  
+  - Zhang, Jianping, Huang, Yizhan, Wu, Weibin, **and** Lyu, Michael R  
+  - *CVPR*, 2023.
+
+- Improving the Adversarial Transferability of Vision Transformers with Virtual Dense Connection.  
+  - Zhang, Jianping, Huang, Yizhan, Xu, Zhuoer, Wu, Weibin, **and** Lyu, Michael R  
+  - *AAAI*, 2024.
+
+- Attacking Transformers with Feature Diversity Adversarial Perturbation.  
+  - Gao, Chenxing, Zhou, Hang, Yu, Junqing, Ye, YuTeng, Cai, Jiale, Wang, Junle, **and** Yang, Wei  
+  - *AAAI*, 2024.
+
+- Decision-based black-box attack against vision transformers via patch-wise adversarial removal.  
+  - Shi, Yucheng, Han, Yahong, Tan, Yu-an, **and** Kuang, Xiaohui  
+  - *NeurIPS*, 2022.
+
+- Improving Transferable Targeted Adversarial Attacks with Model Self-Enhancement.  
+  - Wu, Han, Ou, Guanyan, Wu, Weibin, **and** Zheng, Zibin  
+  - *CVPR*, 2024.
+
+- Improving Transferability of adversarial samples via Critical Region-oriented Feature-level Attack.  
+  - Li, Zhiwei, Ren, Min, Jiang, Fangling, Li, Qi, **and** Sun, Zhenan  
+  - *IEEE Transactions on Information Forensics and Security*, 19, 6650-6664, 2024.
+
+- Adversarial token attacks on vision transformers.  
+  - Joshi, Ameya, Jagatap, Gauri, **and** Hegde, Chinmay  
+  - *arXiv preprint arXiv:2110.04337*, 2021.
+
+- Understanding and improving adversarial transferability of vision transformers and convolutional neural networks.  
+  - Chen, Zhiyu, Xu, Chi, Lv, Huanhuan, Liu, Shangdong, **and** Ji, Yimu  
+  - *Information Sciences*, 648, 119474, 2023.
+
+- Towards transferable adversarial attacks on image and video transformers.  
+  - Wei, Zhipeng, Chen, Jingjing, Goldblum, Micah, Wu, Zuxuan, Goldstein, Tom, Jiang, Yu-Gang, **and** Davis, Larry S  
+  - *IEEE Transactions on Image Processing*, 32, 6346-6358, 2023.
+
+- Towards efficient adversarial training on vision transformers.  
+  - Wu, Boxi, Gu, Jindong, Li, Zhifeng, Cai, Deng, He, Xiaofei, **and** Liu, Wei  
+  - *ECCV*, 2022.
+
+- Patch Vestiges in the Adversarial Examples Against Vision Transformer Can Be Leveraged for Adversarial Detection.  
+  - Li, Juzheng  
+  - *AAAI Workshop*, 2022.
+
+- ViTGuard: Attention-aware Detection against Adversarial Examples for Vision Transformer.  
+  - Sun, Shihua, Nwodo, Kenechukwu, Sugrim, Shridatt, Stavrou, Angelos, **and** Wang, Haining  
+  - *arXiv preprint arXiv:2409.13828*, 2024.
+
+- Understanding and defending patched-based adversarial attacks for vision transformer.  
+  - Liu, Liang, Guo, Yanan, Zhang, Youtao, **and** Yang, Jun  
+  - *ICML*, 2023.
+
+- Diffusion Models Demand Contrastive Guidance for Adversarial Purification to Advance.  
+  - Bai, Mingyuan, Huang, Wei, Li, Tenghui, Wang, Andong, Gao, Junbin, Caiafa, César Federico, **and** Zhao, Qibin  
+  - *ICML*, 2024.
+
+- ADBM: Adversarial diffusion bridge model for reliable adversarial purification.  
+  - Li, Xiao, Sun, Wenxuan, Chen, Huanran, Li, Qiongxiu, Liu, Yining, He, Yingzhe, Shi, Jie, **and** Hu, Xiaolin  
+  - *arXiv preprint arXiv:2408.00315*, 2024.
+
+- Instant Adversarial Purification with Adversarial Consistency Distillation.  
+  - Lei, Chun Tong, Yam, Hon Ming, Guo, Zhongliang, **and** Lau, Chun Pong  
+  - *arXiv preprint arXiv:2408.17064*, 2024.
+
+- Are vision transformers robust to patch perturbations?  
+  - Gu, Jindong, Tresp, Volker, **and** Qin, Yao  
+  - *ECCV*, 2022.
+
+- When adversarial training meets vision transformers: Recipes from training to architecture.  
+  - Mo, Yichuan, Wu, Dongxian, Wang, Yifei, Guo, Yiwen, **and** Wang, Yisen  
+  - *NeurIPS*, 2022.
+
+- Robustifying token attention for vision transformers.  
+  - Guo, Yong, Stutz, David, **and** Schiele, Bernt  
+  - *ICCV*, 2023.
+
+- Improving robustness of vision transformers by reducing sensitivity to patch corruptions.  
+  - Guo, Yong, Stutz, David, **and** Schiele, Bernt  
+  - *CVPR*, 2023.
+
+- Improving Interpretation Faithfulness for Vision Transformers.  
+  - Hu, Lijie, Liu, Yixin, Liu, Ninghao, Huai, Mengdi, Sun, Lichao, **and** Wang, Di  
+  - *ICML*, 2024.
+
+- Random Entangled Tokens for Adversarially Robust Vision Transformer.  
+  - Gong, Huihui, Dong, Minjing, Ma, Siqi, Camtepe, Seyit, Nepal, Surya, **and** Xu, Chang  
+  - *CVPR*, 2024.
+
+- Diffusion Models for Adversarial Purification.  
+  - Nie, Weili, Guo, Brandon, Huang, Yujia, Xiao, Chaowei, Vahdat, Arash, **and** Anandkumar, Animashree  
+  - *ICML*, 2022.
+
+- Purify++: Improving Diffusion-Purification with Advanced Diffusion Models and Control of Randomness.  
+  - Zhang, Boya, Luo, Weijian, **and** Zhang, Zhihua  
+  - *arXiv preprint arXiv:2310.18762*, 2023.
+
+- DifFilter: Defending Against Adversarial Perturbations With Diffusion Filter.  
+  - Chen, Yong, Li, Xuedong, Wang, Xu, Hu, Peng, **and** Peng, Dezhong  
+  - *IEEE Transactions on Information Forensics and Security*, 19, 6779-6794, 2024.
+
+- MimicDiffusion: Purifying Adversarial Perturbation via Mimicking Clean Diffusion Model.  
+  - Song, Kaiyu, Lai, Hanjiang, Pan, Yan, **and** Yin, Jian  
+  - *CVPR*, 2024.
+
+- LightPure: Realtime Adversarial Image Purification for Mobile Devices Using Diffusion Models.  
+  - Khalili, Hossein, Park, Seongbin, Li, Vincent, Bright, Brandan, Payani, Ali, Kompella, Ramana Rao, **and** Sehatbakhsh, Nader  
+  - *ACM MobiCom*, 2024.
+
+- LoRID: Low-Rank Iterative Diffusion for Adversarial Purification.  
+  - Zollicoffer, Geigh, Vu, Minh, Nebgen, Ben, Castorena, Juan, Alexandrov, Boian, **and** Bhattarai, Manish  
+  - *arXiv preprint arXiv:2409.08255*, 2024.
+
+- You Are Catching My Attention: Are Vision Transformers Bad Learners under Backdoor Attacks?  
+  - Yuan, Zenghui, Zhou, Pan, Zou, Kai, **and** Cheng, Yu  
+  - *CVPR*, 2023.
+
+- Trojvit: Trojan insertion in vision transformers.  
+  - Zheng, Mengxin, Lou, Qian, **and** Jiang, Lei  
+  - *CVPR*, 2023.
+
+- Not all prompts are secure: A switchable backdoor attack against pre-trained vision transfomers.  
+  - Yang, Sheng, Bai, Jiawang, Gao, Kuofeng, Yang, Yong, Li, Yiming, **and** Xia, Shu-Tao  
+  - *CVPR*, 2024.
+
+- DBIA: Data-Free Backdoor Attack Against Transformer Networks.  
+  - Lv, Peizhuo, Ma, Hualong, Zhou, Jiachen, Liang, Ruigang, Chen, Kai, Zhang, Shengzhi, **and** Yang, Yunfei  
+  - *ICME*, 2023.
+
+- Multi-Trigger Backdoor Attacks: More Triggers, More Threats.  
+  - Li, Yige, Ma, Xingjun, He, Jiabo, Huang, Hanxun, **and** Jiang, Yu-Gang  
+  - *arXiv preprint arXiv:2401.15295*, 2024.
+ 
+- Defending backdoor attacks on vision transformer via patch processing.  
+  - Doan, Khoa D, Lao, Yingjie, Yang, Peng, **and** Li, Ping  
+  - *AAAI*, 2023.
+
+- A Closer Look at Robustness of Vision Transformers to Backdoor Attacks.  
+  - Subramanya, Akshayvarun, Koohpayegani, Soroush Abbasi, Saha, Aniruddha, Tejankar, Ajinkya, **and** Pirsiavash, Hamed  
+  - *WACV*, 2024.
+
+- Backdoor attacks on vision transformers.  
+  - Subramanya, Akshayvarun, Saha, Aniruddha, Koohpayegani, Soroush Abbasi, Tejankar, Ajinkya, **and** Pirsiavash, Hamed  
+  - *arXiv preprint arXiv:2206.08477*, 2022.
+
 
 ##### Attacks and Defense for SAM
+
+- Practical Region-level Attack against Segment Anything Models.  
+  - Shen, Yifan, Li, Zhengyuan, **and** Wang, Gang  
+  - *CVPR*, 2024.
+
+- Segment (Almost) Nothing: Prompt-Agnostic Adversarial Attacks on Segmentation Models.  
+  - Croce, Francesco, **and** Hein, Matthias  
+  - *SaTML*, 2024.
+
+- Attack-SAM: Towards Evaluating Adversarial Robustness of Segment Anything Model.  
+  - Zhang, Chenshuang, Zhang, Chaoning, Kang, Taegoo, Kim, Donghun, Bae, Sung-Ho, **and** Kweon, In So  
+  - *arXiv preprint arXiv:2305.00866*, 2023.
+
+- Black-box Targeted Adversarial Attack on Segment Anything (SAM).  
+  - Zheng, Sheng, **and** Zhang, Chaoning  
+  - *arXiv preprint arXiv:2310.10010*, 2023.
+
+- Unsegment Anything by Simulating Deformation.  
+  - Lu, Jiahao, Yang, Xingyi, **and** Wang, Xinchao  
+  - *CVPR*, 2024.
+
+- Transferable Adversarial Attacks on SAM and Its Downstream Models.  
+  - Xia, Song, Yang, Wenhan, Yu, Yi, Lin, Xun, Ding, Henghui, Duan, Lingyu, **and** Jiang, Xudong  
+  - *NeurIPS*, 2024.
+
+- Segment Anything Meets Universal Adversarial Perturbation.  
+  - Han, Dongshen, Zheng, Sheng, **and** Zhang, Chaoning  
+  - *arXiv preprint arXiv:2310.12431*, 2023.
+
+- DarkSAM: Fooling Segment Anything Model to Segment Nothing.  
+  - Zhou, Ziqi, Song, Yufei, Li, Minghui, Hu, Shengshan, Wang, Xianlong, Zhang, Leo Yu, Yao, Dezhong, **and** Jin, Hai  
+  - *NeurIPS*, 2024.
+
+- ASAM: Boosting Segment Anything Model with Adversarial Tuning.  
+  - Li, Bo, Xiao, Haoke, **and** Tang, Lv  
+  - *CVPR*, 2024.
+
+- BadSAM: Exploring Security Vulnerabilities of SAM via Backdoor Attacks (Student Abstract).  
+  - Guan, Zihan, Hu, Mengxuan, Zhou, Zhongliang, Zhang, Jielu, Li, Sheng, **and** Liu, Ninghao  
+  - *AAAI*, 2024.
+
+- UnSeg: One Universal Unlearnable Example Generator is Enough against All Image Segmentation.  
+  - Sun, Ye, Zhang, Hao, Zhang, Tiehua, Ma, Xingjun, **and** Jiang, Yu-Gang  
+  - *NeurIPS*, 2024.
 
 
 </details>
@@ -70,15 +295,238 @@ Content:
 <summary><span id="ch4">Vision-Language Pre-training Model Safety</summary>
 
 ##### Adversarial Attacks
-- Towards Adversarial Attack on Vision-Language Pre-training Models
-    - Jiaming Zhang, Qi Yi, Jitao Sang
-    - [S&P 2022](https://arxiv.org/abs/2106.09898)
+
+- Learning transferable visual models from natural language supervision.  
+  - Radford, Alec, Kim, Jong Wook, Hallacy, Chris, Ramesh, Aditya, Goh, Gabriel, Agarwal, Sandhini, Sastry, Girish, Askell, Amanda, Mishkin, Pamela, Clark, Jack, **and others**  
+  - *ICML*, 2021.
+
+- Align before fuse: Vision and language representation learning with momentum distillation.  
+  - Li, Junnan, Selvaraju, Ramprasaath, Gotmare, Akhilesh, Joty, Shafiq, Xiong, Caiming, **and** Hoi, Steven Chu Hong  
+  - *NeurIPS*, 2021.
+
+- Vision-language pre-training with triple contrastive learning.  
+  - Yang, Jinyu, Duan, Jiali, Tran, Son, Xu, Yi, Chanda, Sampath, Chen, Liqun, Zeng, Belinda, Chilimbi, Trishul, **and** Huang, Junzhou  
+  - *CVPR*, 2022.
+
+- Fooling vision and language models despite localization and attention mechanism.  
+  - Xu, Xiaojun, Chen, Xinyun, Liu, Chang, Rohrbach, Anna, Darrell, Trevor, **and** Song, Dawn  
+  - *CVPR*, 2018.
+
+- Cycle-consistency for robust visual question answering.  
+  - Shah, Meet, Chen, Xinlei, Rohrbach, Marcus, **and** Parikh, Devi  
+  - *CVPR*, 2019.
+
+- BERT-ATTACK: Adversarial Attack Against BERT Using BERT.  
+  - Li, Linyang, Ma, Ruotian, Guo, Qipeng, Xue, Xiangyang, **and** Qiu, Xipeng  
+  - *EMNLP*, 2020.
+
+- Defending multimodal fusion models against single-source adversaries.  
+  - Yang, Karren, Lin, Wan-Yi, Barman, Manash, Condessa, Filipe, **and** Kolter, Zico  
+  - *CVPR*, 2021.
+
+- Towards adversarial attack on vision-language pre-training models.  
+  - Zhang, Jiaming, Yi, Qi, **and** Sang, Jitao  
+  - *ACM MM*, 2022.
+
+- Advclip: Downstream-agnostic adversarial examples in multimodal contrastive learning.  
+  - Zhou, Ziqi, Hu, Shengshan, Li, Minghui, Zhang, Hangtao, Zhang, Yechao, **and** Jin, Hai  
+  - *ACM MM*, 2023.
+
+- Reading Isn't Believing: Adversarial Attacks On Multi-Modal Neurons.  
+  - Noever, David A, **and** Noever, Samantha E Miller  
+  - *arXiv preprint arXiv:2103.10480*, 2021.
+
+- Set-level guidance attack: Boosting adversarial transferability of vision-language pre-training models.  
+  - Lu, Dong, Wang, Zhiqiang, Wang, Teng, Guan, Weili, Gao, Hongchang, **and** Zheng, Feng  
+  - *ICCV*, 2023.
+
+- Sa-attack: Improving adversarial transferability of vision-language pre-training models via self-augmentation.  
+  - He, Bangyan, Jia, Xiaojun, Liang, Siyuan, Lou, Tianrui, Liu, Yang, **and** Cao, Xiaochun  
+  - *arXiv preprint arXiv:2312.04913*, 2023.
+
+- Exploring transferability of multimodal adversarial samples for vision-language pre-training models with contrastive learning.  
+  - Wang, Youze, Hu, Wenbo, Dong, Yinpeng, Zhang, Hanwang, Su, Hang, **and** Hong, Richang  
+  - *arXiv preprint arXiv:2308.12636*, 2023.
+
+- Transferable multimodal attack on vision-language pre-training models.  
+  - Wang, Haodi, Dong, Kai, Zhu, Zhilei, Qin, Haotong, Liu, Aishan, Fang, Xiaolin, Wang, Jiakai, **and** Liu, Xianglong  
+  - *IEEE S&P*, 2024.
+
+- VLATTACK: Multimodal Adversarial Attacks on Vision-Language Tasks via Pre-trained Models.  
+  - Yin, Ziyi, Ye, Muchao, Zhang, Tianrong, Du, Tianyu, Zhu, Jinguo, Liu, Han, Chen, Jinghui, Wang, Ting, **and** Ma, Fenglong  
+  - *NeurIPS*, 2023.
+
+- As Firm As Their Foundations: Can open-sourced foundation models be used to create adversarial examples for downstream tasks?.  
+  - Hu, Anjun, Gu, Jindong, Pinto, Francesco, Kamnitsas, Konstantinos, **and** Torr, Philip  
+  - *arXiv preprint arXiv:2403.12693*, 2024.
+
+- One Perturbation is Enough: On Generating Universal Adversarial Perturbations against Vision-Language Pre-training Models.  
+  - Fang, Hao, Kong, Jiawei, Yu, Wenbo, Chen, Bin, Li, Jiawei, Xia, Shutao, **and** Xu, Ke  
+  - *arXiv preprint arXiv:2406.05491*, 2024.
+
+- Universal Adversarial Perturbations for Vision-Language Pre-trained Models.  
+  - Zhang, Peng-Fei, Huang, Zi, **and** Bai, Guangdong  
+  - *SIGIR*, 2024.
+
 
 ##### Adversarial Defenses
 
+- MirrorCheck: Efficient Adversarial Defense for Vision-Language Models.  
+  - Fares, Samar, Ziu, Klea, Aremu, Toluwani, Durasov, Nikita, Takáč, Martin, Fua, Pascal, Nandakumar, Karthik, **and** Laptev, Ivan  
+  - *arXiv preprint arXiv:2406.09250*, 2024.
+
+- AdvQDet: Detecting Query-Based Adversarial Attacks with Adversarial Contrastive Prompt Tuning.  
+  - Wang, Xin, Chen, Kai, Ma, Xingjun, Chen, Zhineng, Chen, Jingjing, **and** Jiang, Yu-Gang  
+  - *ACM MM*, 2024.
+
+- Towards Deep Learning Models Resistant to Adversarial Attacks.  
+  - Madry, Aleksander, Makelov, Aleksandar, Schmidt, Ludwig, Tsipras, Dimitris, **and** Vladu, Adrian  
+  - *ICLR*, 2018.
+
+- Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks.  
+  - Croce, Francesco, **and** Hein, Matthias  
+  - *ICML*, 2020.
+
+- Large-scale adversarial training for vision-and-language representation learning.  
+  - Gan, Zhe, Chen, Yen-Chun, Li, Linjie, Zhu, Chen, Cheng, Yu, **and** Liu, Jingjing  
+  - *NeurIPS*, 2020.
+
+- FreeLB: Enhanced Adversarial Training for Natural Language Understanding.  
+  - Zhu, Chen, Cheng, Yu, Gan, Zhe, Sun, Siqi, Goldstein, Tom, **and** Liu, Jingjing  
+  - *ICLR*, 2020.
+
+- Revisiting Adversarial Training at Scale.  
+  - Wang, Zeyu, Li, Xianhang, Zhu, Hongru, **and** Xie, Cihang  
+  - *CVPR*, 2024.
+
+- Conditional prompt learning for vision-language models.  
+  - Zhou, Kaiyang, Yang, Jingkang, Loy, Chen Change, **and** Liu, Ziwei  
+  - *CVPR*, 2022.
+
+- Learning to prompt for vision-language models.  
+  - Zhou, Kaiyang, Yang, Jingkang, Loy, Chen Change, **and** Liu, Ziwei  
+  - *International Journal of Computer Vision*, 130, 2337-2348, 2022.
+
+- Maple: Multi-modal prompt learning.  
+  - Khattak, Muhammad Uzair, Rasheed, Hanoona, Maaz, Muhammad, Khan, Salman, **and** Khan, Fahad Shahbaz  
+  - *CVPR*, 2023.
+
+- Adversarial prompt tuning for vision-language models.  
+  - Zhang, Jiaming, Ma, Xingjun, Wang, Xin, Qiu, Lingyu, Wang, Jiaqi, Jiang, Yu-Gang, **and** Sang, Jitao  
+  - *ECCV*, 2024.
+
+- One prompt word is enough to boost adversarial robustness for pre-trained vision-language models.  
+  - Li, Lin, Guan, Haoyan, Qiu, Jianing, **and** Spratling, Michael  
+  - *CVPR*, 2024.
+
+- MixPrompt: Enhancing Generalizability and Adversarial Robustness for Vision-Language Models via Prompt Fusion.  
+  - Fan, Hao, Ma, Zhaoyang, Li, Yong, Tian, Rui, Chen, Yunli, **and** Gao, Chenlong  
+  - *ICIC*, 2024.
+
+- PromptSmooth: Certifying Robustness of Medical Vision-Language Models via Prompt Learning.  
+  - Hussein, Noor, Shamshad, Fahad, Naseer, Muzammal, **and** Nandakumar, Karthik  
+  - *MICCAI*, 2024.
+
+- Defense-Prefix for Preventing Typographic Attacks on CLIP.  
+  - Azuma, Hiroki, **and** Matsui, Yusuke  
+  - *ICCV*, 2023.
+
+- Few-Shot Adversarial Prompt Learning on Vision-Language Models.  
+  - Zhou, Yiwei, Xia, Xiaobo, Lin, Zhiwei, Han, Bo, **and** Liu, Tongliang  
+  - *NeurIPS*, 2024.
+
+- Adversarial Prompt Distillation for Vision-Language Models.  
+  - Luo, Lin, Wang, Xin, Zi, Bojia, Zhao, Shihao, **and** Ma, Xingjun  
+  - *arXiv preprint arXiv:2411.15244*, 2024.
+
+- TAPT: Test-Time Adversarial Prompt Tuning for Robust Inference in Vision-Language Models.  
+  - Wang, Xin, Chen, Kai, Zhang, Jiaming, Chen, Jingjing, **and** Ma, Xingjun  
+  - *arXiv preprint arXiv:2411.13136*, 2024.
+
+- Understanding Zero-shot Adversarial Robustness for Large-Scale Models.  
+  - Mao, Chengzhi, Geng, Scott, Yang, Junfeng, Wang, Xin, **and** Vondrick, Carl  
+  - *ICLR*, 2023.
+
+- Pre-trained model guided fine-tuning for zero-shot adversarial robustness.  
+  - Wang, Sibo, Zhang, Jie, Yuan, Zheng, **and** Shan, Shiguang  
+  - *CVPR*, 2024.
+
+- Revisiting the Adversarial Robustness of Vision Language Models: a Multimodal Perspective.  
+  - Zhou, Wanqi, Bai, Shuanghao, Zhao, Qibin, **and** Chen, Badong  
+  - *arXiv preprint arXiv:2404.19287*, 2024.
+
+- Robust CLIP: Unsupervised Adversarial Fine-Tuning of Vision Embeddings for Robust Large Vision-Language Models.  
+  - Schlarmann, Christian, Singh, Naman Deep, Croce, Francesco, **and** Hein, Matthias  
+  - *ICML*, 2024.
+
+
 ##### Backdoor & Poisoning Attacks
 
+- Poisoning and Backdooring Contrastive Learning.  
+  - Carlini, Nicholas, **and** Terzis, Andreas  
+  - *ICLR*, 2022.
+
+- Poisoning web-scale training datasets is practical.  
+  - Carlini, Nicholas, Jagielski, Matthew, Choquette-Choo, Christopher A, Paleka, Daniel, Pearce, Will, Anderson, Hyrum, Terzis, Andreas, Thomas, Kurt, **and** Tramèr, Florian  
+  - *IEEE S&P*, 2024.
+
+- Badencoder: Backdoor attacks to pre-trained encoders in self-supervised learning.  
+  - Jia, Jinyuan, Liu, Yupei, **and** Gong, Neil Zhenqiang  
+  - *IEEE S&P*, 2022.
+
+- Data Poisoning based Backdoor Attacks to Contrastive Learning.  
+  - Zhang, Jinghuai, Liu, Hongbin, Jia, Jinyuan, **and** Gong, Neil Zhenqiang  
+  - *CVPR*, 2024.
+
+- Badclip: Dual-embedding guided backdoor attack on multimodal contrastive learning.  
+  - Liang, Siyuan, Zhu, Mingli, Liu, Aishan, Wu, Baoyuan, Cao, Xiaochun, **and** Chang, Ee-Chien  
+  - *CVPR*, 2024.
+
+- BadCLIP: Trigger-Aware Prompt Learning for Backdoor Attacks on CLIP.  
+  - Bai, Jiawang, Gao, Kuofeng, Min, Shaobo, Xia, Shu-Tao, Li, Zhifeng, **and** Liu, Wei  
+  - *CVPR*, 2024.
+
+- Data poisoning attacks against multimodal encoders.  
+  - Yang, Ziqing, He, Xinlei, Li, Zheng, Backes, Michael, Humbert, Mathias, Berrang, Pascal, **and** Zhang, Yang  
+  - *ICML*, 2023.
+
+
+
 ##### Backdoor & Poisoning Defenses
+
+
+- CleanCLIP: Mitigating data poisoning attacks in multimodal contrastive learning.  
+  - Bansal, Hritik, Singhi, Nishad, Yang, Yu, Yin, Fan, Grover, Aditya, **and** Chang, Kai-Wei  
+  - *ICCV*, 2023.
+
+- Better Safe than Sorry: Pre-training CLIP against Targeted Data Poisoning and Backdoor Attacks.  
+  - Yang, Wenhan, Gao, Jingdong, **and** Mirzasoleiman, Baharan  
+  - *ICML*, 2024.
+
+- Robust contrastive language-image pretraining against data poisoning and backdoor attacks.  
+  - Yang, Wenhan, Gao, Jingdong, **and** Mirzasoleiman, Baharan  
+  - *NeurIPS*, 2024.
+
+- Mudjacking: Patching Backdoor Vulnerabilities in Foundation Models.  
+  - Liu, Hongbin, Reiter, Michael K., **and** Gong, Neil Zhenqiang  
+  - *USENIX Security*, 2024.
+
+- TIJO: Trigger inversion with joint optimization for defending multimodal backdoored models.  
+  - Sur, Indranil, Sikka, Karan, Walmer, Matthew, Koneripalli, Kaushik, Roy, Anirban, Lin, Xiao, Divakaran, Ajay, **and** Jha, Susmit  
+  - *ICCV*, 2023.
+
+- SEER: Backdoor Detection for Vision-Language Models through Searching Target Text and Image Trigger Jointly.  
+  - Zhu, Liuwan, Ning, Rui, Li, Jiang, Xin, Chunsheng, **and** Wu, Hongyi  
+  - *AAAI*, 2024.
+
+- Detecting Backdoor Samples in Contrastive Language Image Pretraining.  
+  - Huang, Hanxun, Erfani, Sarah, Li, Yige, Ma, Xingjun, **and** Bailey, James  
+  - *ICLR*, 2025.
+
+- Detecting backdoors in pre-trained encoders.  
+  - Feng, Shiwei, Tao, Guanhong, Cheng, Siyuan, Shen, Guangyu, Xu, Xiangzhe, Liu, Yingqi, Zhang, Kaiyuan, Ma, Shiqing, **and** Zhang, Xiangyu  
+  - *CVPR*, 2023.
+
 
 
 </details>
