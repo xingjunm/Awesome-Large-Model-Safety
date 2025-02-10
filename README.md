@@ -7,8 +7,11 @@ Our contributions are summarized as follows: (1) We present a comprehensive taxo
 (3) Building on this, we identify and discuss the open challenges in large model safety, emphasizing the need for comprehensive safety evaluations, scalable and effective defense mechanisms, and sustainable data practices. More importantly, we highlight the necessity of collective efforts from the research community and international collaboration.
 Our work can serve as a useful reference for researchers and practitioners, fostering the ongoing development of comprehensive defense systems and platforms to safeguard AI models.
 
+---
 
-
+<div align="center">
+  <img src="/assets/New_Fig.png" alt="Safety survey" />
+</div>
 --- 
 
 Content:
