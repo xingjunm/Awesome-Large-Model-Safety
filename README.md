@@ -42,8 +42,6 @@ Figure \ref{fig:crossview} presents a cross-view of temporal trends across model
 
 ## Content
 
-
----
 <!-- Chapter 2-->
 <details>
 
