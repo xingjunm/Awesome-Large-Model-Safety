@@ -1809,7 +1809,7 @@ Our survey methodology is structured as follows. First, we conducted a keyword-b
 Based on the survey, we identify several limitations and gaps in existing research and summarize them into the following topics. These open challenges reflect the evolving nature of large model safety, highlighting both technical and methodological barriers that must be overcome to ensure robustness and reliability across various AI systems.
 
 <details>
-  <summary>### Fundamental Vulnerabilities</summary>
+  <summary>Fundamental Vulnerabilities</summary>
 
   **The Purpose of Attack Is Not Just to Break the Model**  
   While attacks are often designed to disrupt model functionality, they also serve as diagnostic tools to uncover unintended behaviors and reveal fundamental weaknesses. A deeper understanding of attack mechanisms can help address vulnerabilities at their root.
@@ -1817,8 +1817,8 @@ Based on the survey, we identify several limitations and gaps in existing resear
   **What Are the Fundamental Vulnerabilities of Language Models?**  
   LLMs are prone to adversarial inputs, biases, and prompt manipulation. Research must explore how these vulnerabilities stem from model architectures and training data to develop effective defenses.
 
-  **How Vulnerabilities Propagate Across Modalities**  
-  Multi-modal models introduce new risks, as vulnerabilities in one modality (e.g., vision) may influence others (e.g., language). The interactions between modalities remain poorly understood, requiring holistic defense strategies.
+  **How Vulnerabilities Propagate Across Modalities?**  
+  As Multi-modal Large Language Models (MLLMs) integrate diverse modalities, new vulnerabilities arise. Vision encoders are known to be sensitive to subtle, continuous perturbations in pixel space, while language models are vulnerable to adversarial characters, words, or prompts. The interaction between modalities and how vulnerabilities in one modality propagate to others remains poorly understood.
 
   **Diffusion Models for Visual Content Generation Lack Language Capabilities**  
   Despite their success in visual content creation, diffusion models struggle with language comprehension, leading to unintended outputs. Integrating linguistic capabilities remains an open challenge.
@@ -1827,12 +1827,12 @@ Based on the survey, we identify several limitations and gaps in existing resear
   Deep neural networks exhibit memorization tendencies, raising privacy concerns. Understanding the mechanisms behind memorization is crucial for balancing performance and security.
 
   **Agent Vulnerabilities Grow with Their Abilities**  
-  As large-model-powered agents become more capable, their vulnerabilities expand. Ensuring security in evolving agents requires comprehensive defense frameworks.
+  Large-model-powered agents face increasing vulnerabilities as their capabilities expand. Ensuring security in evolving agents requires comprehensive defense frameworks.
 
 </details>
 
 <details>
-  <summary>### Safety Evaluation</summary>
+  <summary>Safety Evaluation</summary>
 
   **Attack Success Rate Is Not All We Need**  
   Metrics like attack success rate (ASR) fail to capture the full scope of safety risks. More comprehensive evaluation frameworks are needed to assess model resilience and ethical considerations.
@@ -1849,7 +1849,7 @@ Based on the survey, we identify several limitations and gaps in existing resear
 </details>
 
 <details>
-  <summary>### Safety Defense</summary>
+  <summary>Safety Defense</summary>
 
   **Safety Alignment Is Not the Savior**  
   Despite advances in safety alignment, models remain vulnerable to sophisticated attacks. Ensuring deeper, more robust alignment mechanisms is an ongoing challenge.
@@ -1878,7 +1878,7 @@ Based on the survey, we identify several limitations and gaps in existing resear
 </details>
 
 <details>
-  <summary>### A Call for Collective Action</summary>
+  <summary>A Call for Collective Action</summary>
 
   **Defense-Oriented Research**  
   The focus on attack strategies has overshadowed the development of robust defenses. Research efforts should prioritize integrated, layered defense mechanisms.
@@ -1893,7 +1893,6 @@ Based on the survey, we identify several limitations and gaps in existing resear
   AI safety is a global challenge requiring international cooperation in research, policy, and governance.
 
 </details>
-
 
 
 
