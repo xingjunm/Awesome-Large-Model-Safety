@@ -290,31 +290,578 @@ Figure \ref{fig:crossview} presents a cross-view of temporal trends across model
 
 ##### Adversarial Attack
 
-- Bad Characters: Imperceptible NLP Attacks
-    - Nicholas Boucher, Ilia Shumailov, Ross Anderson, Nicolas Papernot
-    - [S&P 2022](https://arxiv.org/abs/2106.09898)
+
+- Bad Characters: Imperceptible NLP Attacks.  
+  - Boucher, Nicholas, Shumailov, Ilia, Anderson, Ross, **and** Papernot, Nicolas  
+  - *IEEE S&P*, 2022.
+
+- Is BERT Really Robust? A Strong Baseline for Natural Language Attack on Text Classification and Entailment.  
+  - Jin, Di, Jin, Zhijing, Zhou, Joey Tianyi, **and** Szolovits, Peter  
+  - *AAAI*, 2020.
+
+- BERT-ATTACK: Adversarial Attack Against BERT Using BERT.  
+  - Li, Linyang, Ma, Ruotian, Guo, Qipeng, Xue, Xiangyang, **and** Qiu, Xipeng  
+  - *EMNLP*, 2020.
+
+- Gradient-Based Adversarial Attacks Against Text Transformers.  
+  - Guo, Chuan, Sablayrolles, Alexandre, Jégou, Hervé, **and** Kiela, Douwe  
+  - *EMNLP*, 2021.
+
+- Breaking BERT: Understanding Its Vulnerabilities for Named Entity Recognition Through Adversarial Attack.  
+  - Dirkson, Anne, Verberne, Suzan, **and** Kraaij, Wessel  
+  - *arXiv preprint arXiv:2109.11308*, 2021.
+
+- Gradient-Based Word Substitution for Obstinate Adversarial Examples Generation in Language Models.  
+  - Wang, Y, Shi, P, **and** Zhang, H  
+  - *arXiv preprint arXiv:2307.12507*, 2023.
+
+- Expanding Scope: Adapting English Adversarial Attacks to Chinese.  
+  - Liu, Hanyu, Cai, Chengyuan, **and** Qi, Yanjun  
+  - *TrustNLP*, 2023.
+
+- Adversarial Demonstration Attacks on Large Language Models.  
+  - Wang, Jiongxiao, Liu, Zichen, Park, Keun Hee, Jiang, Zhuojun, Zheng, Zhaoheng, Wu, Zhuofeng, Chen, Muhao, **and** Xiao, Chaowei  
+  - *arXiv preprint arXiv:2305.14950*, 2023.
+
+- Adversarial Attacks on Large Language Model-Based Systems and Mitigating Strategies: A Case Study on ChatGPT.  
+  - Liu, Bowen, Xiao, Boao, Jiang, Xutong, Cen, Siyuan, He, Xin, **and** Dou, Wanchun  
+  - *Security and Communication Networks*, 2023.
+
+- Adversarial Attacks on Tables with Entity Swap.  
+  - Koleva, Aneta, Ringsquandl, Martin, **and** Tresp, Volker  
+  - *arXiv preprint arXiv:2309.08650*, 2023.
+
 
 ##### Adversarial Defense
 
+- Baseline Defenses for Adversarial Attacks Against Aligned Language Models.  
+  - Jain, Neel, Schwarzschild, Avi, Wen, Yuxin, Somepalli, Gowthami, Kirchenbauer, John, Chiang, Ping-yeh, Goldblum, Micah, Saha, Aniruddha, Geiping, Jonas, **and** Goldstein, Tom  
+  - *arXiv preprint arXiv:2309.00614*, 2023.
+
+- Certifying LLM Safety Against Adversarial Prompting.  
+  - Kumar, Aounon, Agarwal, Chirag, Srinivas, Suraj, Feizi, Soheil, **and** Lakkaraju, Hima  
+  - *arXiv preprint arXiv:2309.02705*, 2023.
+
+- Improving Alignment and Robustness with Circuit Breakers.  
+  - Zou, Andy, Phan, Long, Wang, Justin, Duenas, Derek, Lin, Maxwell, Andriushchenko, Maksym, Kolter, J Zico, Fredrikson, Matt, **and** Hendrycks, Dan  
+  - *NeurIPS*, 2024.
+
+
 ##### Jailbreak Attack
+
+- Low-Resource Languages Jailbreak GPT-4.  
+  - Yong, Zheng-Xin, Menghini, Cristina, **and** Bach, Stephen H  
+  - *NeurIPS Workshop*, 2023.
+
+- GPT-4 is Too Smart to be Safe: Stealthy Chat with LLMs via Cipher.  
+  - Yuan, Youliang, Jiao, Wenxiang, Wang, Wenxuan, Huang, Jen-tse, He, Pinjia, Shi, Shuming, **and** Tu, Zhaopeng  
+  - *arXiv preprint arXiv:2308.06463*, 2023.
+
+- Jailbroken: How Does LLM Safety Training Fail?  
+  - Wei, Alexander, Haghtalab, Nika, **and** Steinhardt, Jacob  
+  - *NeurIPS*, 2024.
+
+- A Cross-Language Investigation into Jailbreak Attacks in Large Language Models.  
+  - Li, Jie, Liu, Yi, Liu, Chongyang, Shi, Ling, Ren, Xiaoning, Zheng, Yaowen, Liu, Yang, **and** Xue, Yinxing  
+  - *arXiv preprint arXiv:2401.16765*, 2024.
+
+- EasyJailbreak: A Unified Framework for Jailbreaking Large Language Models.  
+  - Zhou, Weikang, Wang, Xiao, Xiong, Limao, Xia, Han, Gu, Yingshuang, Chai, Mingxu, Zhu, Fukang, Huang, Caishuang, Dou, Shihan, Xi, Zhiheng, **and others**  
+  - *arXiv preprint arXiv:2403.12171*, 2024.
+
+- Is the System Message Really Important to Jailbreaks in Large Language Models?  
+  - Zou, Xiaotian, Chen, Yongkang, **and** Li, Ke  
+  - *arXiv preprint arXiv:2402.14857*, 2024.
+
+- TASTLE: Distract Large Language Models for Automatic Jailbreak Attack.  
+  - Xiao, Zeguan, Yang, Yan, Chen, Guanhua, **and** Chen, Yun  
+  - *EMNLP*, 2024.
+
+- StructuralSleight: Automated Jailbreak Attacks on Large Language Models Utilizing Uncommon Text-Encoded Structure.  
+  - Li, Bangxin, Xing, Hengrui, Huang, Chao, Qian, Jin, Xiao, Huangqing, Feng, Linfeng, **and** Tian, Cong  
+  - *arXiv preprint arXiv:2406.08754*, 2024.
+
+- CodeChameleon: Personalized Encryption Framework for Jailbreaking Large Language Models.  
+  - Lv, Huijie, Wang, Xiao, Zhang, Yuansen, Huang, Caishuang, Dou, Shihan, Ye, Junjie, Gui, Tao, Zhang, Qi, **and** Huang, Xuanjing  
+  - *arXiv preprint arXiv:2402.16717*, 2024.
+
+- Play Guessing Game with LLM: Indirect Jailbreak Attack with Implicit Clues.  
+  - Chang, Zhiyuan, Li, Mingyang, Liu, Yi, Wang, Junjie, Wang, Qing, **and** Liu, Yang  
+  - *ACL*, 2024.
+
+- AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models.  
+  - Liu, Xiaogeng, Xu, Nan, Chen, Muhao, **and** Xiao, Chaowei  
+  - *ICLR*, 2024.
+
+- GPTFuzzer: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts.  
+  - Yu, Jiahao, Lin, Xingwei, Yu, Zheng, **and** Xing, Xinyu  
+  - *arXiv preprint arXiv:2309.10253*, 2023.
+
+- Jailbreaking Black Box Large Language Models in Twenty Queries.  
+  - Chao, Patrick, Robey, Alexander, Dobriban, Edgar, Hassani, Hamed, Pappas, George J, **and** Wong, Eric  
+  - *NeurIPS Workshop*, 2023.
+
+- MasterKey: Automated Jailbreaking of Large Language Model Chatbots.  
+  - Deng, Gelei, Liu, Yi, Li, Yuekang, Wang, Kailong, Zhang, Ying, Li, Zefeng, Wang, Haoyu, Zhang, Tianwei, **and** Liu, Yang  
+  - *NDSS*, 2024.
+
+- Enhancing Jailbreak Attack Against Large Language Models through Silent Tokens.  
+  - Yu, Jiahao, Luo, Haozheng, Yao-Chieh, Jerry, Guo, Wenbo, Liu, Han, **and** Xing, Xinyu  
+  - *arXiv preprint arXiv:2405.20653*, 2024.
+
+- FuzzLLM: A Novel and Universal Fuzzing Framework for Proactively Discovering Jailbreak Vulnerabilities in Large Language Models.  
+  - Yao, Dongyu, Zhang, Jianshu, Harris, Ian G, **and** Carlsson, Marcel  
+  - *ICASSP*, 2024.
+
+- EnJa: Ensemble Jailbreak on Large Language Models.  
+  - Zhang, Jiahao, Wang, Zilong, Wang, Ruofan, Ma, Xingjun, **and** Jiang, Yu-Gang  
+  - *arXiv preprint arXiv:2408.03603*, 2024.
+
+- Red Teaming Language Models with Language Models.  
+  - Perez, Ethan, Huang, Saffron, Song, Francis, Cai, Trevor, Ring, Roman, Aslanides, John, Glaese, Amelia, McAleese, Nat, **and** Irving, Geoffrey  
+  - *EMNLP*, 2022.
+
+- Curiosity-Driven Red-Teaming for Large Language Models.  
+  - Hong, Zhang-Wei, Shenfeld, Idan, Wang, Tsun-Hsuan, Chuang, Yung-Sung, Pareja, Aldo, Glass, James, Srivastava, Akash, **and** Agrawal, Pulkit  
+  - *ICLR*, 2024.
+
+- “Do Anything Now”: Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models.  
+  - Shen, Xinyue, Chen, Zeyuan, Backes, Michael, Shen, Yun, **and** Zhang, Yang  
+  - *ACM CCS*, 2024.
+
+- Universal and Transferable Adversarial Attacks on Aligned Language Models.  
+  - Zou, Andy, Wang, Zifan, Carlini, Nicholas, Nasr, Milad, Kolter, J Zico, **and** Fredrikson, Matt  
+  - *arXiv preprint arXiv:2307.15043*, 2023.
+
+- Improved Techniques for Optimization-Based Jailbreaking on Large Language Models.  
+  - Jia, Xiaojun, Pang, Tianyu, Du, Chao, Huang, Yihao, Gu, Jindong, Liu, Yang, Cao, Xiaochun, **and** Lin, Min  
+  - *arXiv preprint arXiv:2405.21018*, 2024.
+
+- Improved Few-Shot Jailbreaking Can Circumvent Aligned Language Models and Their Defenses.  
+  - Zheng, Xiaosen, Pang, Tianyu, Du, Chao, Liu, Qian, Jiang, Jing, **and** Lin, Min  
+  - *arXiv preprint arXiv:2406.01288*, 2024.
+
+- Weak-to-Strong Jailbreaking on Large Language Models.  
+  - Zhao, Xuandong, Yang, Xianjun, Pang, Tianyu, Du, Chao, Li, Lei, Wang, Yu-Xiang, **and** Wang, William Yang  
+  - *arXiv preprint arXiv:2401.17256*, 2024.
+
+- Unlocking Adversarial Suffix Optimization Without Affirmative Phrases: Efficient Black-box Jailbreaking via LLM as Optimizer.  
+  - Jiang, Weipeng, Wang, Zhenting, Zhai, Juan, Ma, Shiqing, Zhao, Zhengyu, **and** Shen, Chao  
+  - *arXiv preprint arXiv:2408.11313*, 2024.
+
+
 
 ##### Jailbreak Defense
 
+
+- SmoothLLM: Defending Large Language Models Against Jailbreaking Attacks. 
+  - Robey, Alexander, Wong, Eric, **and** Hassani, Hamed, Pappas, George J  
+  - *arXiv preprint arXiv:2310.03684*, 2023.
+
+- Defending Large Language Models Against Jailbreak Attacks via Semantic Smoothing. 
+  - Ji, Jiabao, Hou, Bairu, Robey, Alexander, Pappas, George J, Hassani, Hamed, Zhang, Yang, Wong, Eric, **and** Chang, Shiyu  
+  - *arXiv preprint arXiv:2402.16192*, 2024.
+
+- SelfDefend: LLMs Can Defend Themselves Against Jailbreaking in a Practical Manner.
+  - Wang, Xunguang, Wu, Daoyuan, Ji, Zhenlan, Li, Zongjie, Ma, Pingchuan, Wang, Shuai, Li, Yingjiu, Liu, Yang, Liu, Ning, **and** Rahmel, Juergen  
+  - *arXiv preprint arXiv:2406.05498*, 2024.
+
+- Protecting Your LLMs with Information Bottleneck.  
+  - Liu, Zichuan, Wang, Zefan, Xu, Linjie, Wang, Jinyu, Song, Lei, Wang, Tianchun, Chen, Chunlin, Cheng, Wei, **and** Bian, Jiang  
+  - *NeurIPS*, 2024.
+
+- Defending LLMs Against Jailbreaking Attacks via Backtranslation.
+  - Wang, Yihan, Shi, Zhouxing, Bai, Andrew, **and** Hsieh, Cho-Jui  
+  - *ACL*, 2024.
+
+- Robust Safety Classifier Against Jailbreaking Attacks: Adversarial Prompt Shield.
+  - Kim, Jinhwa, Derakhshan, Ali, **and** Harris, Ian G  
+  - *WOAH*, 2024.
+
+- Defensive Prompt Patch: A Robust and Interpretable Defense of LLMs Against Jailbreak Attacks.
+  - Xiong, Chen, Qi, Xiangyu, Chen, Pin-Yu, **and** Ho, Tsung-Yi  
+  - *arXiv preprint arXiv:2405.20099*, 2024.
+
+- Gradient Cuff: Detecting Jailbreak Attacks on Large Language Models by Exploring Refusal Loss Landscapes.
+  - Hu, Xiaomeng, Chen, Pin-Yu, **and** Ho, Tsung-Yi  
+  - *NeurIPS*, 2024.
+
+- Jailbreaker in Jail: Moving Target Defense for Large Language Models.
+  - Chen, Bocheng, Paliwal, Advait, **and** Yan, Qiben  
+  - *MTD*, 2023.
+
+- PARDEN, Can You Repeat That? Defending Against Jailbreaks via Repetition.  
+  - Zhang, Ziyang, Zhang, Qizhen, **and** Foerster, Jakob  
+  - *arXiv preprint arXiv:2405.07932*, 2024.
+
+- AutoJailbreak: Exploring Jailbreak Attacks and Defenses Through a Dependency Lens.
+  - Lu, Lin, Yan, Hai, Yuan, Zenghui, Shi, Jiawen, Wei, Wenqi, Chen, Pin-Yu, **and** Zhou, Pan  
+  - *arXiv preprint arXiv:2406.03805*, 2024.
+
+- MoGU: A Framework for Enhancing Safety of LLMs While Preserving Their Usability.
+  - Du, Yanrui, Zhao, Sendong, Zhao, Danyang, Ma, Ming, Chen, Yuhan, Huo, Liangyu, Yang, Qing, Xu, Dongliang, **and** Qin, Bing  
+  - *NeurIPS*, 2024.
+
+
 ##### Prompt Injection Attacks
+
+
+- Ignore Previous Prompt: Attack Techniques for Language Models.
+  - Perez, Fábio, **and** Ribeiro, Ian  
+  - *NeurIPS Workshop*, 2022.
+
+- Prompt Injection Attack Against LLM-integrated Applications. 
+  - Liu, Yi, Deng, Gelei, Li, Yuekang, Wang, Kailong, Wang, Zihao, Wang, Xiaofeng, Zhang, Tianwei, Liu, Yepang, Wang, Haoyu, **and others**  
+  - *arXiv preprint arXiv:2306.05499*, 2023.
+
+- Not What You've Signed Up For: Compromising Real-World LLM-integrated Applications with Indirect Prompt Injection.
+  - Greshake, Kai, Abdelnabi, Sahar, Mishra, Shailesh, Endres, Christoph, Holz, Thorsten, **and** Fritz, Mario  
+  - *AISec*, 2023.
+
+- Attack Prompt Generation for Red Teaming and Defending Large Language Models.  
+  - Deng, Boyi, Wang, Wenjie, Feng, Fuli, Deng, Yang, Wang, Qifan, **and** He, Xiangnan  
+  - *EMNLP*, 2023.
+
+- Formalizing and Benchmarking Prompt Injection Attacks and Defenses.  
+  - Liu, Yupei, Jia, Yuqi, Geng, Runpeng, Jia, Jinyuan, **and** Gong, Neil Zhenqiang  
+  - *USENIX Security*, 2024.
+
+- Are We There Yet? Revealing the Risks of Utilizing Large Language Models in Scholarly Peer Review.  
+  - Ye, Rui, Pang, Xianghe, Chai, Jingyi, Chen, Jiaao, Yin, Zhenfei, Xiang, Zhen, Dong, Xiaowen, Shao, Jing, **and** Chen, Siheng  
+  - *arXiv preprint arXiv:2412.01708*, 2024.
+
+- Automatic and Universal Prompt Injection Attacks Against Large Language Models.  
+  - Liu, Xiaogeng, Yu, Zhiyuan, Zhang, Yizhe, Zhang, Ning, **and** Xiao, Chaowei  
+  - *arXiv preprint arXiv:2403.04957*, 2024.
+
+- Goal-Guided Generative Prompt Injection Attack on Large Language Models.  
+  - Zhang, Chong, Jin, Mingyu, Yu, Qinkai, Liu, Chengzhi, Xue, Haochen, **and** Jin, Xiaobo  
+  - *arXiv preprint arXiv:2404.07234*, 2024.
+
+- Pleak: Prompt Leaking Attacks Against Large Language Model Applications.  
+  - Hui, Bo, Yuan, Haolin, Gong, Neil, Burlina, Philippe, **and** Cao, Yinzhi  
+  - *ACM SIGSAC CCS*, 2024.
+
+- Optimization-Based Prompt Injection Attack to LLM-as-a-Judge.  
+  - Shi, Jiawen, Yuan, Zenghui, Liu, Yinuo, Huang, Yue, Zhou, Pan, Sun, Lichao, **and** Gong, Neil Zhenqiang  
+  - *ACM SIGSAC CCS*, 2024.
+
+- Making LLMs Vulnerable to Prompt Injection via Poisoning Alignment.  
+  - Shao, Zedian, Liu, Hongbin, Mu, Jaden, **and** Gong, Neil Zhenqiang  
+  - *arXiv preprint arXiv:2410.14827*, 2024.
 
 ##### Prompt Injection Defenses
 
+- StruQ: Defending Against Prompt Injection with Structured Queries. 
+  - Chen, Sizhe, Piet, Julien, Sitawarin, Chawin, **and** Wagner, David  
+  - *USENIX Security*, 2025.
+
+- SPML: A DSL for Defending Language Models Against Prompt Attacks.
+  - Sharma, Reshabh K, Gupta, Vinayak, **and** Grossman, Dan  
+  - *arXiv preprint arXiv:2402.11755*, 2024.
+
+- Jatmo: Prompt Injection Defense by Task-Specific Finetuning.  
+  - Piet, Julien, Alrashed, Maha, Sitawarin, Chawin, Chen, Sizhe, Wei, Zeming, Sun, Elizabeth, Alomair, Basel, **and** Wagner, David  
+  - *arXiv preprint arXiv:2312.17673*, 2023.
+
+- Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models.  
+  - Yi, Jingwei, Xie, Yueqi, Zhu, Bin, Kiciman, Emre, Sun, Guangzhong, Xie, Xing, **and** Wu, Fangzhao  
+  - *arXiv preprint arXiv:2312.14197*, 2023.
+
+- SecAlign: Defending Against Prompt Injection with Preference Optimization.  
+  - Chen, Sizhe, Zharmagambetov, Arman, Mahloujifar, Saeed, Chaudhuri, Kamalika, Wagner, David, **and** Guo, Chuan  
+  - *arXiv preprint arXiv:2410.05451v2*, 2025.
+
 ##### Backdoor Attacks
+
+- BadPrompt: Backdoor Attacks on Continuous Prompts.  
+  - Cai, Xiangrui, Xu, Haidong, Xu, Sihan, Zhang, Ying, *et al.*  
+  - *NeurIPS*, 2022.
+
+- BITE: Textual Backdoor Attacks with Iterative Trigger Injection.  
+  - Yan, Jun, Gupta, Vansh, **and** Ren, Xiang  
+  - *ACL*, 2023.
+
+- PoisonPrompt: Backdoor Attack on Prompt-Based Large Language Models.  
+  - Yao, Hongwei, Lou, Jian, **and** Qin, Zhan  
+  - *ICASSP*, 2024.
+
+- Prompt as Triggers for Backdoor Attack: Examining the Vulnerability in Language Models.  
+  - Zhao, Shuai, Wen, Jinming, Tuan, Luu Anh, Zhao, Junbo, **and** Fu, Jie  
+  - *EMNLP*, 2023.
+
+- Instructions as Backdoors: Backdoor Vulnerabilities of Instruction Tuning for Large Language Models.  
+  - Xu, Jiashu, Ma, Mingyu Derek, Wang, Fei, Xiao, Chaowei, **and** Chen, Muhao  
+  - *NAACL*, 2024.
+
+- Backdoor Attacks for In-Context Learning with Language Models.  
+  - Kandpal, Nikhil, Jagielski, Matthew, Tramèr, Florian, **and** Carlini, Nicholas  
+  - *ICML Workshop*, 2023.
+
+- BadChain: Backdoor Chain-of-Thought Prompting for Large Language Models.  
+  - Xiang, Zhen, Jiang, Fengqing, Xiong, Zidi, Ramasubramanian, Bhaskar, Poovendran, Radha, **and** Li, Bo  
+  - *NeurIPS Workshop*, 2024.
+
+- Universal Vulnerabilities in Large Language Models: Backdoor Attacks for In-Context Learning.  
+  - Zhao, Shuai, Jia, Meihuizi, Tuan, Luu Anh, Pan, Fengjun, **and** Wen, Jinming  
+  - *EMNLP*, 2024.
+
+- Learning to Poison Large Language Models During Instruction Tuning.  
+  - Qiang, Yao, Zhou, Xiangyu, Zade, Saleh Zare, Roshani, Mohammad Amin, Zytko, Douglas, **and** Zhu, Dongxiao  
+  - *arXiv preprint arXiv:2402.13459*, 2024.
+
+- Is Poisoning a Real Threat to LLM Alignment? Maybe More So Than You Think.  
+  - Pathmanathan, Pankayaraj, Chakraborty, Souradip, Liu, Xiangyu, Liang, Yongyuan, **and** Huang, Furong  
+  - *ICML Workshop*, 2024.
+
+- Sleeper Agents: Training Deceptive LLMs That Persist Through Safety Training.  
+  - Hubinger, Evan, Denison, Carson, Mu, Jesse, Lambert, Mike, Tong, Meg, MacDiarmid, Monte, Lanham, Tamera, Ziegler, Daniel M, Maxwell, Tim, Cheng, Newton, *et al.*  
+  - *arXiv preprint arXiv:2401.05566*, 2024.
+
+- Data Poisoning for In-Context Learning.  
+  - He, Pengfei, Xu, Han, Xing, Yue, Liu, Hui, Yamada, Makoto, **and** Tang, Jiliang  
+  - *arXiv preprint arXiv:2402.02160*, 2024.
+
+- Human-Imperceptible Retrieval Poisoning Attacks in LLM-Powered Applications.  
+  - Zhang, Quan, Zeng, Binqi, Zhou, Chijin, Go, Gwihwan, Shi, Heyuan, **and** Jiang, Yu  
+  - *arXiv preprint arXiv:2404.17196*, 2024.
+
+- An LLM-Assisted Easy-to-Trigger Poisoning Attack on Code Completion Models: Injecting Disguised Vulnerabilities Against Strong Detection.  
+  - Yan, Shenao, Wang, Shen, Duan, Yue, Hong, Hanbin, Lee, Kiho, Kim, Doowon, **and** Hong, Yuan  
+  - *USENIX Security*, 2024.
+
+- Composite Backdoor Attacks Against Large Language Models.  
+  - Huang, Hai, Zhao, Zhengyu, Backes, Michael, Shen, Yun, **and** Zhang, Yang  
+  - *NAACL*, 2024.
+
+- A Gradient Control Method for Backdoor Attacks on Parameter-Efficient Tuning.  
+  - Gu, Naibin, Fu, Peng, Liu, Xiyu, Liu, Zhengxiao, Lin, Zheng, **and** Wang, Weiping  
+  - *ACL*, 2023.
+
+- TrojLLM: A Black-Box Trojan Prompt Attack on Large Language Models.  
+  - Xue, Jiaqi, Zheng, Mengxin, Hua, Ting, Shen, Yilin, Liu, Yepeng, Bölöni, Ladislau, **and** Lou, Qian  
+  - *NeurIPS*, 2024.
+
+- Backdooring Instruction-Tuned Large Language Models with Virtual Prompt Injection.  
+  - Yan, Jun, Yadav, Vikas, Li, Shiyang, Chen, Lichang, Tang, Zheng, Wang, Hai, Srinivasan, Vijay, **and** Ren, Xiang, Jin, Hongxia  
+  - *NAACL*, 2024.
+
+- Uncertainty Is Fragile: Manipulating Uncertainty in Large Language Models.  
+  - Zeng, Qingcheng, Jin, Mingyu, Yu, Qinkai, Wang, Zhenting, Hua, Wenyue, Zhou, Zihao, Sun, Guangyan, Meng, Yanda, Ma, Shiqing, Wang, Qifan, *et al.*  
+  - *arXiv preprint arXiv:2407.11282*, 2024.
+
+- BadEdit: Backdooring Large Language Models by Model Editing.  
+  - Li, Yanzhou, Li, Tianlin, Chen, Kangjie, Zhang, Jian, Liu, Shangqing, Wang, Wenhan, Zhang, Tianwei, **and** Liu, Yang  
+  - *ICLR*, 2024.
+
 
 ##### Backdoor Defenses
 
+- IMBERT: Making BERT Immune to Insertion-Based Backdoor Attacks.  
+  - He, Xuanli, Wang, Jun, Rubinstein, Benjamin, **and** Cohn, Trevor  
+  - *TrustNLP*, 2023.
+
+- Defending Against Insertion-Based Textual Backdoor Attacks via Attribution.  
+  - Li, Jiazhao, Wu, Zhuofeng, Ping, Wei, Xiao, Chaowei, **and** Vydiswaran, VG  
+  - *ACL*, 2023.
+
+- Defending Against Backdoor Attacks in Natural Language Generation.  
+  - Sun, Xiaofei, Li, Xiaoya, Meng, Yuxian, Ao, Xiang, Lyu, Lingjuan, Li, Jiwei, **and** Zhang, Tianwei  
+  - *AAAI*, 2023.
+
+- Parafuzz: An Interpretability-Driven Technique for Detecting Poisoned Samples in NLP.  
+  - Yan, Lu, Zhang, Zhuo, Tao, Guanhong, Zhang, Kaiyuan, Chen, Xuan, Shen, Guangyu, **and** Zhang, Xiangyu  
+  - *NeurIPS*, 2024.
+
+- Defending Pre-Trained Language Models as Few-Shot Learners Against Backdoor Attacks.  
+  - Xi, Zhaohan, Du, Tianyu, Li, Changjiang, Pang, Ren, Ji, Shouling, Chen, Jinghui, Ma, Fenglong, **and** Wang, Ting  
+  - *NeurIPS*, 2024.
+
+- Analyzing and Editing Inner Mechanisms of Backdoored Language Models.  
+  - Lamparth, Max, **and** Reuel, Anka  
+  - *ACM FAccT*, 2024.
+
+- Backdoor Removal for Generative Large Language Models.  
+  - Li, Haoran, Chen, Yulin, Zheng, Zihao, Hu, Qi, Chan, Chunkit, Liu, Heshan, **and** Song, Yangqiu  
+  - *arXiv preprint arXiv:2405.07667*, 2024.
+
+- Beear: Embedding-Based Adversarial Removal of Safety Backdoors in Instruction-Tuned Language Models.  
+  - Zeng, Yi, Sun, Weiyu, Huynh, Tran Ngoc, Song, Dawn, Li, Bo, **and** Jia, Ruoxi  
+  - *EMNLP*, 2024.
+
+- CROW: Eliminating Backdoors from Large Language Models via Internal Consistency Regularization.  
+  - Min, Nay Myat, Pham, Long H, Li, Yige, **and** Sun, Jun  
+  - *arXiv preprint arXiv:2411.12768*, 2024.
+
+- Setting the Trap: Capturing and Defeating Backdoors in Pretrained Language Models Through Honeypots.  
+  - Tang, Ruixiang Ryan, Yuan, Jiayi, Li, Yiming, Liu, Zirui, Chen, Rui, **and** Hu, Xia  
+  - *NeurIPS*, 2023.
+
+- Maximum Entropy Loss, the Silver Bullet Targeting Backdoor Attacks in Pre-Trained Language Models.  
+  - Liu, Zhengxiao, Shen, Bowen, Lin, Zheng, Wang, Fali, **and** Wang, Weiping  
+  - *ACL*, 2023.
+
+- Data-Centric NLP Backdoor Defense from the Lens of Memorization.  
+  - Wang, Zhenting, Wang, Zhizhi, Jin, Mingyu, Du, Mengnan, Zhai, Juan, **and** Ma, Shiqing  
+  - *arXiv preprint arXiv:2409.14200*, 2024.
+
+- Securing Multi-Turn Conversational Language Models Against Distributed Backdoor Triggers.  
+  - Tong, Terry, Xu, Jiashu, Liu, Qin, **and** Chen, Muhao  
+  - *arXiv preprint arXiv:2407.04151*, 2024.
+
+- CleanGen: Mitigating Backdoor Attacks for Generation Tasks in Large Language Models.  
+  - Li, Yuetai, Xu, Zhangchen, Jiang, Fengqing, Niu, Luyao, Sahabandu, Dinuka, Ramasubramanian, Bhaskar, **and** Poovendran, Radha  
+  - *EMNLP*, 2024.
+
+
 ##### Safety Alignment
+
+- Deep Reinforcement Learning from Human Preferences.  
+  - Christiano, Paul F., Leike, Jan, Brown, Tom, Martic, Miljan, Legg, Shane, **and** Amodei, Dario  
+  - *NeurIPS*, 2017.
+
+- Fine-Tuning Language Models from Human Preferences.  
+  - Ziegler, Daniel M., Stiennon, Nisan, Wu, Jeffrey, Brown, Tom B., Radford, Alec, Amodei, Dario, Christiano, Paul, **and** Irving, Geoffrey  
+  - *arXiv preprint arXiv:1909.08593*, 2019.
+
+- Training Language Models to Follow Instructions with Human Feedback.  
+  - Ouyang, Long, Wu, Jeffrey, Jiang, Xu, Almeida, Diogo, Wainwright, Carroll, Mishkin, Pamela, Zhang, Chong, Agarwal, Sandhini, Slama, Katarina, Ray, Alex, **et al.**  
+  - *NeurIPS*, 2022.
+
+- Safe RLHF: Safe Reinforcement Learning from Human Feedback.  
+  - Dai, Josef, Pan, Xuehai, Sun, Ruiyang, Ji, Jiaming, Xu, Xinbo, Liu, Mickel, Wang, Yizhou, **and** Yang, Yaodong  
+  - *ICLR*, 2024.
+
+- Direct Preference-Based Policy Optimization Without Reward Modeling.  
+  - An, Gaon, Lee, Junhyeok, Zuo, Xingdong, Kosaka, Norio, Kim, Kyung-Min, **and** Song, Hyun Oh  
+  - *NeurIPS*, 2023.
+
+- Direct Preference Optimization: Your Language Model is Secretly a Reward Model.  
+  - Rafailov, Rafael, Sharma, Archit, Mitchell, Eric, Manning, Christopher D., Ermon, Stefano, **and** Finn, Chelsea  
+  - *NeurIPS*, 2024.
+
+- Beyond One-Preference-for-All: Multi-Objective Direct Preference Optimization.  
+  - Zhou, Zhanhui, Liu, Jie, Yang, Chao, Shao, Jing, Liu, Yu, Yue, Xiangyu, Ouyang, Wanli, **and** Qiao, Yu  
+  - *ACL*, 2024.
+
+- KTO: Model Alignment as Prospect Theoretic Optimization.  
+  - Ethayarajh, Kawin, Xu, Winnie, Muennighoff, Niklas, Jurafsky, Dan, **and** Kiela, Douwe  
+  - *arXiv preprint arXiv:2402.01306*, 2024.
+
+- LIMA: Less is More for Alignment.  
+  - Zhou, Chunting, Liu, Pengfei, Xu, Puxin, Iyer, Srinivasan, Sun, Jiao, Mao, Yuning, Ma, Xuezhe, Efrat, Avia, Yu, Ping, Yu, Lili, **et al.**  
+  - *NeurIPS*, 2024.
+
+- Constitutional AI: Harmlessness from AI Feedback.  
+  - Bai, Yuntao, Kadavath, Saurav, Kundu, Sandipan, Askell, Amanda, Kernion, Jackson, Jones, Andy, Chen, Anna, Goldie, Anna, Mirhoseini, Azalia, McKinnon, Cameron, **et al.**  
+  - *arXiv preprint arXiv:2212.08073*, 2022.
+
+- Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision.  
+  - Sun, Zhiqing, Shen, Yikang, Zhou, Qinhong, Zhang, Hongxin, Chen, Zhenfang, Cox, David, Yang, Yiming, **and** Gan, Chuang  
+  - *NeurIPS*, 2024.
+
+- RLCD: Reinforcement Learning from Contrastive Distillation for LM Alignment.  
+  - Yang, Kevin, Klein, Dan, Celikyilmaz, Asli, Peng, Nanyun, **and** Tian, Yuandong  
+  - *ICLR*, 2024.
+
+- Training Socially Aligned Language Models on Simulated Social Interactions.  
+  - Liu, Ruibo, Yang, Ruixin, Jia, Chenyan, Zhang, Ge, Zhou, Denny, Dai, Andrew M., Yang, Diyi, **and** Vosoughi, Soroush  
+  - *ICLR*, 2024.
+
+- Self-Alignment of Large Language Models via Monopolylogue-Based Social Scene Simulation.  
+  - Pang, Xianghe, Tang, Shuo, Ye, Rui, Xiong, Yuxin, Zhang, Bolun, Wang, Yanfeng, **and** Chen, Siheng  
+  - *arXiv preprint arXiv:2402.05699*, 2024.
+
 
 ##### Energy Latency Attacks
 
+- Nmtsloth: Understanding and Testing Efficiency Degradation of Neural Machine Translation Systems.  
+  - Chen, Simin, Liu, Cong, Haque, Mirazul, Song, Zihe, **and** Yang, Wei  
+  - *ESEC/FSE*, 2022.
+
+- Dynamic Transformers Provide a False Sense of Efficiency.  
+  - Chen, Yiming, Chen, Simin, Li, Zexin, Yang, Wei, Liu, Cong, Tan, Robby, **and** Li, Haizhou  
+  - *ACL*, 2023.
+
+- LLMEffiChecker: Understanding and Testing Efficiency Degradation of Large Language Models.  
+  - Feng, Xiaoning, Han, Xiaohong, Chen, Simin, **and** Yang, Wei  
+  - *ACM Transactions on Software Engineering and Methodology*, Vol. 33, p. 38, 2024.
+
+- TTSlow: Slow Down Text-to-Speech with Efficiency Robustness Evaluations.  
+  - Gao, Xiaoxue, Chen, Yiming, Yue, Xianghu, Tsao, Yu, **and** Chen, Nancy F.  
+  - *arXiv preprint arXiv:2407.01927*, 2024.
+
+- No-Skim: Towards Efficiency Robustness Evaluation on Skimming-Based Language Models.  
+  - Zhang, Shengyao, Zhang, Mi, Pan, Xudong, **and** Yang, Min  
+  - *arXiv preprint arXiv:2312.09494*, 2023.
+
+- Denial-of-Service Poisoning Attacks Against Large Language Models.  
+  - Gao, Kuofeng, Pang, Tianyu, Du, Chao, Yang, Yong, Xia, Shu-Tao, **and** Lin, Min  
+  - *arXiv preprint arXiv:2410.10760*, 2024.
+
+
 ##### Model Extraction Attacks
 
+- Lion: Adversarial Distillation of Proprietary Large Language Models.  
+  - Jiang, Yuxin, Chan, Chunkit, Chen, Mingyang, **and** Wang, Wei  
+  - *EMNLP*, 2023.
+
+- On Extracting Specialized Code Abilities from Large Language Models: A Feasibility Study.  
+  - Li, Zongjie, Wang, Chaozheng, Ma, Pingchuan, Liu, Chaowei, Wang, Shuai, Wu, Daoyuan, Gao, Cuiyun, **and** Liu, Yang  
+  - *ICSE*, 2024.
+
+- Alignment-Aware Model Extraction Attacks on Large Language Models.  
+  - Liang, Zi, Ye, Qingqing, Wang, Yanyun, Zhang, Sen, Xiao, Yaxin, Li, Ronghua, Xu, Jianliang, **and** Hu, Haibo  
+  - *arXiv preprint arXiv:2409.02718*, 2024.
+
+
 ##### Data Extraction Attacks
+
+- The Secret Sharer: Evaluating and Testing Unintended Memorization in Neural Networks.  
+  - Carlini, Nicholas, Liu, Chang, Erlingsson, Úlfar, Kos, Jernej, **and** Song, Dawn  
+  - *USENIX Security*, 2019.
+
+- Extracting Training Data from Large Language Models.  
+  - Carlini, Nicholas, Tramer, Florian, Wallace, Eric, Jagielski, Matthew, Herbert-Voss, Ariel, Lee, Katherine, Roberts, Adam, Brown, Tom, Song, Dawn, Erlingsson, Ulfar, **et al.**  
+  - *USENIX Security*, 2021.
+
+- Scalable Extraction of Training Data from (Production) Language Models.  
+  - Nasr, Milad, Carlini, Nicholas, Hayase, Jonathan, Jagielski, Matthew, Cooper, A Feder, Ippolito, Daphne, Choquette-Choo, Christopher A, Wallace, Eric, Tramèr, Florian, **and** Lee, Katherine  
+  - *arXiv preprint arXiv:2311.17035*, 2023.
+
+- Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing.  
+  - Xu, Zhangchen, Jiang, Fengqing, Niu, Luyao, Deng, Yuntian, Poovendran, Radha, Choi, Yejin, **and** Lin, Bill Yuchen  
+  - *arXiv preprint arXiv:2406.08464*, 2024.
+
+- Traces of Memorisation in Large Language Models for Code.  
+  - Al-Kaswan, Ali, Izadi, Maliheh, **and** Van Deursen, Arie  
+  - *ICSE*, 2024.
+
+- Special Characters Attack: Toward Scalable Training Data Extraction from Large Language Models.  
+  - Bai, Yang, Pei, Ge, Gu, Jindong, Yang, Yong, **and** Ma, Xingjun  
+  - *arXiv preprint arXiv:2405.05990*, 2024.
+
+- Alpaca Against Vicuna: Using LLMs to Uncover Memorization of LLMs.  
+  - Kassem, Aly M, Mahmoud, Omar, Mireshghallah, Niloofar, Kim, Hyunwoo, Tsvetkov, Yulia, Choi, Yejin, Saad, Sherif, **and** Rana, Santu  
+  - *arXiv preprint arXiv:2403.04801*, 2024.
+
+- Follow My Instruction and Spill the Beans: Scalable Data Extraction from Retrieval-Augmented Generation Systems.  
+  - Qi, Zhenting, Zhang, Hanlin, Xing, Eric, Kakade, Sham, **and** Lakkaraju, Himabindu  
+  - *arXiv preprint arXiv:2402.17840*, 2024.
+
+- Towards More Realistic Extraction Attacks: An Adversarial Perspective.  
+  - More, Yash, Ganesh, Prakhar, **and** Farnadi, Golnoosh  
+  - *arXiv preprint arXiv:2407.02596*, 2024.
+
+- Bag of Tricks for Training Data Extraction from Language Models.  
+  - Yu, Weichen, Pang, Tianyu, Liu, Qian, Du, Chao, Kang, Bingyi, Huang, Yan, Lin, Min, **and** Yan, Shuicheng  
+  - *ICML*, 2023.
+
+- Uncovering Latent Memories: Assessing Data Leakage and Memorization Patterns in Large Language Models.  
+  - Duan, Sunny, Khona, Mikail, Iyer, Abhiram, Schaeffer, Rylan, **and** Fiete, Ila R  
+  - *ICML Workshop*, 2024.
+
+
 
 </details>
 
