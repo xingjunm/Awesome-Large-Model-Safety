@@ -3,19 +3,20 @@
 </div>
 
 
-## Safety at Scale: A Comprehensive Survey of Large Model Safety
+## 💡 About the Survey
 
-This survey provides a systematic review of current safety research on large models, covering Vision Foundation Models (VFMs), Large Language Models (LLMs), Vision-Language Pre-training (VLP) models, Vision-Language Models (VLMs), Diffusion Models (DMs), and large-model-based Agents. 
-Our contributions are summarized as follows: (1) We present a comprehensive taxonomy of safety threats to these models, including adversarial attacks, data poisoning, backdoor attacks, jailbreak and prompt injection attacks, energy-latency attacks, data and model extraction attacks, and emerging agent-specific threats. 
-(2) We review defense strategies proposed for each type of attacks if available and summarize the commonly used datasets and benchmarks for safety research.
-(3) Building on this, we identify and discuss the open challenges in large model safety, emphasizing the need for comprehensive safety evaluations, scalable and effective defense mechanisms, and sustainable data practices. More importantly, we highlight the necessity of collective efforts from the research community and international collaboration.
-Our work can serve as a useful reference for researchers and practitioners, fostering the ongoing development of comprehensive defense systems and platforms to safeguard AI models.
+This survey provides a systematic review of current safety research on large models, covering **Vision Foundation Models** (VFMs), **Large Language Models** (LLMs), **Vision-Language Pre-training** (VLP) models, **Vision-Language Models** (VLMs), **Diffusion Models** (DMs), and large-model-based **Agents**. 
 
+- We present a **comprehensive taxonomy of safety threats** to the above models. 
+
+- We review **defense strategies** （if available)  proposed for each type of attacks as well as commonly used **datasets and benchmarks**.
+
+- We identify and discuss the **open challenges** in large model safety.
 
 ---
-Given the broad scope of our survey, we have structured it with the following considerations to enhance clarity and organization:
+The survey have been structured with the following considerations for clarity and readability:
 
-- **Models**. We focus on six widely studied model categories, including **VFMs**, **LLMs**, **VLPs**, **VLMs**, **DMs**, and **Agents**, and review the attack and defense methods for each separately. These models represent the most popular large models across various domains.
+- **Models**. We focus on 6 widely studied model categories, including **VFMs**, **LLMs**, **VLPs**, **VLMs**, **DMs**, and **Agents**, and review the attack and defense methods for each separately. These models represent the most popular large models across various domains.
 
 - **Organization**. For each model category, we classify the reviewed works into attacks and defenses, and identify **10** attack types: **adversarial**, **backdoor**, **poisoning**, **jailbreak**, **prompt injection**, **energy-latency**, **membership inference**, **model extraction**, **data extraction**, and **agent** attacks. When both backdoor and poisoning attacks are present for a model category, we combine them into a single **backdoor & poisoning** category due to their similarities. We review the corresponding defense strategies for each attack type immediately after the attacks.
 
@@ -25,25 +26,24 @@ Given the broad scope of our survey, we have structured it with the following co
 
 
 <div align="center">
-  <img src="/assets/New_Fig.png" alt="Safety survey" />
+  <img src="/assets/stats.png" alt="Paper stats" />
 </div>
 
 ---
 
-## Organization of This Survey 
+## 🐝 Survey Methodology
 
-Our survey methodology is structured as follows. First, we conducted a keyword-based search targeting specific model types and threat types to identify relevant papers. Next, we manually filtered out non-safety-related and non-technical papers. For each remaining paper, we categorized its proposed method or framework by analyzing its settings and attack/defense types, assigning them to appropriate categories and subcategories. We collected **390** technical papers, with their distribution across years, model types, and attack/defense strategies illustrated in **Figure**. As shown, safety research on large models has surged significantly since 2023, following the release of ChatGPT. Among the model types, **LLMs** and **DMs** have garnered the most attention, accounting for over **60%** of the surveyed papers. Regarding attack types, **jailbreak**, **adversarial**, and **backdoor attacks** were the most extensively studied. On the defense side, **jailbreak defenses** received the highest focus, followed by **adversarial defenses**.
+First, we conducted a keyword-based search targeting specific model types and threat types to identify relevant papers. Next, we manually filtered out non-safety-related and non-technical papers. For each remaining paper, we categorized its proposed method or framework by analyzing its settings and attack/defense types, assigning them to appropriate categories and subcategories. We collected **390** technical papers, with their distribution across years, model types, and attack/defense strategies illustrated in the following Figures. As shown, safety research on large models has surged significantly since 2023, following the release of ChatGPT. Among the model types, **LLMs** and **DMs** have garnered the most attention, accounting for over **60%** of the surveyed papers. Regarding attack types, **jailbreak**, **adversarial**, and **backdoor attacks** were the most extensively studied. On the defense side, **jailbreak defenses** received the highest focus, followed by **adversarial defenses**.
 
 
 <div align="center">
-  <img src="/assets/Organization.png" alt="Safety survey" />
+  <img src="/assets/New_Fig.png" alt="trends" />
 </div>
-
 
 
 --- 
 
-## Content
+## 🌟 Papers
 
 <!-- Chapter 2-->
 <details>
@@ -1804,7 +1804,7 @@ Our survey methodology is structured as follows. First, we conducted a keyword-b
 </details>
 
 
-## Open Challenges
+## 🥎 Open Challenges
 
 Based on the survey, we identify several limitations and gaps in existing research and summarize them into the following topics. These open challenges reflect the evolving nature of large model safety, highlighting both technical and methodological barriers that must be overcome to ensure robustness and reliability across various AI systems.
 
@@ -1897,13 +1897,22 @@ Based on the survey, we identify several limitations and gaps in existing resear
 
 
 
-## Acknowledge
+## 🌴 Missing Papers
 
-Our survey is ongoing, and we plan to continue updating it by incorporating research papers from 2025. If you notice any missing works that should be included, please feel free to contact us directly. To suggest additional papers for inclusion, please submit the details using the following Google Form:  
+We will keep updaint this survey. Please complete the following form to submit your paper for citation.  
 
 👉 [Submit Your Paper](https://forms.gle/SkFbVvZYw8r8cJJ17)
 
 We appreciate your contributions and look forward to keeping this survey comprehensive and up to date!
 
 
-## Citation
+## 🐥 Citation
+
+```bibtex
+@article{ma2025safety,
+  title={Safety at Scale: A Comprehensive Survey of Large Model Safety},
+  author={Xingjun Ma, Yifeng Gao, Yixu Wang, Ruofan Wang, Xin Wang, Ye Sun, Yifan Ding, Hengyuan Xu, Yunhao Chen, Yunhan Zhao, Hanxun Huang, Yige Li, Jiaming Zhang, Xiang Zheng, Yang Bai, Henghui Ding, Zuxuan Wu, Xipeng Qiu, Jingfeng Zhang, Yiming Li, Jun Sun, Cong Wang, Jindong Gu, Baoyuan Wu, Siheng Chen, Tianwei Zhang, Yang Liu, Mingming Gong, Tongliang Liu, Shirui Pan, Cihang Xie, Tianyu Pang, Yinpeng Dong, Ruoxi Jia, Yang Zhang, Shiqing Ma, Xiangyu Zhang, Neil Gong, Chaowei Xiao, Sarah Erfani, Bo Li, Masashi Sugiyama, Dacheng Tao, James Bailey, Yu-Gang Jiang},
+  journal={arXiv:2502.05206},
+  year={2025}
+}
+
