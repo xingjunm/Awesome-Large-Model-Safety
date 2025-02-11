@@ -1899,7 +1899,7 @@ Based on the survey, we identify several limitations and gaps in existing resear
 
 ## 🌴 Missing Papers
 
-We will keep updaint this survey. Please complete the following form to submit your paper for citation.  
+We will keep updating this survey. Please complete the following form to submit your paper for citation.  
 
 👉 [Submit Your Paper](https://forms.gle/SkFbVvZYw8r8cJJ17)
 
