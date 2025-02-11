@@ -31,7 +31,7 @@ The survey have been structured with the following considerations for clarity an
 
 ---
 
-## 🐝 Survey Methodology
+## 🏈 Survey Methodology
 
 First, we conducted a keyword-based search targeting specific model types and threat types to identify relevant papers. Next, we manually filtered out non-safety-related and non-technical papers. For each remaining paper, we categorized its proposed method or framework by analyzing its settings and attack/defense types, assigning them to appropriate categories and subcategories. We collected **390** technical papers, with their distribution across years, model types, and attack/defense strategies illustrated in the following Figures. As shown, safety research on large models has surged significantly since 2023, following the release of ChatGPT. Among the model types, **LLMs** and **DMs** have garnered the most attention, accounting for over **60%** of the surveyed papers. Regarding attack types, **jailbreak**, **adversarial**, and **backdoor attacks** were the most extensively studied. On the defense side, **jailbreak defenses** received the highest focus, followed by **adversarial defenses**.
 
