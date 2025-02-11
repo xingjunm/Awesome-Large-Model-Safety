@@ -26,8 +26,13 @@ The survey have been structured with the following considerations for clarity an
 
 
 <div align="center">
-  <img src="/assets/stats.png" alt="Paper stats" />
+  <figure>
+    <img src="/assets/stats.png" alt="Paper stats" />
+    <figcaption>Figure 1: **Left:** The number of safety research papers published over the past four years. **Middle:** The distribution of research across
+different models. **Right:** The distribution of research across different types of attacks and defenses. </figcaption>
+  </figure>
 </div>
+
 
 ---
 
@@ -37,7 +42,10 @@ First, we conducted a keyword-based search targeting specific model types and th
 
 
 <div align="center">
+    <figure>
   <img src="/assets/New_Fig.png" alt="trends" />
+    <figcaption>Figure 2: Paper statistics overview. </figcaption>
+    </figure>
 </div>
 
 
