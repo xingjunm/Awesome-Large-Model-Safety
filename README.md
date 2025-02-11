@@ -2,7 +2,6 @@
   <img src="assets/logo.png" alt="Safety Logo" />
 </div>
 
-# Awesome-Large-Model-Safety
 ## Safety at Scale: A Comprehensive Survey of Large Model Safety
 
 This survey provides a systematic review of current safety research on large models, covering Vision Foundation Models (VFMs), Large Language Models (LLMs), Vision-Language Pre-training (VLP) models, Vision-Language Models (VLMs), Diffusion Models (DMs), and large-model-based Agents. 
