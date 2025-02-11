@@ -2,6 +2,7 @@
   <img src="assets/logo.png" alt="Safety Logo" />
 </div>
 
+
 ## Safety at Scale: A Comprehensive Survey of Large Model Safety
 
 This survey provides a systematic review of current safety research on large models, covering Vision Foundation Models (VFMs), Large Language Models (LLMs), Vision-Language Pre-training (VLP) models, Vision-Language Models (VLMs), Diffusion Models (DMs), and large-model-based Agents. 
@@ -30,7 +31,6 @@ Given the broad scope of our survey, we have structured it with the following co
 ---
 
 ## Organization of This Survey 
-## Survey Methodology
 
 Our survey methodology is structured as follows. First, we conducted a keyword-based search targeting specific model types and threat types to identify relevant papers. Next, we manually filtered out non-safety-related and non-technical papers. For each remaining paper, we categorized its proposed method or framework by analyzing its settings and attack/defense types, assigning them to appropriate categories and subcategories. We collected **390** technical papers, with their distribution across years, model types, and attack/defense strategies illustrated in **Figure**. As shown, safety research on large models has surged significantly since 2023, following the release of ChatGPT. Among the model types, **LLMs** and **DMs** have garnered the most attention, accounting for over **60%** of the surveyed papers. Regarding attack types, **jailbreak**, **adversarial**, and **backdoor attacks** were the most extensively studied. On the defense side, **jailbreak defenses** received the highest focus, followed by **adversarial defenses**.
 
