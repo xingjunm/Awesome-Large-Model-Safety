@@ -26,7 +26,7 @@ Given the broad scope of our survey, we have structured it with the following co
 
 ---
 
-## Organization of this survey 
+## Organization of This Survey 
 Our survey methodology is structured as follows. First, we conducted a keyword-based search targeting specific model types and threat types to identify relevant papers. Next, we manually filtered out non-safety-related and non-technical papers. For each remaining paper, we categorized its proposed method or framework by analyzing its settings and attack/defense types, assigning them to appropriate categories and subcategories.
 
 In total, we collected \textbf{390} technical papers, with their distribution across years, model types, and attack/defense strategies illustrated in Figure \ref{fig:total_num}. As shown, safety research on large models has surged significantly since 2023, following the release of ChatGPT. Among the model types, LLMs and DMs have garnered the most attention, accounting for over \textbf{60\%} of the surveyed papers. Regarding attack types, \textbf{jailbreak}, \textbf{adversarial}, and \textbf{backdoor attacks} were the most extensively studied. On the defense side, \textbf{jailbreak defenses} received the highest focus, followed by \textbf{adversarial defenses}.
@@ -1803,8 +1803,137 @@ Figure \ref{fig:crossview} presents a cross-view of temporal trends across model
 
 ## Open Challenges
 
+Based on the survey, we identify several limitations and gaps in existing research and summarize them into the following topics. These open challenges reflect the evolving nature of large model safety, highlighting both technical and methodological barriers that must be overcome to ensure robustness and reliability across various AI systems.
+
+### Fundamental Vulnerabilities
+
+<details>
+  <summary>▶ **The Purpose of Attack Is Not Just to Break the Model**</summary>
+  While attacks are often designed to disrupt model functionality, they also serve as diagnostic tools to uncover unintended behaviors and reveal fundamental weaknesses. A deeper understanding of attack mechanisms can help address vulnerabilities at their root.
+</details>
+
+<details>
+  <summary>▶ **What Are the Fundamental Vulnerabilities of Language Models?**</summary>
+  LLMs are prone to adversarial inputs, biases, and prompt manipulation. Research must explore how these vulnerabilities stem from model architectures and training data to develop effective defenses.
+</details>
+
+<details>
+  <summary>▶ **How Vulnerabilities Propagate Across Modalities**</summary>
+  Multi-modal models introduce new risks, as vulnerabilities in one modality (e.g., vision) may influence others (e.g., language). The interactions between modalities remain poorly understood, requiring holistic defense strategies.
+</details>
+
+<details>
+  <summary>▶ **Diffusion Models for Visual Content Generation Lack Language Capabilities**</summary>
+  Despite their success in visual content creation, diffusion models struggle with language comprehension, leading to unintended outputs. Integrating linguistic capabilities remains an open challenge.
+</details>
+
+<details>
+  <summary>▶ **How Much Training Data Can a Model Memorize?**</summary>
+  Deep neural networks exhibit memorization tendencies, raising privacy concerns. Understanding the mechanisms behind memorization is crucial for balancing performance and security.
+</details>
+
+<details>
+  <summary>▶ **Agent Vulnerabilities Grow with Their Abilities**</summary>
+  As large-model-powered agents become more capable, their vulnerabilities expand. Ensuring security in evolving agents requires comprehensive defense frameworks.
+</details>
+
+### Safety Evaluation
+
+<details>
+  <summary>▶ **Attack Success Rate Is Not All We Need**</summary>
+  Metrics like attack success rate (ASR) fail to capture the full scope of safety risks. More comprehensive evaluation frameworks are needed to assess model resilience and ethical considerations.
+</details>
+
+<details>
+  <summary>▶ **Static Evaluations Create a False Sense of Safety**</summary>
+  Current safety benchmarks are static and may not reflect real-world threats. Dynamic evaluation methods are required to assess evolving risks effectively.
+</details>
+
+<details>
+  <summary>▶ **Adversarial Evaluations Are a Necessity, Not an Option**</summary>
+  Standard safety tests fail to capture adversarial risks. Adversarial evaluations are essential for understanding worst-case scenarios and improving robustness.
+</details>
+
+<details>
+  <summary>▶ **Open-Ended Evaluation**</summary>
+  LLMs generate open-ended responses, complicating attack assessments. Improved evaluation metrics and constrained output spaces are needed for accurate safety testing.
+</details>
+
+### Safety Defense
+
+<details>
+  <summary>▶ **Safety Alignment Is Not the Savior**</summary>
+  Despite advances in safety alignment, models remain vulnerable to sophisticated attacks. Ensuring deeper, more robust alignment mechanisms is an ongoing challenge.
+</details>
+
+<details>
+  <summary>▶ **Jailbreak Attacks Are More Challenging to Defend Against Than Adversarial Attacks**</summary>
+  Jailbreak attacks bypass safety mechanisms more flexibly than traditional adversarial attacks. Defense strategies must account for unconstrained perturbations.
+</details>
+
+<details>
+  <summary>▶ **The Need for More Practical Defenses**</summary>
+  Effective defenses should be generalizable, efficient, black-box compatible, and adaptable to evolving threats.
+</details>
+
+<details>
+  <summary>▶ **The Lack of Proactive Defenses**</summary>
+  Current defenses focus on mitigating attacks post-occurrence. Proactive defense strategies could deter threats before they succeed.
+</details>
+
+<details>
+  <summary>▶ **Detection Has Been Overlooked in Current Defenses**</summary>
+  Detection mechanisms can enhance safety but are often neglected. Integrating detection into defense pipelines is a key research direction.
+</details>
+
+<details>
+  <summary>▶ **The Current Data Usage Practices Must Change**</summary>
+  Ethical and sustainable data usage is critical. Addressing concerns like consent, data attribution, and memorization is necessary for responsible AI deployment.
+</details>
+
+<details>
+  <summary>▶ **Safe Embodied Agents**</summary>
+  As AI extends into physical systems, ensuring safety in real-world interactions becomes paramount.
+</details>
+
+<details>
+  <summary>▶ **Safe Superintelligence**</summary>
+  Building safety mechanisms into AGI and superintelligent models is a critical challenge. Oversight systems, adversarial safety, and safety-conscious architectures are potential solutions.
+</details>
+
+### A Call for Collective Action
+
+<details>
+  <summary>▶ **Defense-Oriented Research**</summary>
+  The focus on attack strategies has overshadowed the development of robust defenses. Research efforts should prioritize integrated, layered defense mechanisms.
+</details>
+
+<details>
+  <summary>▶ **Dedicated Safety APIs**</summary>
+  Commercial AI models should provide safety APIs to facilitate external safety evaluations and improvements.
+</details>
+
+<details>
+  <summary>▶ **Open-Source Platforms**</summary>
+  Developing and sharing safety platforms would foster collaboration, benchmarking, and transparency in AI safety research.
+</details>
+
+<details>
+  <summary>▶ **Global Collaborations**</summary>
+  AI safety is a global challenge requiring international cooperation in research, policy, and governance.
+</details>
+
+
+
 
 ## Acknowledge
+
+Our survey is ongoing, and we plan to continue updating it by incorporating research papers from 2025. If you notice any missing works that should be included, please feel free to contact us directly.
+
+To suggest additional papers for inclusion, please submit the details using the following Google Form:  
+👉 [Submit Your Paper](https://forms.gle/SkFbVvZYw8r8cJJ17)
+
+We appreciate your contributions and look forward to keeping this survey comprehensive and up to date!
 
 
 ## Citation
