@@ -1,5 +1,6 @@
 <div align="center">
   <img src="assets/logo.png" alt="Safety Logo" />
+  <a href="https://arxiv.org/abs/2502.05206" target="_blank"><img src="https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv" alt="arXiv"></a>
 </div>
 
 
