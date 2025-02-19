@@ -14,6 +14,16 @@ This survey provides a systematic review of current safety research on large mod
 
 - We identify and discuss the **open challenges** in large model safety.
 
+--- 
+## 🌴 Missing Papers
+
+We will keep updating this survey. Please complete the following form to submit your paper for citation.  
+
+👉 [Submit Your Paper](https://forms.gle/SkFbVvZYw8r8cJJ17)
+
+We appreciate your contributions and look forward to keeping this survey comprehensive and up to date!
+
+
 ---
 The survey have been structured with the following considerations for clarity and readability:
 
@@ -48,7 +58,6 @@ First, we conducted a keyword-based search targeting specific model types and th
     <figcaption>Figure 2: Paper statistics overview. </figcaption>
     </figure>
 </div>
-
 
 --- 
 
@@ -1902,17 +1911,6 @@ Based on the survey, we identify several limitations and gaps in existing resear
   AI safety is a global challenge requiring international cooperation in research, policy, and governance.
 
 </details>
-
-
-
-
-## 🌴 Missing Papers
-
-We will keep updating this survey. Please complete the following form to submit your paper for citation.  
-
-👉 [Submit Your Paper](https://forms.gle/SkFbVvZYw8r8cJJ17)
-
-We appreciate your contributions and look forward to keeping this survey comprehensive and up to date!
 
 
 ## 🐥 Citation
