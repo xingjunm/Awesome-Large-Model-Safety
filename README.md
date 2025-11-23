@@ -23,6 +23,7 @@ We will keep updating this survey. Please complete the following form to submit 
 
 We appreciate your contributions and look forward to keeping this survey comprehensive and up to date!
 
+⚠️ Note: We completed a major revision of the paper in August 2025. This version reflects our final planned update, and further substantial revisions may not be possible.
 
 ---
 The survey have been structured with the following considerations for clarity and readability:
