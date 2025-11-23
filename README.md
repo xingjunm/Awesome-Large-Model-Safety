@@ -1,10 +1,10 @@
 <div align="center">
   <img src="assets/logo.png" alt="Safety Logo" />
-  <a href="https://arxiv.org/abs/2502.05206" target="_blank"><img src="https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv" alt="arXiv"></a>
+  <a href="https://www.nowpublishers.com/article/Details/SEC-051" target="_blank"><img src="https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv" alt="arXiv"></a>
 </div>
 
 
-## 🚀 About the Survey
+## 🚀 About the Survey [There is a planned update of the paper list in December, 2025]
 
 This survey provides a systematic review of current safety research on large models, covering **Vision Foundation Models** (VFMs), **Large Language Models** (LLMs), **Vision-Language Pre-training** (VLP) models, **Vision-Language Models** (VLMs), **Diffusion Models** (DMs), and large-model-based **Agents**. 
 
