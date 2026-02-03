@@ -1917,10 +1917,14 @@ Based on the survey, we identify several limitations and gaps in existing resear
 ## 🐥 Citation
 
 ```bibtex
-@article{ma2025safety,
-  title={Safety at Scale: A Comprehensive Survey of Large Model Safety},
-  author={Xingjun Ma, Yifeng Gao, Yixu Wang, Ruofan Wang, Xin Wang, Ye Sun, Yifan Ding, Hengyuan Xu, Yunhao Chen, Yunhan Zhao, Hanxun Huang, Yige Li, Jiaming Zhang, Xiang Zheng, Yang Bai, Zuxuan Wu, Xipeng Qiu, Jingfeng Zhang, Yiming Li, Jun Sun, Cong Wang, Jindong Gu, Baoyuan Wu, Siheng Chen, Tianwei Zhang, Yang Liu, Mingming Gong, Tongliang Liu, Shirui Pan, Cihang Xie, Tianyu Pang, Yinpeng Dong, Ruoxi Jia, Yang Zhang, Shiqing Ma, Xiangyu Zhang, Neil Gong, Chaowei Xiao, Sarah Erfani, Bo Li, Masashi Sugiyama, Dacheng Tao, James Bailey, Yu-Gang Jiang},
-  journal={arXiv:2502.05206},
-  year={2025}
+@article{ma2026safety,
+  title={Safety at scale: A comprehensive survey of large model and agent safety},
+  author={Ma, Xingjun and Gao, Yifeng and Wang, Yixu and Wang, Ruofan and Wang, Xin and Sun, Ye and Ding, Yifan and Xu, Hengyuan and Chen, Yunhao and Zhao, Yunhan and others},
+  journal={Foundations and Trends in Privacy and Security},
+  volume={8},
+  number={3-4},
+  pages={1--240},
+  year={2026},
+  publisher={Emerald Publishing Limited}
 }
 
