@@ -1796,9 +1796,21 @@ First, we conducted a keyword-based search targeting specific model types and th
   - Xiang, Zhen, Zheng, Linzhi, Li, Yanjie, Hong, Junyuan, Li, Qinbin, Xie, Han, Zhang, Jiawei, Xiong, Zidi, Xie, Chulin, Yang, Carl, **and** others 
   - *arXiv preprint arXiv:2406.09187*, 2024.
 
-- SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents.  
-  - Yin, Sheng, Pang, Xianghe, Ding, Yuanzhuo, Chen, Menglan, Bi, Yutong, Xiong, Yichen, Huang, Wenhao, Xiang, Zhen, Shao, Jing, **and** Chen, Siheng 
+- SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents.
+  - Yin, Sheng, Pang, Xianghe, Ding, Yuanzhuo, Chen, Menglan, Bi, Yutong, Xiong, Yichen, Huang, Wenhao, Xiang, Zhen, Shao, Jing, **and** Chen, Siheng
   - *arXiv preprint arXiv:2412.13178*, 2024.
+
+- Malicious Agent Skills in the Wild: A Large-Scale Security Empirical Study.
+  - Liu, Yi, Chen, Zhihao, Zhang, Yanjun, Deng, Gelei, Li, Yuekang, Ning, Jianting, **and** Zhang, Leo Yu
+  - *arXiv preprint arXiv:2602.06547*, 2026.
+
+- SkillJect: Automating Stealthy Skill-Based Prompt Injection for Coding Agents with Trace-Driven Closed-Loop Refinement.
+  - Jia, Xiaojun, Liao, Jie, Qin, Simeng, Gu, Jindong, Ren, Wenqi, Cao, Xiaochun, Liu, Yang, **and** Torr, Philip
+  - *arXiv preprint arXiv:2602.14211*, 2026.
+
+- Skill-Inject: Measuring Agent Vulnerability to Skill File Attacks.
+  - Schmotz, David, Beurer-Kellner, Luca, Abdelnabi, Sahar, **and** Andriushchenko, Maksym
+  - *arXiv preprint arXiv:2602.20156*, 2026.
 
 
 ##### VLM Agent
