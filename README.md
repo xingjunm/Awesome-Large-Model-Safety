@@ -1320,6 +1320,15 @@ First, we conducted a keyword-based search targeting specific model types and th
   - Zhang, Jiaming, Ye, Junhong, Ma, Xingjun, Li, Yige, Yang, Yunfan, Sang, Jitao, **and** Yeung, Dit-Yan  
   - *arXiv preprint arXiv:2410.05346*, 2024.
 
+- CAVALRY-V: a large-scale generator framework for adversarial attacks on video MLLMs.  
+  - Zhang, Jiaming, Hu, Rui, Guo, Qing, **and** Lim, Wei Yang Bryan  
+  - *arXiv preprint arXiv:2507.00817*, 2025.
+
+- Improving adversarial transferability in MLLMs via dynamic vision-language alignment attack.  
+  - Gu, Chenhe, Gu, Jindong, Hua, Andong, **and** Qin, Yao  
+  - *arXiv preprint arXiv:2502.19672*, 2025.
+
+
 
 ##### Jailbreak Attacks
 
@@ -1368,6 +1377,9 @@ First, we conducted a keyword-based search targeting specific model types and th
   - Wang, Ruofan, Wang, Bo, Ma, Xingjun, **and** Jiang, Yu-Gang  
   - *arXiv preprint arXiv:2411.00827*, 2024.
 
+- Heuristic-induced multimodal risk distribution jailbreak attack for multimodal large language models.
+  - Teng, Ma, Xiaojun, Jia, Ranjie, Duan, Xinfeng, Li, Yihao, Huang, Xiaoshuang, Jia, Zhixuan, Chu, **and** Wenqi, Ren
+  - *arXiv preprint arXiv:2412.05934*, 2024.
 
 ##### Jailbreak Defenses
 
@@ -1399,6 +1411,15 @@ First, we conducted a keyword-based search targeting specific model types and th
 - BlueSuffix: Reinforced Blue Teaming for Vision-Language Models Against Jailbreak Attacks.  
   - Zhao, Yunhan, Zheng, Xiang, Luo, Lin, Li, Yige, Ma, Xingjun, **and** Jiang, Yu-Gang  
   - *ICLR*, 2025.
+
+- Defending LVLMs against vision attacks through partial-perception supervision.  
+  - Zhou, Qi, Li, Tianlin, Guo, Qing, Wang, Dongxia, Lin, Yun, Liu, Yang, **and** Dong, Jin Song  
+  - *ICLR Workshop*, 2025.
+
+- ETA: Evaluating Then Aligning Safety of Vision Language Models at Inference Time.  
+  - Ding, Yi, Li, Bolian, **and** Zhang, Ruqi  
+  - *ICLR*, 2025.
+
 
 
 ##### Energy Latency Attacks
@@ -1484,6 +1505,33 @@ First, we conducted a keyword-based search targeting specific model types and th
   - Du, Chengbin, Li, Yanxi, Qiu, Zhongwei, **and** Xu, Chang
   - *NeurIPS*, 2024.
 
+- Exploiting cultural biases via homoglyphs in text-to-image synthesis.
+  - Struppek, Lukas, Hintersdorf, Dom, Friedrich, Felix, Schramowski, Patrick, Kersting, Kristian, **and** others
+  - *Journal of Artificial Intelligence Research*, 2023.
+
+- Character as pixels: A controllable prompt adversarial attacking framework for black-box text guided image generation models.
+  - Kou, Ziyi, Pei, Shichao, Tian, Yijun, **and** Zhan, Xiangliang
+  - *IJCAI*, 2023.
+
+- Evaluating the robustness of text-to-image diffusion models against real-world attacks.
+  - Gao, Hongcheng, Zhang, Hao, Dong, Yinpeng, **and** Deng, Zhijie
+  - *arXiv preprint arXiv:2306.13103*, 2023.
+
+- Riatig: Reliable and imperceptible adversarial text-to-image generation with natural prompts.
+  - Liu, Han, Wu, Yuhao, Zhai, Shixuan, Yuan, Bo, **and** Zhang, Ning
+  - *CVPR*, 2023.
+
+- On the multi-modal vulnerability of diffusion models.
+  - Yang, Dingcheng, Bai, Yang, Jia, Xiaojun, Liu, Yang, Cao, Xiaochun, **and** Yu, Wenjian
+  - *TiFA*, 2024.
+
+- Dormant: Defending against pose-driven human image animation.
+  - Zhou, Jiachen, Wang, Mingsi, Li, Tianlin, Meng, Guozhu, **and** Chen, Kai
+  - *arXiv preprint arXiv:2409.14424*, 2024.
+
+- Foolsdedit: Deceptively steering your edits towards targeted attribute-aware distribution.
+  - Zhou, Qi, Wang, Dongxia, Li, Tianlin, Xu, Zhihong, Liu, Yang, Ren, Kui, Wang, Wenhai, **and** Guo, Qing
+  - *arXiv preprint arXiv:2402.03705*, 2024.
 
 ##### Jailbreak Attacks
 
@@ -1518,6 +1566,30 @@ First, we conducted a keyword-based search targeting specific model types and th
 - Red-teaming the stable diffusion safety filter.
   - Rando, Javier, Paleka, Daniel, Lindner, David, Heim, Lennart, **and** Tram{\`e
   - *arXiv preprint arXiv:2210.04610*, 2022.
+
+- Unsafe diffusion: On the generation of unsafe images and hateful memes from text-to-image models.
+  - Qu, Yiting, Shen, Xinyue, He, Xinlei, Backes, Michael, Zannettou, Savvas, **and** Zhang, Yang
+  - *CCS*, 2023.
+
+- Perception-guided jailbreak against text-to-image models.
+  - Huang, Yihao, Liang, Le, Li, Tianlin, Jia, Xiaojun, Wang, Run, Miao, Weikai, Pu, Geguang, **and** Liu, Yang
+  - *AAAI*, 2025.
+
+- Reason2attack: Jailbreaking text-to-image models via llm reasoning.
+  - Zhang, Chenyu, Wang, Lanjun, Ma, Yiwen, Li, Wenhui, **and** Liu, An-An
+  - *arXiv preprint arXiv:2503.17987*, 2025.
+
+- Jailbreaking prompt attack: A controllable adversarial attack against diffusion models.
+  - Ma, Jiachen, Li, Yijiang, Xiao, Zhiqing, Cao, Anda, Zhang, Jie, Ye, Chao, **and** Zhao, Junbo
+  - *arXiv preprint arXiv:2404.02928*, 2024.
+
+- Mma-diffusion: Multimodal attack on diffusion models.
+  - Yang, Yijun, Gao, Ruiyuan, Wang, Xiaosen, Ho, Tsung-Yi, Xu, Nan, **and** Xu, Qiang
+  - *CVPR*, 2024.
+
+- To generate or not? safety-driven unlearned diffusion models are still easy to generate unsafe images... for now.
+  - Zhang, Yimeng, Jia, Jinghan, Chen, Xin, Chen, Aochuan, Zhang, Yihua, Liu, Jiancheng, Ding, Ke, **and** Liu, Sijia
+  - *ECCV*, 2024.
 
 
 ##### Jailbreak Defenses
@@ -1598,6 +1670,50 @@ First, we conducted a keyword-based search targeting specific model types and th
 - RealEra: Semantic-level Concept Erasure via Neighbor-Concept Mining.
   - Liu, Yufan, An, Jinyang, Zhang, Wanqian, Li, Ming, Wu, Dayan, Gu, Jingzi, Lin, Zheng, **and** Wang, Weiping
   - *arXiv preprint arXiv:2410.09140*, 2024.
+
+- Erasing concepts from diffusion models.
+  - Gandikota, Rohit, Materzynska, Joanna, Fiotto-Kaufman, Jaden, **and** Bau, David
+  - *ICCV*, 2023.
+
+- One-dimensional adapter to rule them all: Concepts diffusion models and erasing applications.
+  - Lyu, Mengyao, Yang, Yuhong, Hong, Haiwen, Chen, Hui, Jin, Xuan, He, Yuan, Xue, Hui, Han, Jungong, **and** Ding, Guiguang
+  - *CVPR*, 2024.
+
+- Towards safe self-distillation of internet-scale text-to-image diffusion models.
+  - Kim, Sanghyun, Jung, Seohyeon, Kim, Balhae, Choi, Moonseok, Shin, Jinwoo, **and** Lee, Juho
+  - *ICML Workshop*, 2023.
+
+- Ablating concepts in text-to-image diffusion models.
+  - Kumari, Nupur, Zhang, Bingliang, Wang, Sheng-Yu, Shechtman, Eli, Zhang, Richard, **and** Zhu, Jun-Yan
+  - *ICCV*, 2023.
+
+- Forget-me-not: Learning to forget in text-to-image diffusion models.
+  - Zhang, Gong, Wang, Kai, Xu, Xingqian, Wang, Zhangyang, **and** Shi, Humphrey
+  - *CVPR*, 2024.
+
+- Implicit concept removal of diffusion models
+  - Liu, Zhili, Chen, Kai, Zhang, Yifan, Han, Jianhua, Hong, Lanqing, Xu, Hang, Li, Zhenguo, Yeung, Dit-Yan, **and** Kwok, James T
+  - *ECCV*, 2024.
+  
+- Safegen: Mitigating sexually explicit content generation in text-to-image models.
+  - Li, Xinfeng, Yang, Yuchen, Deng, Jiangyi, Yan, Chen, Chen, Yanjiao, Ji, Xiaoyu, **and** Xu, Wenyuan
+  - *SIGSAC*, 2024.
+
+- Concept pinpoint eraser for text-to-image diffusion models via residual attention gate
+  - Lee, Byung Hyun, Lim, Sungjin, Lee, Seunggyu, Kang, Dong Un, **and** Chun, Se Young
+  - *arXiv preprint arXiv:2506.22806*, 2025.
+
+- Safe latent diffusion: Mitigating inappropriate degeneration in text-to-image models.
+  - Schramowski, Patrick, Brack, Manuel, Deiseroth, Bj{\"o}rn, **and** Kersting, Kristian
+  - *CVPR*, 2023.
+
+- Promptguard: Soft prompt-guided unsafe content moderation for text-to-image models
+  - Yuan, Lingzhi, Li, Xinfeng, Xu, Chejian, Tao, Guanhong, Jia, Xiaojun, Huang, Yihao, Dong, Wei, Liu, Yang, **and** Li, Bo
+  - *arXiv preprint arXiv:2501.03544*, 2025.
+
+- Concept corrector: Erase concepts on the fly for text-to-image diffusion models
+  - Meng, Zheling, Peng, Bo, Jin, Xiaochuan, Lyu, Yueming, Wang, Wei, Dong, Jing, **and** Tan, Tieniu
+  - *PRCV*, 2025.
 
 ##### Backdoor Attacks
 
@@ -1683,6 +1799,10 @@ First, we conducted a keyword-based search targeting specific model types and th
 - PureDiffusion: Using Backdoor to Counter Backdoor in Generative Diffusion Models.  
   - Truong, Vu Tuan, **and** Le, Long Bao  
   - *arXiv preprint arXiv:2409.13945*, 2024.
+
+- Efficient Backdoor Detection on Text-to-image Synthesis via Neuron Activation Variation.
+  - Zhai, Shengfang, Li, Jiajun, Liu, Yue, Dong, Yinpeng, Tian, Zhihua, Qu, Wenjie, Shen, Qingni, Jia, Ruoxi, **and** Zhang, Jiaheng
+  - *ICLR Workshop*, 2025.
 
 ##### Membership Inference Attacks
 
