@@ -254,6 +254,15 @@ First, we conducted a keyword-based search targeting specific model types and th
   - Subramanya, Akshayvarun, Saha, Aniruddha, Koohpayegani, Soroush Abbasi, Tejankar, Ajinkya, **and** Pirsiavash, Hamed  
   - *arXiv preprint arXiv:2206.08477*, 2022.
 
+- Improving Adversarial Transferability on Vision Transformers via Forward Propagation Refinement.  
+  - Ren, Yuchen, Zhao, Zhengyu, Lin, Chenhao, Yang, Bo, Zhou, Lu, Liu, Zhe, **and** Shen, Chao  
+  - *CVPR*, 2025.
+
+- SATA: Spatial Autocorrelation Token Analysis for Enhancing the Robustness of Vision Transformers.  
+  - Nikzad, Nick, Liao, Yi, Gao, Yongsheng, **and** Zhou, Jun  
+  - *CVPR*, 2025.
+
+
 
 ##### Attacks and Defense for SAM
 
@@ -300,6 +309,10 @@ First, we conducted a keyword-based search targeting specific model types and th
 - UnSeg: One Universal Unlearnable Example Generator is Enough against All Image Segmentation.  
   - Sun, Ye, Zhang, Hao, Zhang, Tiehua, Ma, Xingjun, **and** Jiang, Yu-Gang  
   - *NeurIPS*, 2024.
+
+- Robust SAM: On the adversarial robustness of vision foundation models.  
+  - Long, Jiahuan, Xu, Zhengqin, Jiang, Tingsong, Yao, Wen, Jia, Shuai, Ma, Chao, **and** Chen, Xiaoqian  
+  - *AAAI*, 2025.
 
 
 </details>
@@ -367,6 +380,7 @@ First, we conducted a keyword-based search targeting specific model types and th
 - Improving Alignment and Robustness with Circuit Breakers.  
   - Zou, Andy, Phan, Long, Wang, Justin, Duenas, Derek, Lin, Maxwell, Andriushchenko, Maksym, Kolter, J Zico, Fredrikson, Matt, **and** Hendrycks, Dan  
   - *NeurIPS*, 2024.
+ 
 
 
 ##### Jailbreak Attack
@@ -471,6 +485,25 @@ First, we conducted a keyword-based search targeting specific model types and th
   - Jiang, Weipeng, Wang, Zhenting, Zhai, Juan, Ma, Shiqing, Zhao, Zhengyu, **and** Shen, Chao  
   - *arXiv preprint arXiv:2408.11313*, 2024.
 
+- Evaluating implicit bias in large language models by attacking from a psychometric perspective.  
+  - Wen, Yuchen, Bi, Keping, Chen, Wei, Guo, Jiafeng, **and** Cheng, Xueqi  
+  - *Findings of ACL*, 2025.
+
+- LLMs can be dangerous reasoners: Analyzing-based jailbreak attack on large language models.  
+  - Lin, Shi, Yang, Hongming, Li, Rongchang, Wang, Xun, Lin, Changting, Xing, Wenpeng, **and** Han, Meng  
+  - *arXiv preprint arXiv:2407.16205*, 2024.
+
+- Semantic-guided prompt organization for universal goal hijacking against llms.  
+  - Huang, Yihao, Wang, Chong, Jia, Xiaojun, Guo, Qing, Juefei-Xu, Felix, Zhang, Jian, Pu, Geguang, **and** Liu, Yang  
+  - *ACL*, 2025.
+
+- Fine-tuning aligned language models compromises safety, even when users do not intend to!  
+  - Qi, Xiangyu, Zeng, Yi, Xie, Tinghao, Chen, Pin-Yu, Jia, Ruoxi, Mittal, Prateek, **and** Henderson, Peter  
+  - *arXiv preprint arXiv:2310.03693*, 2023.
+
+- Virus: Harmful fine-tuning attack for large language models bypassing guardrail moderation.  
+  - Huang, Tiansheng, Hu, Sihao, Ilhan, Fatih, Tekin, Selim Furkan, **and** Liu, Ling  
+  - *arXiv preprint arXiv:2501.17433*, 2025.
 
 
 ##### Jailbreak Defense
@@ -524,6 +557,49 @@ First, we conducted a keyword-based search targeting specific model types and th
   - Du, Yanrui, Zhao, Sendong, Zhao, Danyang, Ma, Ming, Chen, Yuhan, Huo, Liangyu, Yang, Qing, Xu, Dongliang, **and** Qin, Bing  
   - *NeurIPS*, 2024.
 
+- PEARL: Towards permutation-resilient LLMs.  
+  - Chen, Liang, Shen, Li, Deng, Yang, Zhao, Xiaoyan, Liang, Bin, **and** Wong, Kam-Fai  
+  - *arXiv preprint arXiv:2502.14628*, 2025.
+
+- Vulnerability-aware alignment: Mitigating uneven forgetting in harmful fine-tuning.  
+  - Chen, Liang, Han, Xueting, Shen, Li, Bai, Jing, **and** Wong, Kam-Fai  
+  - *arXiv preprint arXiv:2506.03850*, 2025.
+
+- Round trip translation defence against large language model jailbreaking attacks.  
+  - Yung, Canaan, Dolatabadi, Hadi Mohaghegh, Erfani, Sarah, **and** Leckie, Christopher  
+  - *PAKDD*, 2025.
+
+- Curvalid: Geometrically-guided adversarial prompt detection.  
+  - Yung, Canaan, Huang, Hanxun, Monazam Erfani, Sarah, **and** Leckie, Christopher  
+  - *arXiv preprint arXiv:2503.03502*, 2025.
+
+- Shaping the Safety Boundaries: Understanding and Defending against Jailbreaks in Large Language Models.  
+  - Gao, Lang, Geng, Jiahui, Zhang, Xiangliang, Nakov, Preslav, **and** Chen, Xiuying  
+  - *ACL*, 2025.
+
+- Vaccine: Perturbation-Aware Alignment for Large Language Models Against Harmful Fine-Tuning Attack.  
+  - Huang, Tiansheng, Hu, Sihao, **and** Liu, Ling  
+  - *NeurIPS*, 2024.
+
+- Targeted vaccine: Safety alignment for large language models against harmful fine-tuning via layer-wise perturbation.  
+  - Liu, Guozhi, Lin, Weiwei, Mu, Qi, Huang, Tiansheng, Mo, Ruichao, Tao, Yuren, **and** Shen, Li  
+  - *TIFS*, 2025.
+
+- Booster: Tackling harmful fine-tuning for large language models via attenuating harmful perturbation.  
+  - Huang, Tiansheng, Hu, Sihao, Ilhan, Fatih, Tekin, Selim Furkan, **and** Liu, Ling  
+  - *arXiv preprint arXiv:2409.01586*, 2024.
+
+- Lisa: Lazy Safety Alignment for Large Language Models Against Harmful Fine-Tuning Attack.  
+  - Huang, Tiansheng, Hu, Sihao, Ilhan, Fatih, Tekin, Selim, **and** Liu, Ling  
+  - *NeurIPS*, 2024.
+
+- Antidote: Post-Fine-Tuning Safety Alignment for Large Language Models Against Harmful Fine-Tuning.  
+  - Huang, Tiansheng, Bhattacharya, Gautam, Joshi, Pratik, Kimball, Josh, **and** Liu, Ling  
+  - *arXiv preprint arXiv:2408.09600*, 2024.
+
+- Panacea: Mitigating Harmful Fine-tuning for Large Language Models via Post-fine-tuning Perturbation.  
+  - Wang, Yibo, Huang, Tiansheng, Shen, Li, Yao, Huanjin, Luo, Haotian, Liu, Rui, Tan, Naiqiang, Huang, Jiaxing, **and** Tao, Dacheng  
+  - *arXiv preprint arXiv:2501.18100*, 2025.
 
 ##### Prompt Injection Attacks
 
@@ -571,6 +647,10 @@ First, we conducted a keyword-based search targeting specific model types and th
 - Making LLMs Vulnerable to Prompt Injection via Poisoning Alignment.  
   - Shao, Zedian, Liu, Hongbin, Mu, Jaden, **and** Gong, Neil Zhenqiang  
   - *arXiv preprint arXiv:2410.14827*, 2024.
+
+- Promptfuzz: Harnessing fuzzing techniques for robust testing of prompt injection in llms.  
+  - Yu, Jiahao, Shao, Yangguang, Miao, Hanwen, **and** Shi, Junzheng  
+  - *arXiv preprint arXiv:2409.14729*, 2024.
 
 ##### Prompt Injection Defenses
 
@@ -676,6 +756,9 @@ First, we conducted a keyword-based search targeting specific model types and th
   - Li, Yanzhou, Li, Tianlin, Chen, Kangjie, Zhang, Jian, Liu, Shangqing, Wang, Wenhan, Zhang, Tianwei, **and** Liu, Yang  
   - *ICLR*, 2024.
 
+- Instruction backdoor attacks against customized LLMs.  
+  - Zhang, Rui, Li, Hongwei, Wen, Rui, Jiang, Wenbo, Zhang, Yuan, Backes, Michael, Shen, Yun, **and** Zhang, Yang  
+  - *USENIX Security*, 2024.
 
 ##### Backdoor Defenses
 
@@ -735,6 +818,17 @@ First, we conducted a keyword-based search targeting specific model types and th
   - Li, Yuetai, Xu, Zhangchen, Jiang, Fengqing, Niu, Luyao, Sahabandu, Dinuka, Ramasubramanian, Bhaskar, **and** Poovendran, Radha  
   - *EMNLP*, 2024.
 
+- Probe before you talk: Towards black-box defense against backdoor unalignment for large language models.  
+  - Yi, Biao, Huang, Tiansheng, Chen, Sishuo, Li, Tong, Liu, Zheli, Chu, Zhixuan, **and** Li, Yiming  
+  - *ICLR*, 2025.
+
+- Purifying large language models by ensembling a small language model.  
+  - Li, Tianlin, Liu, Qian, Pang, Tianyu, Du, Chao, Guo, Qing, Liu, Yang, **and** Lin, Min  
+  - *arXiv preprint arXiv:2402.14845*, 2024.
+
+- When backdoors speak: Understanding llm backdoor attacks through model-generated explanations.  
+  - Ge, Huaizhi, Li, Yiming, Wang, Qifan, Zhang, Yongfeng, **and** Tang, Ruixiang  
+  - *ACL*, 2025.
 
 ##### Safety Alignment
 
@@ -794,6 +888,17 @@ First, we conducted a keyword-based search targeting specific model types and th
   - Pang, Xianghe, Tang, Shuo, Ye, Rui, Xiong, Yuxin, Zhang, Bolun, Wang, Yanfeng, **and** Chen, Siheng  
   - *arXiv preprint arXiv:2402.05699*, 2024.
 
+- Fake alignment: Are llms really aligned well?  
+  - Wang, Yixu, Teng, Yan, Huang, Kexin, Lyu, Chengqi, Zhang, Songyang, Zhang, Wenwei, Ma, Xingjun, Jiang, Yu-Gang, Qiao, Yu, **and** Wang, Yingchun  
+  - *NAACL*, 2024.
+
+- Alignment faking in large language models.  
+  - Greenblatt, Ryan, Denison, Carson, Wright, Benjamin, Roger, Fabien, MacDiarmid, Monte, Marks, Sam, Treutlein, Johannes, Belonax, Tim, Chen, Jack, Duvenaud, David, **and** others  
+  - *arXiv preprint arXiv:2412.14093*, 2024.
+
+- Why do some language models fake alignment while others don't?  
+  - Sheshadri, Abhay, Hughes, John, Michael, Julian, Mallen, Alex, Jose, Arun, Roger, Fabien, **and** others  
+  - *arXiv preprint arXiv:2506.18032*, 2025.
 
 ##### Energy Latency Attacks
 
@@ -821,6 +926,9 @@ First, we conducted a keyword-based search targeting specific model types and th
   - Gao, Kuofeng, Pang, Tianyu, Du, Chao, Yang, Yong, Xia, Shu-Tao, **and** Lin, Min  
   - *arXiv preprint arXiv:2410.10760*, 2024.
 
+- An engorgio prompt makes large language model babble on.  
+  - Dong, Jianshuo, Zhang, Ziyuan, Zhang, Qingjie, Zhang, Tianwei, Wang, Hao, Li, Hewu, Li, Qi, Zhang, Chao, Xu, Ke, **and** Qiu, Han  
+  - *ICLR*, 2025.
 
 ##### Model Extraction Attacks
 
@@ -883,6 +991,9 @@ First, we conducted a keyword-based search targeting specific model types and th
   - Duan, Sunny, Khona, Mikail, Iyer, Abhiram, Schaeffer, Rylan, **and** Fiete, Ila R  
   - *ICML Workshop*, 2024.
 
+- A benchmark for semantic sensitive information in llms outputs.  
+  - Zhang, Qingjie and Qiu, Han and Wang, Di and Li, Yiming and Zhang, Tianwei and Zhu, Wenyu and Weng, Haiqin and Yan, Liu and Zhang, Chao 
+  - *ICLR*, 2025.
 
 
 </details>
@@ -966,6 +1077,21 @@ First, we conducted a keyword-based search targeting specific model types and th
   - Zhang, Peng-Fei, Huang, Zi, **and** Bai, Guangdong  
   - *SIGIR*, 2024.
 
+- Typographic attacks in a multi-image setting.  
+  - Wang, Xiaomeng, Zhao, Zhengyu, **and** Larson, Martha  
+  - *NAACL*, 2025.
+
+- X-transfer attacks: Towards super transferable adversarial attacks on clip.  
+  - Huang, Hanxun, Erfani, Sarah, Li, Yige, Ma, Xingjun, **and** Bailey, James  
+  - *ICML*, 2025.
+
+- Boosting transferability in vision-language attacks via diversification along the intersection region of adversarial trajectory.  
+  - Gao, Sensen, Jia, Xiaojun, Ren, Xuhong, Tsang, Ivor, **and** Guo, Qing  
+  - *ECCV*, 2024.
+
+- Ot-attack: Enhancing adversarial transferability of vision-language models via optimal transport optimization.  
+  - Han, Dongchen, Jia, Xiaojun, Bai, Yang, Gu, Jindong, Liu, Yang, **and** Cao, Xiaochun  
+  - *arXiv preprint arXiv:2312.04403*, 2023.
 
 ##### Adversarial Defenses
 
@@ -1039,7 +1165,7 @@ First, we conducted a keyword-based search targeting specific model types and th
 
 - TAPT: Test-Time Adversarial Prompt Tuning for Robust Inference in Vision-Language Models.  
   - Wang, Xin, Chen, Kai, Zhang, Jiaming, Chen, Jingjing, **and** Ma, Xingjun  
-  - *arXiv preprint arXiv:2411.13136*, 2024.
+  - *CVPR*, 2025.
 
 - Understanding Zero-shot Adversarial Robustness for Large-Scale Models.  
   - Mao, Chengzhi, Geng, Scott, Yang, Junfeng, Wang, Xin, **and** Vondrick, Carl  
