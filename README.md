@@ -1866,6 +1866,13 @@ First, we conducted a keyword-based search targeting specific model types and th
   - Pang, Yan, Wang, Tianhao, Kang, Xuhui, Huai, Mengdi, **and** Zhang, Yang  
   - *arXiv preprint arXiv:2308.06405*, 2023.
 
+- Winning the midst challenge: New membership inference attacks on diffusion models for tabular data synthesis.
+  - Wu, Xiaoyu, Pang, Yifei, Liu, Terrance, **and** Wu, Steven
+  - *arXiv preprint arXiv:2503.12008*, 2025.
+
+- Membership inference attack should move on to distributional statistics for distilled generative models.
+  - Li, Muxing, Ye, Zesheng, Li, Sharon, Song, Andy, Zhang, Guangquan, **and** Liu, Feng
+  - *arXiv preprint arXiv:2502.02970*, 2025.
 
 ##### Data Extraction Attacks
 
@@ -1996,86 +2003,537 @@ First, we conducted a keyword-based search targeting specific model types and th
 
 <summary><span id="ch7">Agent Safety</summary>
 
-##### LLM Agent
+##### Indirect Prompt Injection Attacks
 
-- Injecagent: Benchmarking indirect prompt injections in tool-integrated large language model agents.  
-  - Zhan, Qiusi, Liang, Zhixiang, Ying, Zifan, **and** Kang, Daniel 
-  - *ACL*, 2024.
+- Not what you've signed up for: Compromising real-world llm-integrated applications with indirect prompt injection.  
+  - Greshake, Kai, Abdelnabi, Sahar, Mishra, Shailesh, Endres, Christoph, Holz, Thorsten, **and** Fritz, Mario
+  - *AISec*, 2023.
 
-- BadAgent: Inserting and Activating Backdoor Attacks in LLM Agents.  
-  - Wang, Yifei, Xue, Dizhan, Zhang, Shengjie, **and** Qian, Shengsheng 
-  - *ACL*, 2024.
+- A new era in llm security: Exploring security concerns in real-world llm-based systems.  
+  - Wu, Fangzhou, Zhang, Ning, Jha, Somesh, McDaniel, Patrick, **and** Xiao, Chaowei
+  - *arXiv preprint arXiv:2402.18649*, 2024.
 
-- TrustAgent: Towards Safe and Trustworthy LLM-based Agents through Agent Constitution.  
-  - Hua, Wenyue, Yang, Xianjun, Li, Zelong, Wei, Cheng, **and** Zhang, Yongfeng 
-  - *ACL*, 2024.
+- Tensor trust: Interpretable prompt injection attacks from an online game.  
+  - Toyer, Sam, Watkins, Olivia, Mendes, Ethan Adrian, Svegliato, Justin, Bailey, Luke, Wang, Tiffany, Ong, Isaac, Elmaaroufi, Karim, Abbeel, Pieter, Darrell, Trevor, **and** others
+  - *arXiv preprint arXiv:2311.01011*, 2023.
 
-- AutoDefense: Multi-Agent {LLM.  
-  - Yifan Zeng, Yiran Wu, Xiao Zhang, Huazheng Wang, **and** Qingyun Wu 
-  - *Neurips Workshop*, 2024.
+- Ignore previous prompt: Attack techniques for language models.  
+  - Perez, F{\'a}bio, **and** Ribeiro, Ian
+  - *NeurIPS Workshop*, 2022.
 
-- R-judge: Benchmarking safety risk awareness for llm agents.  
-  - Yuan, Tongxin, He, Zhiwei, Dong, Lingzhong, Wang, Yiming, Zhao, Ruijie, Xia, Tian, Xu, Lizhen, Zhou, Binglin, Li, Fangqi, Zhang, Zhuosheng, **and** others 
-  - *EMNLP*, 2024.
+- Prompt injection attack against llm-integrated applications.  
+  - Liu, Yi, Deng, Gelei, Li, Yuekang, Wang, Kailong, Wang, Zihao, Wang, Xiaofeng, Zhang, Tianwei, Liu, Yepang, Wang, Haoyu, Zheng, Yan, **and** others
+  - *arXiv preprint arXiv:2306.05499*, 2023.
 
-- AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for {LLM.  
-  - Edoardo Debenedetti, Jie Zhang, Mislav Balunovic, Luca Beurer-Kellner, Marc Fischer, **and** Florian Tram{\`e 
-  - *NeurIPS*, 2024.
+- From prompt injections to sql injection attacks: How protected is your llm-integrated web application?  
+  - Pedro, Rodrigo, Castro, Daniel, Carreira, Paulo, **and** Santos, Nuno
+  - *arXiv preprint arXiv:2308.01990*, 2023.
 
-- Breaking Agents: Compromising Autonomous LLM Agents Through Malfunction Amplification.  
-  - Zhang, Boyang, Tan, Yicong, Shen, Yun, Salem, Ahmed, Backes, Michael, Zannettou, Savvas, **and** Zhang, Yang 
-  - *arXiv preprint arXiv:2407.20859*, 2024.
+- Adaptive attacks break defenses against indirect prompt injection attacks on {LLM} agents.  
+  - Zhan, Qiusi, Fang, Richard, Panchal, Henil Shalin, **and** Kang, Daniel
+  - *NAACL*, 2025.
 
-- AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases.  
-  - Chen, Zhaorun, Xiang, Zhen, Xiao, Chaowei, Song, Dawn, **and** Li, Bo 
-  - *arXiv preprint arXiv:2407.12784*, 2024.
+- Pandora: Jailbreak gpts by retrieval augmented generation poisoning.  
+  - Deng, Gelei, Liu, Yi, Wang, Kailong, Li, Yuekang, Zhang, Tianwei, **and** Liu, Yang
+  - *arXiv preprint arXiv:2402.08416*, 2024.
 
-- Compromising Embodied Agents with Contextual Backdoor Attacks.  
-  - Liu, Aishan, Zhou, Yuguang, Liu, Xianglong, Zhang, Tianyuan, Liang, Siyuan, Wang, Jiakai, Pu, Yanjun, Li, Tianlin, Zhang, Junqi, Zhou, Wenbo, **and** others 
+- Imprompter: Tricking llm agents into improper tool use.  
+  - Fu, Xiaohan, Li, Shuheng, Wang, Zihan, Liu, Yihao, Gupta, Rajesh K, Berg-Kirkpatrick, Taylor, **and** Fernandes, Earlence
+  - *arXiv preprint arXiv:2410.14923*, 2024.
+
+##### Indirect Prompt Injection Defenses
+
+- The instruction hierarchy: Training llms to prioritize privileged instructions.  
+  - Wallace, Eric, Xiao, Kai, Leike, Reimar, Weng, Lilian, Heidecke, Johannes, **and** Beutel, Alex
+  - *arXiv preprint arXiv:2404.13208*, 2024.
+
+- Defending against indirect prompt injection by instruction detection.  
+  - Wen, Tongyu, Wang, Chenglong, Yang, Xiyuan, Tang, Haoyu, Xie, Yueqi, Lyu, Lingjuan, Dou, Zhicheng, **and** Wu, Fangzhao
+  - *arXiv preprint arXiv:2505.06311*, 2025.
+
+- Can indirect prompt injection attacks be detected and removed?  
+  - Chen, Yulin, Li, Haoran, Sui, Yuan, He, Yufei, Liu, Yue, Song, Yangqiu, **and** Hooi, Bryan
+  - *arXiv preprint arXiv:2502.16580*, 2025.
+
+- The task shield: Enforcing task alignment to defend against indirect prompt injection in llm agents.  
+  - Jia, Feiran, Wu, Tong, Qin, Xin, **and** Squicciarini, Anna
+  - *arXiv preprint arXiv:2412.16682*, 2024.
+
+- Fath: Authentication-based test-time defense against indirect prompt injection attacks.  
+  - Wang, Jiongxiao, Wu, Fangzhou, Li, Wendi, Pan, Jinsheng, Suh, Edward, Mao, Z Morley, Chen, Muhao, **and** Xiao, Chaowei
+  - *arXiv preprint arXiv:2410.21492*, 2024.
+
+- Defending against indirect prompt injection attacks with spotlighting.  
+  - Hines, Keegan, Lopez, Gary, Hall, Matthew, Zarfati, Federico, Zunger, Yonatan, **and** Kiciman, Emre
+  - *arXiv preprint arXiv:2403.14720*, 2024.
+
+- Design patterns for securing llm agents against prompt injections.  
+  - Beurer-Kellner, Luca, Buesser, Beat, Cre{\c{t}}u, Ana-Maria, Debenedetti, Edoardo, Dobos, Daniel, Fabian, Daniel, Fischer, Marc, Froelicher, David, Grosse, Kathrin, Naeff, Daniel, **and** others
+  - *arXiv preprint arXiv:2506.08837*, 2025.
+
+##### Agent Memory Attacks
+
+- Compromising embodied agents with contextual backdoor attacks.  
+  - Liu, Aishan, Zhou, Yuguang, Liu, Xianglong, Zhang, Tianyuan, Liang, Siyuan, Wang, Jiakai, Pu, Yanjun, Li, Tianlin, Zhang, Junqi, Zhou, Wenbo, **and** others
   - *arXiv preprint arXiv:2408.02882*, 2024.
 
-- Psysafe: A comprehensive framework for psychological-based attack, defense, and evaluation of multi-agent system safety.  
-  - Zhang, Zaibin, Zhang, Yongting, Li, Lijun, Gao, Hongzhi, Wang, Lijun, Lu, Huchuan, Zhao, Feng, Qiao, Yu, **and** Shao, Jing 
-  - *arXiv preprint arXiv:2401.11880*, 2024.
+- Watch out for your agents! investigating backdoor threats to llm-based agents.  
+  - Yang, Wenkai, Bi, Xiaohan, Lin, Yankai, Chen, Sishuo, Zhou, Jie, **and** Sun, Xu
+  - *NeurIPS*, 2024.
 
-- GuardAgent: Safeguard LLM Agents by a Guard Agent via Knowledge-Enabled Reasoning.  
-  - Xiang, Zhen, Zheng, Linzhi, Li, Yanjie, Hong, Junyuan, Li, Qinbin, Xie, Han, Zhang, Jiawei, Xiong, Zidi, Xie, Chulin, Yang, Carl, **and** others 
+- Demonagent: Dynamically encrypted multi-backdoor implantation attack on llm-based agent.  
+  - Zhu, Pengyu, Zhou, Zhenhong, Zhang, Yuanhe, Yan, Shilinlu, Wang, Kun, **and** Su, Sen
+  - *arXiv preprint arXiv:2502.12575*, 2025.
+
+- Badagent: Inserting and activating backdoor attacks in llm agents.  
+  - Wang, Yifei, Xue, Dizhan, Zhang, Shengjie, **and** Qian, Shengsheng
+  - *ACL*, 2024.
+
+- Agentpoison: Red-teaming llm agents via poisoning memory or knowledge bases.  
+  - Chen, Zhaorun, Xiang, Zhen, Xiao, Chaowei, Song, Dawn, **and** Li, Bo
+  - *arXiv preprint arXiv:2407.12784*, 2024.
+
+- From trojan horses to castle walls: Unveiling bilateral backdoor effects in diffusion models.  
+  - Pan, Zhuoshi, Yao, Yuguang, Liu, Gaowen, Shen, Bingquan, Zhao, H Vicky, Kompella, Ramana Rao, **and** Liu, Sijia
+  - *NeurIPS Workshop*, 2024.
+
+- Badrag: Identifying vulnerabilities in retrieval augmented generation of large language models.  
+  - Xue, Jiaqi, Zheng, Mengxin, Hu, Yebowen, Liu, Fei, Chen, Xun, **and** Lou, Qian  
+  - *arXiv preprint arXiv:2406.00083*, 2024.
+
+- Phantom: General trigger attacks on retrieval augmented language generation.  
+  - Chaudhari, Harsh, Severi, Giorgio, Abascal, John, Jagielski, Matthew, Choquette-Choo, Christopher A, Nasr, Milad, Nita-Rotaru, Cristina, **and** Oprea, Alina
+  - *arXiv preprint arXiv:2405.20485*, 2024.
+
+- Breaking agents: Compromising autonomous llm agents through malfunction amplification.  
+  - Zhang, Boyang, Tan, Yicong, Shen, Yun, Salem, Ahmed, Backes, Michael, Zannettou, Savvas, **and** Zhang, Yang
+  - *arXiv preprint arXiv:2407.20859*, 2024.
+
+- A practical memory injection attack against llm agents.  
+  - Dong, Shen, Xu, Shaochen, He, Pengfei, Li, Yige, Tang, Jiliang, Liu, Tianming, Liu, Hui, **and** Xiang, Zhen
+  - *arXiv preprint arXiv:2503.03704*, 2025.
+
+- Poisonedrag: Knowledge corruption attacks to retrieval-augmented generation of large language models.  
+  - Zou, Wei, Geng, Runpeng, Wang, Binghui, **and** Jia, Jinyuan
+  - *arXiv preprint arXiv:2402.07867*, 2024.
+
+- Poisoning retrieval corpora by injecting adversarial passages.  
+  - Zhong, Zexuan, Huang, Ziqing, Wettig, Alexander, **and** Chen, Danqi
+  - *arXiv preprint arXiv:2310.19156*, 2023.
+
+##### Agent Memory Defenses
+
+- Search augmented instruction learning.  
+  - Luo, Hongyin, Zhang, Tianhua, Chuang, Yung-Sung, Gong, Yuan, Kim, Yoon, Wu, Xixin, Meng, Helen, **and** Glass, James
+  - *EMNLP*, 2023.
+
+- Large language models are few-shot summarizers: Multi-intent comment generation via in-context learning.  
+  - Geng, Mingyang, Wang, Shangwen, Dong, Dezun, Wang, Haotian, Li, Ge, Jin, Zhi, Mao, Xiaoguang, **and** Liao, Xiangke
+  - *ICSE*, 2024.
+
+- Prompt leakage effect and defense strategies for multi-turn llm interactions.  
+  - Agarwal, Divyansh, Fabbri, Alexander R, Risher, Ben, Laban, Philippe, Joty, Shafiq, **and** Wu, Chien-Sheng
+  - *arXiv preprint arXiv:2404.16251*, 2024.
+
+- Agentsafe: Safeguarding large language model-based multi-agent systems via hierarchical data management.  
+  - Mao, Junyuan, Meng, Fanci, Duan, Yifan, Yu, Miao, Jia, Xiaojun, Fang, Junfeng, Liang, Yuxuan, Wang, Kun, **and** Wen, Qingsong
+  - *arXiv preprint arXiv:2503.04392*, 2025.
+
+- Trustrag: Enhancing robustness and trustworthiness in rag.  
+  - Zhou, Huichi, Lee, Kin-Hei, Zhan, Zhonghao, Chen, Yue, Li, Zhenhao, Wang, Zhaoyang, Haddadi, Hamed, **and** Yilmaz, Emine
+  - *arXiv preprint arXiv:2501.00879*, 2025.
+
+- Astute rag: Overcoming imperfect retrieval augmentation and knowledge conflicts for large language models.  
+  - Wang, Fei, Wan, Xingchen, Sun, Ruoxi, Chen, Jiefeng, **and** Arik, Sercan O
+  - *arXiv preprint arXiv:2410.07176*, 2024.
+
+- Certifiably robust rag against retrieval corruption.  
+  - Xiang, Chong, Wu, Tong, Zhong, Zexuan, Wagner, David, Chen, Danqi, **and** Mittal, Prateek
+  - *arXiv preprint arXiv:2405.15556*, 2024.
+
+##### Agent Tool-Calling Attacks
+
+- Udora: A unified red teaming framework against llm agents by dynamically hijacking their own reasoning.  
+  - Zhang, Jiawei, Yang, Shuang, **and** Li, Bo
+  - *arXiv preprint arXiv:2503.01908*, 2025.
+
+- Toolsword: Unveiling safety issues of large language models in tool learning across three stages.  
+  - Ye, Junjie, Li, Sixian, Li, Guanyu, Huang, Caishuang, Gao, Songyang, Wu, Yilong, Zhang, Qi, Gui, Tao, **and** Huang, Xuan-Jing
+  - *arXiv preprint arXiv:2402.10753*, 2024.
+
+- From allies to adversaries: Manipulating llm tool-calling through adversarial injection.  
+  - Zhang, Rupeng, Wang, Haowei, Wang, Junjie, Li, Mingyang, Huang, Yuekai, Wang, Dandan, **and** Wang, Qing
+  - *arXiv preprint arXiv:2412.10198*, 2024.
+
+- Wipi: A new web threat for llm-driven web agents.  
+  - Wu, Fangzhou, Wu, Shutong, Cao, Yulong, **and** Xiao, Chaowei
+  - *arXiv preprint arXiv:2402.16965*, 2024.
+
+- Mimicking the familiar: Dynamic command generation for information theft attacks in llm tool-learning system.  
+  - Jiang, Ziyou, Li, Mingyang, Yang, Guowei, Wang, Junjie, Huang, Yuekai, Chang, Zhiyuan, **and** Wang, Qing
+  - *ACL*, 2025.
+
+- Mpma: Preference manipulation attack against model context protocol.  
+  - Wang, Zihan, Zhang, Rui, Liu, Yu, Fan, Wenshu, Jiang, Wenbo, Zhao, Qingchuan, Li, Hongwei, **and** Xu, Guowen
+  - *arXiv preprint arXiv:2505.11154*, 2025.
+
+- From prompt injections to protocol exploits: Threats in llm-powered ai agents workflows.  
+  - Ferrag, Mohamed Amine, Tihanyi, Norbert, Hamouda, Djallel, Maglaras, Leandros, Lakas, Abderrahmane, **and** Debbah, Merouane
+  - *arXiv preprint arXiv:2506.23260*, 2025.
+
+- A survey of llm-driven ai agent communication: Protocols, security risks, and defense countermeasures.  
+  - Kong, Dezhang, Lin, Shi, Xu, Zhenhua, Wang, Zhebo, Li, Minghao, Li, Yufeng, Zhang, Yilun, Peng, Hujin, Chen, Xiang, Sha, Zeyang, **and** others
+  - *arXiv preprint arXiv:2506.19676*, 2025.
+
+##### Agent Tool-Calling Defenses
+
+- Agentguard: Repurposing agentic orchestrator for safety evaluation of tool orchestration.  
+  - Chen, Jizhou, **and** Cong, Samuel Lee
+  - *arXiv preprint arXiv:2502.09809*, 2025.
+
+- Privacyasst: Safeguarding user privacy in tool-using large language model agents.  
+  - Zhang, Xinyu, Xu, Huiyu, Ba, Zhongjie, Wang, Zhibo, Hong, Yuan, Liu, Jian, Qin, Zhan, **and** Ren, Kui
+  - *IEEE Transactions on Dependable and Secure Computing*, 2024.
+
+- Mcip: Protecting mcp safety via model contextual integrity protocol.  
+  - Jing, Huihao, Li, Haoran, Hu, Wenbin, Hu, Qi, Heli, Xu, Chu, Tianshu, Hu, Peizhao, **and** Song, Yangqiu
+  - *arXiv preprint arXiv:2505.14590*, 2025.
+
+- Guardagent: Safeguard llm agents by a guard agent via knowledge-enabled reasoning.  
+  - Xiang, Zhen, Zheng, Linzhi, Li, Yanjie, Hong, Junyuan, Li, Qinbin, Xie, Han, Zhang, Jiawei, Xiong, Zidi, Xie, Chulin, Yang, Carl, **and** others
   - *arXiv preprint arXiv:2406.09187*, 2024.
 
-- SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents.
-  - Yin, Sheng, Pang, Xianghe, Ding, Yuanzhuo, Chen, Menglan, Bi, Yutong, Xiong, Yichen, Huang, Wenhao, Xiang, Zhen, Shao, Jing, **and** Chen, Siheng
-  - *arXiv preprint arXiv:2412.13178*, 2024.
+##### VLM Agent Attacks
 
-- Malicious Agent Skills in the Wild: A Large-Scale Security Empirical Study.
-  - Liu, Yi, Chen, Zhihao, Zhang, Yanjun, Deng, Gelei, Li, Yuekang, Ning, Jianting, **and** Zhang, Leo Yu
-  - *arXiv preprint arXiv:2602.06547*, 2026.
+- (ab)using images and sounds for indirect instruction injection in multi-modal llms.  
+  - Bagdasaryan, Eugene, Hsieh, Tsung-Yin, Nassi, Ben, **and** Shmatikov, Vitaly
+  - *arXiv preprint arXiv:2307.10490*, 2023.
 
-- SkillJect: Automating Stealthy Skill-Based Prompt Injection for Coding Agents with Trace-Driven Closed-Loop Refinement.
-  - Jia, Xiaojun, Liao, Jie, Qin, Simeng, Gu, Jindong, Ren, Wenqi, Cao, Xiaochun, Liu, Yang, **and** Torr, Philip
-  - *arXiv preprint arXiv:2602.14211*, 2026.
+- Attacking vision-language computer agents via pop-ups.  
+  - Zhang, Yanzhe, Yu, Tao, **and** Yang, Diyi
+  - *arXiv preprint arXiv:2411.02391*, 2024.
 
-- Skill-Inject: Measuring Agent Vulnerability to Skill File Attacks.
-  - Schmotz, David, Beurer-Kellner, Luca, Abdelnabi, Sahar, **and** Andriushchenko, Maksym
-  - *arXiv preprint arXiv:2602.20156*, 2026.
-
-
-##### VLM Agent
-
-- Agent smith: A single image can jailbreak one million multimodal llm agents exponentially fast.  
-  - Gu, Xiangming, Zheng, Xiaosen, Pang, Tianyu, Du, Chao, Liu, Qian, Wang, Ye, Jiang, Jing, **and** Lin, Min 
-  - *ICML*, 2024.
+- Dissecting Adversarial Robustness of Multimodal LM Agents.
+  - Wu, Chen Henry, Shah, Rishi, Koh, Jing Yu, Salakhutdinov, Ruslan, Fried, Daniel, **and** Raghunathan, Aditi
+  - *arXiv preprint arXiv:2406.12814*, 2024.
 
 - Misusing tools in large language models with visual adversarial examples.  
-  - Fu, Xiaohan, Wang, Zihan, Li, Shuheng, Gupta, Rajesh K, Mireshghallah, Niloofar, Berg-Kirkpatrick, Taylor, **and** Fernandes, Earlence 
+  - Fu, Xiaohan, Wang, Zihan, Li, Shuheng, Gupta, Rajesh K, Mireshghallah, Niloofar, Berg-Kirkpatrick, Taylor, **and** Fernandes, Earlence
   - *arXiv preprint arXiv:2310.03185*, 2023.
 
-- The Wolf Within: Covert Injection of Malice into MLLM Societies via an MLLM Operative.  
-  - Tan, Zhen, Zhao, Chengshuai, Moraffah, Raha, Li, Yifan, Kong, Yu, Chen, Tianlong, **and** Liu, Huan 
+- Eia: Environmental injection attack on generalist web agents for privacy leakage.  
+  - Liao, Zeyi, Mo, Lingbo, Xu, Chejian, Kang, Mintong, Zhang, Jiawei, Xiao, Chaowei, Tian, Yuan, Li, Bo, **and** Sun, Huan
+  - *arXiv preprint arXiv:2409.11295*, 2024.
+
+- Advagent: Controllable blackbox red-teaming on web agents.  
+  - Xu, Chejian, Kang, Mintong, Zhang, Jiawei, Liao, Zeyi, Mo, Lingbo, Yuan, Mengqi, Sun, Huan, **and** Li, Bo
+  - *arXiv preprint arXiv:2410.17401*, 2024.
+
+- Caution for the environment: Multimodal agents are susceptible to environmental distractions.  
+  - Ma, Xinbei, Wang, Yiting, Yao, Yao, Yuan, Tongxin, Zhang, Aston, Zhang, Zhuosheng, **and** Zhao, Hai 
+  - *arXiv preprint arXiv:2408.02544*, 2024.
+
+- The obvious invisible threat: Llm-powered gui agents' vulnerability to fine-print injections.  
+  - Chen, Chaoran, Zhang, Zhiping, Guo, Bingcan, Ma, Shang, Khalilov, Ibrahim, Gebreegziabher, Simret, Ye, Yanfang, Xiao, Ziang, Yao, Yaxing, Li, Tianshi, **and** others
+  - *arXiv preprint arXiv:2504.11281*, 2025.
+
+##### VLM Agent Defenses
+
+- Safeguarding vision-language models against patched visual prompt injectors.  
+  - Sun, Jiachen, Wang, Changsheng, Wang, Jiongxiao, Zhang, Yiwei, **and** Xiao, Chaowei
+  - *arXiv preprint arXiv:2405.10529*, 2024.
+
+- Bluesuffix: Reinforced blue teaming for vision-language models against jailbreak attacks.  
+  - Zhao, Yunhan, Zheng, Xiang, Luo, Lin, Li, Yige, Ma, Xingjun, **and** Jiang, Yu-Gang
+  - *arXiv preprint arXiv:2410.20971*, 2024.
+
+- Llavaguard: Vlm-based safeguards for vision dataset curation and safety assessment.  
+  - Helff, Lukas, Friedrich, Felix, Brack, Manuel, Schramowski, Patrick, **and** Kersting, Kristian
+  - *arXiv preprint arXiv:2406.05113*, 2024.
+
+- Jaildam: Jailbreak detection with adaptive memory for vision-language model.  
+  - Nian, Yi, Zhu, Shenzhe, Qin, Yuehan, Li, Li, Wang, Ziyi, Xiao, Chaowei, **and** Zhao, Yue
+  - *arXiv preprint arXiv:2504.03770*, 2024.
+
+##### Multi-Agent System Attacks
+
+- Prompt infection: Llm-to-llm prompt injection within multi-agent systems.  
+  - Lee, Donghyun, **and** Tiwari, Mo
+  - *arXiv preprint arXiv:2410.07283*, 2024.
+
+- Here comes the ai worm: Unleashing zero-click worms that target genai-powered applications.  
+  - Cohen, Stav, Bitton, Ron, **and** Nassi, Ben
+  - *arXiv preprint arXiv:2403.02817*, 2024.
+
+- Flooding spread of manipulated knowledge in llm-based multi-agent communities.  
+  - Ju, Tianjie, Wang, Yiting, Ma, Xinbei, Cheng, Pengzhou, Zhao, Haodong, Wang, Yulong, Liu, Lifeng, Xie, Jian, Zhang, Zhuosheng, **and** Liu, Gongshen
+  - *arXiv preprint arXiv:2407.07791*, 2024.
+
+- Agent smith: A single image can jailbreak one million multimodal llm agents exponentially fast.  
+  - Gu, Xiangming, Zheng, Xiaosen, Pang, Tianyu, Du, Chao, Liu, Qian, Wang, Ye, Jiang, Jing, **and** Lin, Min
+  - *ICML*, 2024.
+
+- Corba: Contagious recursive blocking attacks on multi-agent systems based on large language models.  
+  - Zhou, Zhenhong, Li, Zherui, Zhang, Jie, Zhang, Yuanhe, Wang, Kun, Liu, Yang, **and** Guo, Qing
+  - *arXiv preprint arXiv:2502.14529*, 2025.
+
+- Red-teaming llm multi-agent systems via communication attacks.  
+  - He, Pengfei, Lin, Yuping, Dong, Shen, Xu, Han, Xing, Yue, **and** Liu, Hui
+  - *arXiv preprint arXiv:2502.14847*, 2025.
+
+- Evil geniuses: Delving into the safety of llm-based agents.  
+  - Tian, Yu, Yang, Xiao, Zhang, Jingyuan, Dong, Yinpeng, **and** Su, Hang
+  - *arXiv preprint arXiv:2311.11855*, 2023.
+
+- The wolf within: Covert injection of malice into mllm societies via an mllm operative.  
+  - Tan, Zhen, Zhao, Chengshuai, Moraffah, Raha, Li, Yifan, Kong, Yu, Chen, Tianlong, **and** Liu, Huan
   - *arXiv preprint arXiv:2402.14859*, 2024.
 
-- Adversarial Attacks on Multimodal Agents.  
-  - Wu, Chen Henry, Koh, Jing Yu, Salakhutdinov, Ruslan, Fried, Daniel, **and** Raghunathan, Aditi 
+- X-teaming: Multi-turn jailbreaks and defenses with adaptive multi-agents.  
+  - Rahman, Salman, Jiang, Liwei, Shiffer, James, Liu, Genglin, Issaka, Sheriff, Parvez, Md Rizwan, Palangi, Hamid, Chang, Kai-Wei, Choi, Yejin, **and** Gabriel, Saadia
+  - *arXiv preprint arXiv:2504.13203*, 2025.
+
+##### Multi-Agent System Defenses
+
+- Autodefense: Multi-agent LLM defense against jailbreak attacks.  
+  - Zeng, Yifan, Wu, Yiran, Zhang, Xiao, Wang, Huazheng, **and** Wu, Qingyun
+  - *Neurips Workshop*, 2024.
+
+- Psysafe: A comprehensive framework for psychological-based attack, defense, and evaluation of multi-agent system safety.  
+  - Zhang, Zaibin, Zhang, Yongting, Li, Lijun, Shao, Jing, Gao, Hongzhi, Qiao, Yu, Wang, Lijun, Lu, Huchuan, **and** Zhao, Feng
+  - *arXiv preprint arXiv:2401.11880*, 2024.
+
+- Adversarial machine learning attacks and defences in multi-agent reinforcement learning.  
+  - Standen, Maxwell, Kim, Junae, **and** Szabo, Claudia
+  - *ACM Computing Surveys*, 2025.
+
+- Large language model sentinel: Llm agent for adversarial purification.  
+  - Lin, Guang, Tanaka, Toshihisa, **and** Zhao, Qibin
+  - *arXiv preprint arXiv:2405.20770*, 2024.
+
+- Audit-llm: Multi-agent collaboration for log-based insider threat detection.  
+  - Song, Chengyu, Ma, Linru, Zheng, Jianming, Liao, Jinzhi, Kuang, Hongyu, **and** Yang, Lin
+  - *arXiv preprint arXiv:2408.08902*, 2024.
+
+- X-teaming: Multi-turn jailbreaks and defenses with adaptive multi-agents.  
+  - Rahman, Salman, Jiang, Liwei, Shiffer, James, Liu, Genglin, Issaka, Sheriff, Parvez, Md Rizwan, Palangi, Hamid, Chang, Kai-Wei, Choi, Yejin, **and** Gabriel, Saadia
+  - *arXiv preprint arXiv:2504.13203*, 2025.
+
+##### Embodied Agent Attacks
+
+- Manipulation Facing Threats: Evaluating Physical Vulnerabilities in End-to-End Vision-Language-Action Models.  
+  - Cheng, Hao, Xiao, Erjia, Wang, Yichi, Yu, Chengyuan, Sun, Mengshu, Zhang, Qiang, Cao, Jiahang, Guo, Yijie, Liu, Ning, Xu, Kaidi, **and** others
+  - *arXiv preprint arXiv:2409.13174*, 2024.
+
+- Towards Trustworthy Autonomous Vehicles with Vision-Language Models Under Targeted and Untargeted Adversarial Attacks.  
+  - Fime, Awal Ahmed, Hossain, Md Zarif, Zaman, Saika, Shahid, Abdur R, **and** Imteaj, Ahmed
+  - *CVPR Workshop*, 2025.
+
+- Exploring the Adversarial Vulnerabilities of Vision-Language-Action Models in Robotics.  
+  - Wang, Taowen, Han, Cheng, Liang, James, Yang, Wenhao, Liu, Dongfang, Zhang, Luna Xinyu, Wang, Qifan, Luo, Jiebo, **and** Tang, Ruixiang
+  - *arXiv preprint arXiv:2411.13587*, 2025.
+
+- Jailbreaking LLM-Controlled Robots.  
+  - Robey, Alexander, Ravichandran, Zachary, Kumar, Vijay, Hassani, Hamed, **and** Pappas, George J
+  - *arXiv preprint arXiv:2410.13691*, 2024.
+
+- BadRobot: Jailbreaking Embodied LLMs in the Physical World.  
+  - Zhang, Hangtao, Zhu, Chenyu, Wang, Xianlong, Zhou, Ziqi, Yin, Changgan, Li, Minghui, Xue, Lulu, Wang, Yichen, Hu, Shengshan, Liu, Aishan, **and** others
+  - *ICLR*, 2025.
+
+- POEX: Understanding and Mitigating Policy Executable Jailbreak Attacks Against Embodied AI.  
+  - Lu, Xuancun, Huang, Zhengxian, Li, Xinfeng, Ji, Xiaoyu, **and** Xu, Wenyuan
+  - *arXiv preprint arXiv:2412.16633*, 2025.
+
+- Compromising Embodied Agents with Contextual Backdoor Attacks.  
+  - Liu, Aishan, Zhou, Yuguang, Liu, Xianglong, Zhang, Tianyuan, Liang, Siyuan, Wang, Jiakai, Pu, Yanjun, Li, Tianlin, Zhang, Junqi, Zhou, Wenbo, **and** others
+  - *arXiv preprint arXiv:2408.02882*, 2024.
+
+- Can We Trust Embodied Agents? Exploring Backdoor Attacks Against Embodied LLM-Based Decision-Making Systems.  
+  - Jiao, Ruochen, Xie, Shaoyuan, Yue, Justin, Sato, Takami, Wang, Lixu, Wang, Yixuan, Chen, Qi Alfred, **and** Zhu, Qi
+  - *ICLR*, 2025.
+
+- Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making.  
+  - Li, Manling, Zhao, Shiyu, Wang, Qineng, Wang, Kangrui, Zhou, Yu, Srivastava, Sanjana, Gokmen, Cem, Lee, Tony, Li, Erran Li, Zhang, Ruohan, **and** others
+  - *NeurIPS*, 2024.
+
+- HASARD: A Benchmark for Vision-Based Safe Reinforcement Learning in Embodied Agents.  
+  - Tomilin, Tristan, Fang, Meng, **and** Pechenizkiy, Mykola
+  - *ICLR*, 2025.
+
+- HEAL: An Empirical Study on Hallucinations in Embodied Agents Driven by Large Language Models.  
+  - Chakraborty, Trishna, Ghosh, Udita, Zhang, Xiaopan, Niloy, Fahim Faisal, Dong, Yue, Li, Jiachen, Roy-Chowdhury, Amit K, **and** Song, Chengyu
+  - *arXiv preprint arXiv:2506.15065*, 2025.
+
+- Embodied Red Teaming for Auditing Robotic Foundation Models.  
+  - Karnik, Sathwik, Hong, Zhang-Wei, Abhangi, Nishant, Lin, Yen-Chen, Wang, Tsun-Hsuan, Dupuy, Christophe, Gupta, Rahul, **and** Agrawal, Pulkit
+  - *arXiv preprint arXiv:2411.18676*, 2025.
+
+- Exploring the Limits of Vision-Language-Action Manipulations in Cross-Task Generalization.  
+  - Zhou, Jiaming, Ye, Ke, Liu, Jiayi, Ma, Teli, Wang, Zifan, Qiu, Ronghe, Lin, Kun-Yu, Zhao, Zhilin, **and** Liang, Junwei
+  - *arXiv preprint arXiv:2505.15660*, 2025.
+
+##### Embodied Agent Defenses
+
+- Embodied Active Defense: Leveraging Recurrent Feedback to Counter Adversarial Patches.  
+  - Wu, Lingxuan, Yang, Xiao, Dong, Yinpeng, Xie, Liuwei, Su, Hang, **and** Zhu, Jun
+  - *ICLR*, 2024.
+
+- Self-Recovery Prompting: Promptable General Purpose Service Robot System with Foundation Models and Self-Recovery.  
+  - Shirasaka, Mimo, Matsushima, Tatsuya, Tsunashima, Soshi, Ikeda, Yuya, Horo, Aoi, Ikoma, So, Tsuji, Chikaha, Wada, Hikaru, Omija, Tsunekazu, Komukai, Dai, **and** others
+  - *ICRA*, 2024.
+
+- Advancing Embodied Agent Security: From Safety Benchmarks to Input Moderation.  
+  - Wang, Ning, Yan, Zihan, Li, Weiyang, Ma, Chuan, Chen, He, **and** Xiang, Tao
+  - *arXiv preprint arXiv:2504.15699*, 2025.
+
+- SafeVLA: Towards Safety Alignment of Vision-Language-Action Model Via Constrained Learning.  
+  - Zhang, Borong, Zhang, Yuhao, Ji, Jiaming, Lei, Yingshan, Dai, Josef, Chen, Yuanpei, **and** Yang, Yaodong
+  - *arXiv preprint arXiv:2503.03480*, 2025.
+
+##### Agentic Attacks & Defenses
+
+- Llm agents can autonomously hack websites.  
+  - Fang, Richard, Bindu, Rohan, Gupta, Akul, Zhan, Qiusi, **and** Kang, Daniel
+  - *arXiv preprint arXiv:2402.06664*, 2024.
+
+- Teams of llm agents can exploit zero-day vulnerabilities.  
+  - Zhu, Yuxuan, Kellermann, Antony, Gupta, Akul, Li, Philip, Fang, Richard, Bindu, Rohan, **and** Kang, Daniel
+  - *arXiv preprint arXiv:2406.01637*, 2024.
+
+- Autoadvexbench: Benchmarking autonomous exploitation of adversarial example defenses.  
+  - Carlini, Nicholas, Rando, Javier, Debenedetti, Edoardo, Nasr, Milad, **and** Tram{\`e}r, Florian
+  - *arXiv preprint arXiv:2503.01811*, 2025.
+
+- Redagent: Red teaming large language models with context-aware autonomous language agent.  
+  - Xu, Huiyu, Zhang, Wenhui, Wang, Zhibo, Xiao, Feng, Zheng, Rui, Feng, Yunhe, Ba, Zhongjie, **and** Ren, Kui
+  - *arXiv preprint arXiv:2407.16667*, 2024.
+
+- Ali-agent: Assessing llms' alignment with human values via agent-based evaluation.  
+  - Wang, Han, Zhang, An, Duy Tai, Nguyen, Sun, Jun, Chua, Tat-Seng, **and** others
+  - *NeurIPS*, 2024.
+
+- Autoredteamer: Autonomous red teaming with lifelong attack integration.  
+  - Zhou, Andy, Wu, Kevin, Pinto, Francesco, Chen, Zhaorun, Zeng, Yi, Yang, Yu, Yang, Shuang, Koyejo, Sanmi, Zou, James, **and** Li, Bo
+  - *arXiv preprint arXiv:2503.15754*, 2025.
+
+- Shieldagent: Shielding agents via verifiable safety policy reasoning.  
+  - Chen, Zhaorun, Kang, Mintong, **and** Li, Bo
+  - *arXiv preprint arXiv:2503.22738*, 2025.
+
+- Trustagent: Towards safe and trustworthy llm-based agents.  
+  - Hua, Wenyue, Yang, Xianjun, Jin, Mingyu, Li, Zelong, Cheng, Wei, Tang, Ruixiang, **and** Zhang, Yongfeng
+  - *arXiv preprint arXiv:2402.01586*, 2024.
+
+- Aegisllm: Scaling agentic systems for self-reflective defense in large language models.  
+  - Cai, Zikui, Shabihi, Shayan, An, Bang, Che, Zora, Bartoldson, Brian R, Kailkhura, Bhavya, Goldstein, Tom, **and** Huang, Furong
+  - *arXiv preprint arXiv:2504.20965*, 2025.
+
+##### Agent Safety Benchmarks
+
+- Benchmarking and defending against indirect prompt injection attacks on large language models.  
+  - Yi, J., Xie, Y., Zhu, B., Kiciman, E., Sun, G., Xie, X., **and** Wu, F.  
+  - *arXiv preprint arXiv:2312.14197*, 2023.
+
+- Identifying the risks of lm agents with an lm-emulated sandbox.  
+  - Chan, Y., **and** others  
+  - *arXiv preprint arXiv:2309.15817*, 2024.
+
+- Injecagent: Benchmarking indirect prompt injections in tool-integrated large language model agents.  
+  - Zhan, Q., Liang, Z., Ying, Z., **and** Kang, D.  
+  - *ACL*, 2024.
+
+- Agentdojo: A dynamic environment to evaluate prompt injection attacks and defenses for LLM agents.  
+  - Debenedetti, E., Zhang, J., Balunovic, M., Beurer-Kellner, L., Fischer, M., **and** Tram{\`e}r, F.  
+  - *NeurIPS*, 2024.
+
+- Agentharm: A benchmark for measuring harmfulness of llm agents.  
+  - Andriushchenko, M., Souly, A., Dziemian, M., Duenas, D., Lin, M., Wang, J., Hendrycks, D., Zou, A., Kolter, Z., Fredrikson, M., **and** others  
+  - *arXiv preprint arXiv:2410.09024*, 2024.
+
+- Redcode: Risky code execution and generation benchmark for code agents.  
+  - Guo, C., Liu, X., Xie, C., Zhou, A., Zeng, Y., Lin, Z., Song, D., **and** Li, B.  
+  - *NeurIPS*, 2024.
+
+- Vpi-bench: Visual prompt injection attacks for computer-use agents.  
+  - to be confirmed, A.  
+  - *based on available information from Moonlight review*, 2024.
+
+- R-judge: Benchmarking safety risk awareness for llm agents.  
+  - Yuan, T., He, Z., Dong, L., Wang, Y., Zhao, R., Xia, T., Xu, L., Zhou, B., Li, F., Zhang, Z., **and** others  
+  - *EMNLP*, 2024.
+
+- Salad-bench: A hierarchical and comprehensive safety benchmark for large language models.  
+  - Shao, L., **and** others  
+  - *arXiv preprint arXiv:2402.05044*, 2024.
+
+- h4rm3l: A dynamic benchmark of composable jailbreak attacks for llm safety assessment.  
+  - Draguns, A., **and** others  
+  - *arXiv preprint arXiv:2408.04811*, 2024.
+
+- Sg-bench: Evaluating llm safety generalization across diverse tasks and prompt types.  
+  - Zhang, S., **and** others  
+  - *arXiv preprint arXiv:2410.21965*, 2024.
+
+- Chemsafetybench: Benchmarking llm safety on chemistry domain.  
+  - Li, Y., **and** others  
+  - *arXiv preprint arXiv:2411.16736*, 2024.
+
+- Toolsword: Unveiling safety issues of large language models in tool learning across three stages.  
+  - Ye, J., Li, S., Li, G., Huang, C., Gao, S., Wu, Y., Zhang, Q., Gui, T., **and** Huang, X.  
+  - *arXiv preprint arXiv:2402.10753*, 2024.
+
+- Privacylens: Evaluating privacy norm awareness of language models in action.  
+  - Shao, Y., Li, T., Shi, W., Liu, Y., **and** Yang, D.  
+  - *NeurIPS*, 2024.
+
+- Safebench: A benchmarking platform for safety evaluation of autonomous vehicles.  
+  - Guo, C., **and** others  
+  - *arXiv preprint arXiv:2206.09682*, 2022.
+
+- Agent security bench (asb): Formalizing and benchmarking attacks and defenses in llm-based agents.  
+  - Zhang, H., Huang, J., Mei, K., Yao, Y., Wang, Z., Zhan, C., Wang, H., **and** Zhang, Y.  
+  - *arXiv preprint arXiv:2410.02644*, 2024.
+
+- Safeagentbench: A benchmark for safe task planning of embodied llm agents.  
+  - Yin, S., Pang, X., Ding, Y., Chen, M., Bi, Y., Xiong, Y., Huang, W., Xiang, Z., Shao, J., **and** Chen, S.  
+  - *arXiv preprint arXiv:2412.13178*, 2024.
+
+- Agent-safetybench: Evaluating the safety of llm agents.  
+  - Zhang, T., **and** others  
+  - *arXiv preprint arXiv:2412.14470*, 2024.
+
+- Dissecting adversarial robustness of multimodal lm agents.  
+  - Liu, Y., **and** others  
   - *arXiv preprint arXiv:2406.12814*, 2024.
+
+- St-webagentbench: A benchmark for evaluating safety and trustworthiness in web agents.  
+  - Shlomov, S., **and** others  
+  - *arXiv preprint arXiv:2410.06703*, 2024.
+
+- Haicosystem: An ecosystem for sandboxing safety risks in human-ai interactions.  
+  - Zhou, X., **and** others  
+  - *NeurIPS*, 2024.
+
+- Adversarial attacks on multimodal agents.  
+  - Wu, C. H., Koh, J. Y., Salakhutdinov, R., Fried, D., **and** Raghunathan, A.  
+  - *arXiv preprint arXiv:2406.12814*, 2024.
+
+- Wasp: Benchmarking web agent security against prompt injection attacks.  
+  - Evtimov, I., Zharmagambetov, A., Grattafiori, A., Jain, S., **and** Carlini, N.  
+  - *arXiv preprint arXiv:2504.18575*, 2025.
+
+- Refusal-trained llms are easily jailbroken as browser agents.  
+  - Kumar, P., **and** others  
+  - *arXiv preprint arXiv:2410.13886*, 2025.
+
+- Safearena: Evaluating the safety of autonomous web agents.  
+  - Lee, S., **and** others  
+  - *arXiv preprint arXiv:2503.04957*, 2025.
+
+- Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety.  
+  - Vijayvargiya, S., Soni, A. B., Zhou, X., Wang, Z. Z., Dziri, N., Neubig, G., **and** Sap, M.  
+  - *arXiv preprint arXiv:2507.06134*, 2025.
     
 
 </details>
