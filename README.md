@@ -2432,107 +2432,103 @@ First, we conducted a keyword-based search targeting specific model types and th
 ##### Agent Safety Benchmarks
 
 - Benchmarking and defending against indirect prompt injection attacks on large language models.  
-  - Yi, J., Xie, Y., Zhu, B., Kiciman, E., Sun, G., Xie, X., **and** Wu, F.  
+  - Yi, Jingwei, Xie, Yueqi, Zhu, Bin, Kiciman, Emre, Sun, Guangzhong, Xie, Xing, **and** Wu, Fangzhao
   - *arXiv preprint arXiv:2312.14197*, 2023.
 
 - Identifying the risks of lm agents with an lm-emulated sandbox.  
-  - Chan, Y., **and** others  
+  - Ruan, Yangjun, Dong, Honghua, Wang, Andrew, Pitis, Silviu, Zhou, Yongchao, Ba, Jimmy, Dubois, Yann, Maddison, Chris J, **and** Hashimoto, Tatsunori
   - *arXiv preprint arXiv:2309.15817*, 2024.
 
 - Injecagent: Benchmarking indirect prompt injections in tool-integrated large language model agents.  
-  - Zhan, Q., Liang, Z., Ying, Z., **and** Kang, D.  
+  - Zhan, Qiusi, Liang, Zhixiang, Ying, Zifan, **and** Kang, Daniel
   - *ACL*, 2024.
 
 - Agentdojo: A dynamic environment to evaluate prompt injection attacks and defenses for LLM agents.  
-  - Debenedetti, E., Zhang, J., Balunovic, M., Beurer-Kellner, L., Fischer, M., **and** Tram{\`e}r, F.  
+  - Debenedetti, Edoardo, Zhang, Jie, Balunovic, Mislav, Beurer-Kellner, Luca, Fischer, Marc, **and** Tram{\`e}r, Florian
   - *NeurIPS*, 2024.
 
 - Agentharm: A benchmark for measuring harmfulness of llm agents.  
-  - Andriushchenko, M., Souly, A., Dziemian, M., Duenas, D., Lin, M., Wang, J., Hendrycks, D., Zou, A., Kolter, Z., Fredrikson, M., **and** others  
+  - Andriushchenko, Maksym, Souly, Alexandra, Dziemian, Mateusz, Duenas, Derek, Lin, Maxwell, Wang, Justin, Hendrycks, Dan, Zou, Andy, Kolter, Zico, Fredrikson, Matt, **and** others
   - *arXiv preprint arXiv:2410.09024*, 2024.
 
 - Redcode: Risky code execution and generation benchmark for code agents.  
-  - Guo, C., Liu, X., Xie, C., Zhou, A., Zeng, Y., Lin, Z., Song, D., **and** Li, B.  
+  - Guo, Chengquan, Liu, Xun, Xie, Chulin, Zhou, Andy, Zeng, Yi, Lin, Zinan, Song, Dawn, **and** Li, Bo
   - *NeurIPS*, 2024.
 
 - Vpi-bench: Visual prompt injection attacks for computer-use agents.  
-  - to be confirmed, A.  
+  - Cao, Tri, Lim, Bennett, Liu, Yue, Sui, Yuan, Li, Yuexin, Deng, Shumin, Lu, Lin, Oo, Nay, Yan, Shuicheng, **and** Hooi, Bryan
   - *based on available information from Moonlight review*, 2024.
 
 - R-judge: Benchmarking safety risk awareness for llm agents.  
-  - Yuan, T., He, Z., Dong, L., Wang, Y., Zhao, R., Xia, T., Xu, L., Zhou, B., Li, F., Zhang, Z., **and** others  
+  - Yuan, Tongxin, He, Zhiwei, Dong, Lingzhong, Wang, Yiming, Zhao, Ruijie, Xia, Tian, Xu, Lizhen, Zhou, Binglin, Li, Fangqi, Zhang, Zhuosheng, **and** others
   - *EMNLP*, 2024.
 
 - Salad-bench: A hierarchical and comprehensive safety benchmark for large language models.  
-  - Shao, L., **and** others  
+  - Li, Lijun, Dong, Bowen, Wang, Ruohui, Hu, Xuhao, Zuo, Wangmeng, Lin, Dahua, Qiao, Yu, **and** Shao, Jing
   - *arXiv preprint arXiv:2402.05044*, 2024.
 
 - h4rm3l: A dynamic benchmark of composable jailbreak attacks for llm safety assessment.  
-  - Draguns, A., **and** others  
+  - Doumbouya, Moussa Koulako Bala, Nandi, Ananjan, Poesia, Gabriel, Ghilardi, Davide, Goldie, Anna, Bianchi, Federico, Jurafsky, Dan, **and** Manning, Christopher D
   - *arXiv preprint arXiv:2408.04811*, 2024.
 
 - Sg-bench: Evaluating llm safety generalization across diverse tasks and prompt types.  
-  - Zhang, S., **and** others  
+  - Mou, Yutao, Zhang, Shikun, **and** Ye, Wei
   - *arXiv preprint arXiv:2410.21965*, 2024.
 
 - Chemsafetybench: Benchmarking llm safety on chemistry domain.  
-  - Li, Y., **and** others  
+  - Zhao, Haochen, Tang, Xiangru, Yang, Ziran, Han, Xiao, Feng, Xuanzhi, Fan, Yueqing, Cheng, Senhao, Jin, Di, Zhao, Yilun, Cohan, Arman, **and** others
   - *arXiv preprint arXiv:2411.16736*, 2024.
 
 - Toolsword: Unveiling safety issues of large language models in tool learning across three stages.  
-  - Ye, J., Li, S., Li, G., Huang, C., Gao, S., Wu, Y., Zhang, Q., Gui, T., **and** Huang, X.  
+  - Ye, Junjie, Li, Sixian, Li, Guanyu, Huang, Caishuang, Gao, Songyang, Wu, Yilong, Zhang, Qi, Gui, Tao, **and** Huang, Xuan-Jing
   - *arXiv preprint arXiv:2402.10753*, 2024.
 
 - Privacylens: Evaluating privacy norm awareness of language models in action.  
-  - Shao, Y., Li, T., Shi, W., Liu, Y., **and** Yang, D.  
+  - Shao, Yijia, Li, Tianshi, Shi, Weiyan, Liu, Yanchen, **and** Yang, Diyi
   - *NeurIPS*, 2024.
 
 - Safebench: A benchmarking platform for safety evaluation of autonomous vehicles.  
-  - Guo, C., **and** others  
+  - Xu, Chejian, Ding, Wenhao, Lyu, Weijie, Liu, Zuxin, Wang, Shuai, He, Yihan, Hu, Hanjiang, Zhao, Ding, **and** Li, Bo
   - *arXiv preprint arXiv:2206.09682*, 2022.
 
 - Agent security bench (asb): Formalizing and benchmarking attacks and defenses in llm-based agents.  
-  - Zhang, H., Huang, J., Mei, K., Yao, Y., Wang, Z., Zhan, C., Wang, H., **and** Zhang, Y.  
+  - Zhang, Hanrong, Huang, Jingyuan, Mei, Kai, Yao, Yifei, Wang, Zhenting, Zhan, Chenlu, Wang, Hongwei, **and** Zhang, Yongfeng
   - *arXiv preprint arXiv:2410.02644*, 2024.
 
 - Safeagentbench: A benchmark for safe task planning of embodied llm agents.  
-  - Yin, S., Pang, X., Ding, Y., Chen, M., Bi, Y., Xiong, Y., Huang, W., Xiang, Z., Shao, J., **and** Chen, S.  
+  - Yin, Sheng, Pang, Xianghe, Ding, Yuanzhuo, Chen, Menglan, Bi, Yutong, Xiong, Yichen, Huang, Wenhao, Xiang, Zhen, Shao, Jing, **and** Chen, Siheng
   - *arXiv preprint arXiv:2412.13178*, 2024.
 
 - Agent-safetybench: Evaluating the safety of llm agents.  
-  - Zhang, T., **and** others  
+  - Zhang, Zhexin, Cui, Shiyao, Lu, Yida, Zhou, Jingzhuo, Yang, Junxiao, Wang, Hongning, **and** Huang, Minlie
   - *arXiv preprint arXiv:2412.14470*, 2024.
 
 - Dissecting adversarial robustness of multimodal lm agents.  
-  - Liu, Y., **and** others  
+  - Wu, Chen Henry, Shah, Rishi, Koh, Jing Yu, Salakhutdinov, Ruslan, Fried, Daniel, **and** Raghunathan, Aditi
   - *arXiv preprint arXiv:2406.12814*, 2024.
 
 - St-webagentbench: A benchmark for evaluating safety and trustworthiness in web agents.  
-  - Shlomov, S., **and** others  
+  - Levy, Ido, Wiesel, Ben, Marreed, Sami, Oved, Alon, Yaeli, Avi, **and** Shlomov, Segev
   - *arXiv preprint arXiv:2410.06703*, 2024.
 
 - Haicosystem: An ecosystem for sandboxing safety risks in human-ai interactions.  
-  - Zhou, X., **and** others  
+  - Zhou, Xuhui, Kim, Hyunwoo, Brahman, Faeze, Jiang, Liwei, Zhu, Hao, Lu, Ximing, Xu, Frank, Lin, Bill Yuchen, Choi, Yejin, Mireshghallah, Niloofar, **and** others
   - *NeurIPS*, 2024.
 
-- Adversarial attacks on multimodal agents.  
-  - Wu, C. H., Koh, J. Y., Salakhutdinov, R., Fried, D., **and** Raghunathan, A.  
-  - *arXiv preprint arXiv:2406.12814*, 2024.
-
 - Wasp: Benchmarking web agent security against prompt injection attacks.  
-  - Evtimov, I., Zharmagambetov, A., Grattafiori, A., Jain, S., **and** Carlini, N.  
+  - Evtimov, Ivan, Zharmagambetov, Arman, Grattafiori, Aaron, Guo, Chuan, **and** Chaudhuri, Kamalika
   - *arXiv preprint arXiv:2504.18575*, 2025.
 
 - Refusal-trained llms are easily jailbroken as browser agents.  
-  - Kumar, P., **and** others  
+  - Kumar, Priyanshu, Lau, Elaine, Vijayakumar, Saranya, Trinh, Tu, Team, Scale Red, Chang, Elaine, Robinson, Vaughn, Hendryx, Sean, Zhou, Shuyan, Fredrikson, Matt, **and** others
   - *arXiv preprint arXiv:2410.13886*, 2025.
 
 - Safearena: Evaluating the safety of autonomous web agents.  
-  - Lee, S., **and** others  
+  - Tur, Ada Defne, Meade, Nicholas, L{\`u}, Xing Han, Zambrano, Alejandra, Patel, Arkil, Durmus, Esin, Gella, Spandana, Sta{\'n}czak, Karolina, **and** Reddy, Siva
   - *arXiv preprint arXiv:2503.04957*, 2025.
 
 - Openagentsafety: A comprehensive framework for evaluating real-world ai agent safety.  
-  - Vijayvargiya, S., Soni, A. B., Zhou, X., Wang, Z. Z., Dziri, N., Neubig, G., **and** Sap, M.  
+  - Vijayvargiya, Sanidhya, Soni, Aditya Bharat, Zhou, Xuhui, Wang, Zora Zhiruo, Dziri, Nouha, Neubig, Graham, **and** Sap, Maarten
   - *arXiv preprint arXiv:2507.06134*, 2025.
     
 
