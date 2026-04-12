@@ -2003,6 +2003,12 @@ First, we conducted a keyword-based search targeting specific model types and th
 
 <summary><span id="ch7">Agent Safety</summary>
 
+##### Internal Safety Collapse
+
+- Internal Safety Collapse in Frontier Large Language Models.  
+  - Wu, Yutao, Liu, Xiao, Gao, Yifeng, Zheng, Xiang, Huang, Hanxun, Li, Yige, Wang, Cong, Li, Bo, Ma, Xingjun, **and** Jiang, Yu-Gang  
+  - *ICML*, 2026.
+
 ##### Indirect Prompt Injection Attacks
 
 - Not what you've signed up for: Compromising real-world llm-integrated applications with indirect prompt injection.  
