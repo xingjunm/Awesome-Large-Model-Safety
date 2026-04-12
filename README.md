@@ -2007,7 +2007,7 @@ First, we conducted a keyword-based search targeting specific model types and th
 
 - Internal Safety Collapse in Frontier Large Language Models.  
   - Wu, Yutao, Liu, Xiao, Gao, Yifeng, Zheng, Xiang, Huang, Hanxun, Li, Yige, Wang, Cong, Li, Bo, Ma, Xingjun, **and** Jiang, Yu-Gang  
-  - *ICML*, 2026.
+  - *arXiv preprint arXiv:2603.23509*, 2026.
 
 ##### Indirect Prompt Injection Attacks
 
