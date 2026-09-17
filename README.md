@@ -601,6 +601,10 @@ First, we conducted a keyword-based search targeting specific model types and th
   - Wang, Yibo, Huang, Tiansheng, Shen, Li, Yao, Huanjin, Luo, Haotian, Liu, Rui, Tan, Naiqiang, Huang, Jiaxing, **and** Tao, Dacheng  
   - *arXiv preprint arXiv:2501.18100*, 2025.
 
+- Exploring and Developing a Pre-Model Safeguard with Draft Models.  
+  - Cai, Hongyu, Arunasalam, Arjun, Liang, Yiming, Bianchi, Antonio, **and** Celik, Z. Berkay  
+  - *ACM Conference on AI and Agentic Systems (CAIS)*, 2026.
+
 ##### Prompt Injection Attacks
 
 
