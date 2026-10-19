@@ -1535,6 +1535,10 @@ First, we conducted a keyword-based search targeting specific model types and th
 
 ##### Jailbreak Attacks
 
+- [Do not think about pink elephant!](https://arxiv.org/abs/2404.15154)
+  - Hwang, Kyomin, Kim, Suyoung, Lee, Junhoo, **and** Kwak, Nojun
+  - *CVPR Workshop (ReGenAI)*, 2024.
+
 - Sneakyprompt: Jailbreaking text-to-image generative models.
   - Yang, Yuchen, Hui, Bo, Yuan, Haolin, Gong, Neil, **and** Cao, Yinzhi
   - *IEEE S\&P*, 2024.
@@ -1899,6 +1903,10 @@ First, we conducted a keyword-based search targeting specific model types and th
   - *arXiv preprint arXiv:2402.10208*, 2024.
 
 ##### Intellectual Property Protection
+
+- [CSF: Black-box Fingerprinting via Compositional Semantics for Text-to-Image Models](https://arxiv.org/abs/2604.16363)
+  - Lee, Junhoo, Koo, Mijin, **and** Kwak, Nojun
+  - *CVPR*, 2026. [Project](https://junhoo.me/csf)
 
 - DUAW: Data-free Universal Adversarial Watermark against Stable Diffusion Customization.  
   - Ye, Xiaoyu, Huang, Hao, An, Jiaqi, **and** Wang, Yongtao  
